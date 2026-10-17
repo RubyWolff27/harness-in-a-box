@@ -1,0 +1,38 @@
+EXAMPLE CO PTY LTD
+123 Example Street, Melbourne VIC 3000
+ABN: 12 345 678 901
+
+REMITTANCE ADVICE
+
+Date: 28 October 2026
+Payment ref: PMT-2026-1184
+
+Payee:
+Sydney Tech Suppliers
+567 Industrial Estate
+Sydney NSW 2015
+
+Payment method: Electronic funds transfer
+Amount paid: $4,567.80
+
+Invoices paid:
+
+Invoice No      Date        Amount      Discount    Paid
+INV-ST-8834     15 Sep      $1,245.00   $0.00      $1,245.00
+INV-ST-9012     22 Sep      $892.50     $0.00      $892.50
+INV-ST-9234     5 Oct       $1,567.80   $0.00      $1,567.80
+INV-ST-9445     12 Oct      $862.50     $0.00      $862.50
+                                        Total:      $4,567.80
+
+Transaction details:
+Date processed: 28 October 2026
+BSB: 123-456
+Account: 98765432
+Reference: PMT1184
+
+Please apply this payment to the invoices listed above.
+
+For queries contact:
+Accounts Payable
+Phone: (03) 9123 4571
+Email: accounts@exampleco.example.com

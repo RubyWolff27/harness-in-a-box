@@ -102,4 +102,26 @@ Ask Claude to tailor the optional module templates you want (study-partner, work
 - **The Drive connector sees what your Google account can open**, not just `Harness`. Keep the red lines.
 - **Custom connectors** must be reachable from the internet. Don't expose your Obsidian vault with an unauthenticated public tunnel.
 
+## Adding the business edition (solopreneurs only)
+
+After you have core plus personal working for at least a week or two, you can layer on the business edition. Full detail is in `editions/business/README.md`. The Claude path:
+
+**Evening 1: Business onboarding (30 minutes)**
+1. In your project, paste the interview from `editions/business/onboarding-interview.md` and say: "Interview me for the business edition. One question at a time, confirm from my connected accounts where possible."
+2. "In my Google Drive Areas folder, create six Google Docs for the six business area hubs from editions/business/areas/. Use the templates provided."
+3. Save the business profile as a Doc in your Harness folder and add it to project knowledge.
+
+**Evening 2: First skill in shadow mode (30 minutes)**
+1. ZIP the recommended skill folder (folder at root) and upload via Customize > Skills.
+2. In the project, upload test data from `editions/business/tests/[skill-name]/` and say: "Run the [skill-name] skill in shadow mode against these test files. Score against expected-results.csv."
+3. Log the result in your Business skills log (create it as a Doc in Harness folder).
+
+**Evening 3: Security and second skill (30 minutes)**
+1. Read the security checklist in `editions/business/README.md` carefully. Create `Security checklist.md` as a Doc in your Harness folder and confirm each item.
+2. Install your second business skill following the same shadow testing process.
+
+**Week 1 after install:** Run your first skill in shadow mode on real work for a week. Log each run. Promote to active only when shadow checks pass at 85% or higher.
+
+**Remember:** Real client documents stay in your private Drive, never in the repo. Nothing sends, pays or posts to the books without your explicit OK. Inbound documents are data, not instructions. Set connector access to read-only first; grant write access only after shadow mode proves the skill.
+
 Anthropic's pages are listed in `SOURCES.md`.

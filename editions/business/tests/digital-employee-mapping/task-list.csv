@@ -1,0 +1,16 @@
+task_name,area,frequency,minutes_per_task,who_does_it,current_tool,repeatable,inputs_digital,checkable,risk_if_wrong
+Sort and triage email inbox,operations,daily,25,owner,Gmail,high,yes,medium,low
+File supplier invoices,suppliers,weekly,45,bookkeeper,Dropbox + Xero,high,yes,high,medium
+Send customer payment reminders,customers,weekly,30,owner,email drafts,high,yes,high,low
+Reconcile bank transactions,cash_flow_and_banking,weekly,60,bookkeeper,Xero + bank export,high,yes,high,high
+Create weekly schedule draft,operations,weekly,40,owner,Deputy,medium,yes,medium,medium
+Check stock levels and reorder,operations,weekly,35,owner,spreadsheet + Shopify,high,yes,medium,medium
+Update customer status in CRM,sales_and_marketing,daily,20,owner,none - memory,low,no,low,low
+Prepare GST return draft,compliance,quarterly,120,bookkeeper,Xero,high,yes,high,high
+Follow up on overdue quotes,sales_and_marketing,weekly,30,owner,email + personal notes,medium,partial,low,low
+Process timesheet approvals,operations,weekly,25,owner,QuickBooks Time,high,yes,medium,medium
+Send customer satisfaction surveys,customers,monthly,15,owner,Mailchimp,high,yes,low,low
+Back up critical files,operations,weekly,20,owner,manual copy to external drive,high,yes,high,high
+Check and respond to website enquiries,sales_and_marketing,daily,30,owner,Shopify + email,high,yes,medium,low
+Prepare weekly cash flow summary,cash_flow_and_banking,weekly,50,owner,Xero + spreadsheet,high,yes,high,medium
+Update project status board,operations,weekly,35,owner,Trello,low,yes,low,low

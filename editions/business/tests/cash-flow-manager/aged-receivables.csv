@@ -1,0 +1,8 @@
+invoice_number,customer,issue_date,due_date,amount,days_overdue,reminder_status
+INV-2026-1156,PQR Industries,15/10/2026,14/11/2026,2340.00,1,first_reminder
+INV-2026-1178,STU Enterprises,18/10/2026,17/11/2026,1890.00,0,due_soon
+INV-2026-1189,VWX Corporation,20/10/2026,19/11/2026,4220.00,0,due_soon
+INV-2026-1201,ABC Corp,25/10/2026,24/11/2026,3250.00,0,not_due
+INV-2026-1212,YZA Trading,28/10/2026,27/11/2026,1840.00,0,not_due
+INV-2026-1223,BCD Solutions,01/11/2026,01/12/2026,5670.00,0,not_due
+INV-2026-1234,EFG Logistics,05/11/2026,05/12/2026,4890.00,0,not_due

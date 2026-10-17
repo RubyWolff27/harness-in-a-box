@@ -1,0 +1,40 @@
+SYDNEY TECH SUPPLIERS
+567 Industrial Estate, Sydney NSW 2015
+ABN: 67 890 123 456
+
+PAYMENT REMINDER
+
+Date: 10 November 2026
+Customer: Example Co Pty Ltd
+Account No: EX-4521
+
+Dear Customer,
+
+This is a friendly reminder that the following invoice is now overdue:
+
+Invoice No: INV-ST-9667
+Invoice date: 28 September 2026
+Due date: 28 October 2026
+Amount: $1,845.50
+Days overdue: 13 days
+
+If you have already made this payment, please disregard this notice and accept our thanks. If the payment is still outstanding, we would appreciate settlement at your earliest convenience.
+
+If there is any issue with this invoice, please contact us immediately so we can resolve it.
+
+Payment methods:
+- Direct deposit: BSB 062-789, Account 87654321, Reference: INVST9667
+- Credit card: Phone (02) 9876 5432
+- Cheque: Post to address above
+
+Current account summary:
+Current: $1,845.50 (overdue)
+30-60 days: $0.00
+Over 60 days: $0.00
+Total outstanding: $1,845.50
+
+Thank you for your prompt attention to this matter.
+
+Accounts Receivable Team
+Phone: (02) 9876 5432
+Email: accounts@sydneytech.example.com

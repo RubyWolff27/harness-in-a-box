@@ -1,0 +1,33 @@
+EXAMPLE CO PTY LTD
+123 Example Street, Melbourne VIC 3000
+ABN: 12 345 678 901
+
+INVOICE
+
+Date: 15 October 2026
+Invoice No: INV-2026-1543
+Purchase Order: PO-2026-089
+
+Bill to:
+Example Client Pty Ltd
+456 Client Avenue
+Sydney NSW 2000
+
+Description                          Qty    Unit Price    Total
+Office supplies - A4 paper           5      $42.50        $212.50
+Printer toner cartridges             3      $89.00        $267.00
+Desk organisers                      8      $24.50        $196.00
+                                                          -------
+                                                Subtotal: $675.50
+                                                     GST: $67.55
+                                                   Total: $743.05
+
+Payment terms: Net 30 days
+Due date: 14 November 2026
+
+Bank details:
+Example Co Pty Ltd
+BSB: 123-456
+Account: 98765432
+
+Thank you for your business.

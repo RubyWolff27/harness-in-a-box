@@ -1,0 +1,35 @@
+BRISBANE FURNITURE SUPPLIES
+234 Warehouse Drive, Brisbane QLD 4000
+
+DELIVERY NOTE
+
+Delivery No: DEL-2026-5634
+Date: 8 November 2026
+Customer Order: PO-2026-115
+
+Deliver to:
+Example Co Pty Ltd
+123 Example Street
+Melbourne VIC 3000
+Contact: Sarah Mitchell (03) 9123 4567
+
+Items dispatched:
+
+Item                                 Ordered    Delivered    Back order
+Ergonomic office chairs              15         15           -
+Height-adjustable desks              8          8            -
+Monitor arms (dual)                  16         10           6
+Cable management trays               15         15           -
+
+Note: 6 x Monitor arms (dual) currently out of stock. Expected dispatch date: 20 November 2026.
+Back order reference: BO-2026-0234
+
+Delivery scheduled: 10 November 2026, AM delivery slot
+Freight company: FastFreight Australia
+Tracking: FF-2026-AUS-992834
+Pallets: 3
+
+This is not a tax invoice. Tax invoice will follow separately.
+
+Dispatch authorised by: Jenny Peterson
+Date: 8 November 2026
