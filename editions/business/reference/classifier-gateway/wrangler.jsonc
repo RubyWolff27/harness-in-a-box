@@ -1,0 +1,15 @@
+{
+  "name": "jev-gateway",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-01-15",
+  "ai": {
+    "binding": "AI"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "jev-gateway-log",
+      "database_id": "YOUR_D1_DATABASE_ID_HERE"
+    }
+  ]
+}

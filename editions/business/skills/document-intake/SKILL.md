@@ -9,7 +9,7 @@ metadata:
 
 ## Engine order (cheapest first)
 1. **Rules.** Known sender to supplier mapping, file names, subject patterns.
-2. **Cheap classifier.** A small model or typed-choice classifier labels the document with a confidence score. Labels: invoice, credit note, goods received note or delivery note, purchase order, statement, remittance, quote, tax document, other.
+2. **Cheap classifier.** A typed-choice classifier or small model labels the document with a confidence score. Labels: invoice, credit note, goods received note or delivery note, purchase order, statement, remittance, quote, tax document, other. See the document classifier pattern in `editions/business/reference/document-classifier-pattern.md` for detailed guidance on thresholds, stability checks and the pilot gate.
 3. **LLM.** Only for extraction and for anything labelled "other" or below the confidence threshold.
 
 ## Steps
