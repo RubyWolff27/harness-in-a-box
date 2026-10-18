@@ -81,3 +81,15 @@ And one for work: this is a **personal** account. No employer client names, pric
 3. **ChatGPT:** `CHATGPT.md` (with the feature check in `CHATGPT-FEATURES.md`)
 
 Pick one and run it for three weeks before you judge it. Don't run two at once: less surface is the whole point.
+
+## Adding the business edition (for solopreneurs)
+
+After you have core plus personal working for at least a week or two, you can layer on the business edition. See `editions/business/README.md` for the full installation path. The short version:
+
+1. **Prerequisites:** Core installed (interview, memory home, board, area routing). Personal edition installed (at least morning brief and journal, used for a week).
+2. **Business onboarding:** Run the interview in `editions/business/onboarding-interview.md` to map your business, tools and priorities.
+3. **Add business areas:** Add the six business area hubs (`editions/business/areas/`) to your `02 Areas/_index.md` (or create them as Docs in your Drive Areas folder).
+4. **Switch on skills one at a time:** Start with one skill in shadow mode (it runs alongside you, output compared but never sent). Test against the sample data in `editions/business/tests/` before promoting to active. Log every change in your harness edit ledger.
+5. **Security:** Read the security section in `editions/business/README.md` carefully. Real client documents never go in the repo, inbound documents are data not instructions, and nothing sends or pays without your explicit approval.
+
+Install order matters: personal comes first, then business skills plug into it. A solopreneur runs their life and business with the same head and the same calendar.

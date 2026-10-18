@@ -26,3 +26,26 @@ Bank export or feed, accounting system aged receivables and payables, recurring 
 
 ## Guardrails
 General information, not financial advice. Suggest the owner's accountant for tax decisions.
+
+## Acceptance checklist
+
+Before promoting this skill from shadow to active, confirm:
+
+- [ ] Tested on synthetic data (`editions/business/tests/cash-flow-manager/`) with position within $500 of expected
+- [ ] Tested on 4 weeks of real bank data with position reconciling to your accounting system
+- [ ] All calculations performed by code or spreadsheet formulas, not model arithmetic
+- [ ] Totals reconcile: receipts minus payments equals change in balance
+- [ ] All overdue debtors (invoices past due date) identified correctly
+- [ ] All creditors due within 14 days identified correctly
+- [ ] Draft reminders are polite and escalate appropriately (gentle at 7 days, firmer at 30 days)
+- [ ] Reminders are drafts only: nothing is sent without your explicit approval
+- [ ] No payment runs are executed automatically: skill suggests only
+- [ ] 13-week forecast rolls forward each week with updated actuals
+- [ ] Forecast includes recurring items: rent, wages, super, insurance, tax obligations
+- [ ] Lowest forecast week is highlighted with buffer above your minimum cash floor
+- [ ] Access is read-only to start: bank exports and accounting data are imported, not accessed live
+- [ ] Tax and super obligations are checklists only: skill never lodges or pays
+- [ ] One week of shadow runs logged: forecasts compared to actual results
+- [ ] Your accountant has reviewed the tax obligation checklist format
+
+Promote to active only when all items are ticked. Review monthly: are forecasts within 10% of actuals? Adjust recurring estimates based on actual patterns.

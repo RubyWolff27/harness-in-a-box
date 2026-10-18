@@ -1,0 +1,21 @@
+tool_name,category,users,cost_per_month,system_of_record,area,notes
+Xero,accounting,owner + bookkeeper,89.00,yes,cash_flow_and_banking,Primary accounting system
+Google Workspace,email_calendar_docs,all_staff,18.00,yes,operations,Email and shared documents
+Trello,project_management,owner + 2 staff,15.00,no,operations,Used inconsistently
+Asana,project_management,owner only,0.00,no,operations,Free plan - overlaps with Trello
+Shopify,ecommerce,owner + 1 staff,39.00,yes,sales_and_marketing,Online store
+Mailchimp,email_marketing,owner,25.00,no,sales_and_marketing,Customer newsletters
+Stripe,payments,automated,45.00,yes,cash_flow_and_banking,Online payment processing
+Square,pos_payments,2 staff,0.00,yes,cash_flow_and_banking,In-person payments - per transaction fees apply
+Slack,communication,all_staff,0.00,no,operations,Free plan - no search history
+Microsoft Teams,communication,owner + 1 staff,0.00,no,operations,Overlaps with Slack - client meetings only
+Canva Pro,design,owner + 1 staff,17.99,no,sales_and_marketing,Marketing materials
+Adobe Creative Cloud,design,1 staff,79.99,no,sales_and_marketing,Overlaps with Canva - staff preference
+Dropbox Business,file_storage,all_staff,20.00,no,operations,Overlaps with Google Drive
+Google Drive,file_storage,all_staff,included,yes,operations,Primary file storage
+LastPass Teams,password_manager,all_staff,4.00,no,operations,Shared credential management
+Zoom Pro,video_conferencing,owner,19.99,no,operations,Client meetings
+QuickBooks Time,time_tracking,2 staff,10.00,no,operations,Staff timesheets - not integrated with Xero
+Deputy,roster_scheduling,2 staff,4.50,no,operations,Staff rosters - not integrated with payroll
+ATO Business Portal,tax_lodgement,owner + bookkeeper,0.00,yes,compliance,Government tax portal
+WorkCover NSW,insurance,owner,varies,yes,compliance,Workers compensation

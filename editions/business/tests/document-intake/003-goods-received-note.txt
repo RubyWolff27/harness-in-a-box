@@ -1,0 +1,31 @@
+EXAMPLE CO PTY LTD
+Receiving Department
+
+GOODS RECEIVED NOTE
+
+GRN No: GRN-2026-0845
+Date received: 20 October 2026
+Time: 09:45 AM
+Purchase Order: PO-2026-102
+
+Supplier: Melbourne Office Products
+Delivery note ref: DEL-449821
+
+Items received:
+
+Item                                 Ordered    Received    Condition
+Whiteboard markers (boxes)           12         12          Good
+Sticky note pads (cartons)           5          5           Good
+Desk lamps                           10         8           Good
+Filing boxes                         20         20          Good
+
+Discrepancy notes:
+Desk lamps: Only 8 received, 2 items short. Supplier contacted.
+
+Received by: J. Thompson
+Signature: JT
+Checked by: M. Roberts
+Date: 20 October 2026
+
+Delivery driver: Driver name not recorded
+Vehicle rego: VIC ABC123

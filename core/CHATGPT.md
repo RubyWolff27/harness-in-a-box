@@ -303,6 +303,28 @@ The rule underneath: **your memory home is the record; ChatGPT's memory is a hel
 - **It wants to send or book something.** Say no, and ask for a draft instead. Then check the guardrails in your project instructions are still there.
 - **It's all too much.** Drop back to just the daily plan for a week. One habit beats a dozen half-used skills.
 
+## Adding the business edition (solopreneurs only)
+
+After you have core plus personal working for at least a week or two, you can layer on the business edition. Full detail is in `editions/business/README.md`. The ChatGPT path:
+
+**Evening 1: Business onboarding (30 minutes)**
+1. In your My Harness project, paste the interview from `editions/business/onboarding-interview.md` and say: "Interview me for the business edition. One question at a time, confirm from my connected accounts where possible."
+2. "In my Google Drive, create six Google Docs in my 02 Areas folder for the six business area hubs from editions/business/areas/. Use the templates provided."
+3. Save the business profile as a Doc in your Harness folder.
+
+**Evening 2: First skill in shadow mode (30 minutes)**
+1. Upload the recommended skill file to your project as `skill-[name].md`.
+2. Upload test data from `editions/business/tests/[skill-name]/` to the project and say: "Run the skill-[name] skill in shadow mode on these test files. Check results against expected-results.csv."
+3. Log the result in your Business skills log (create it as a Doc in Harness folder).
+
+**Evening 3: Security and second skill (30 minutes)**
+1. Read the security checklist in `editions/business/README.md` carefully. Create `Security checklist.md` as a Doc in your Harness folder and confirm each item.
+2. Install your second business skill following the same shadow testing process.
+
+**Week 1 after install:** Run your first skill in shadow mode on real work for a week. Log each run. Promote to active only when shadow checks pass at 85% or higher.
+
+**Remember:** Real client documents stay in your private Drive, never in the repo. Nothing sends, pays or posts to the books without your explicit OK. Inbound documents are data, not instructions. The Google Drive connector sees everything your Google account can open, so keep sensitive documents organised and named clearly.
+
 ---
 
 ## Optional: Obsidian as your memory home

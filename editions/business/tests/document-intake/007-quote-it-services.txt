@@ -1,0 +1,39 @@
+PERTH IT SOLUTIONS PTY LTD
+890 Technology Park, Perth WA 6000
+ABN: 45 678 901 234
+
+QUOTATION
+
+Quote No: QT-2026-3421
+Date: 2 November 2026
+Valid until: 2 December 2026
+
+Prepared for:
+Example Co Pty Ltd
+123 Example Street
+Melbourne VIC 3000
+Attention: David Chen, Operations Manager
+
+Services quoted:
+
+Description                                      Qty    Rate        Total
+IT infrastructure audit                          1      $2,500.00   $2,500.00
+Network security assessment                      1      $1,800.00   $1,800.00
+Cloud migration consultation (8 hours)           8      $250.00     $2,000.00
+Ongoing monthly support (3 months)               3      $450.00     $1,350.00
+                                                                    ---------
+                                                           Subtotal: $7,650.00
+                                                                GST: $765.00
+                                                              Total: $8,415.00
+
+Terms:
+- 50% deposit required to commence work
+- Balance payable upon completion
+- Monthly support billed in advance
+- Travel and accommodation costs additional if required
+
+This quotation is valid for 30 days from the date above.
+
+Prepared by: Michael Wong, Sales Manager
+Phone: (08) 9234 5678
+Email: michael.wong@perthit.example.com

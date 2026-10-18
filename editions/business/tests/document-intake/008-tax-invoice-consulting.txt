@@ -1,0 +1,40 @@
+ADELAIDE BUSINESS CONSULTING
+456 Consulting Plaza, Adelaide SA 5000
+ABN: 23 456 789 012
+
+TAX INVOICE
+
+Invoice No: ABC-2026-8821
+Date: 5 November 2026
+ABN: 23 456 789 012
+
+Client:
+Example Co Pty Ltd
+123 Example Street
+Melbourne VIC 3000
+
+Professional services rendered:
+
+Period: October 2026
+
+Date        Description                                Hours    Rate       Total
+02 Oct      Strategic planning session                 4.0      $280.00    $1,120.00
+09 Oct      Market analysis and research               6.5      $280.00    $1,820.00
+16 Oct      Business model review meeting              3.0      $280.00    $840.00
+23 Oct      Financial forecasting                      5.0      $280.00    $1,400.00
+30 Oct      Report preparation and presentation        4.5      $280.00    $1,260.00
+                                                                           ----------
+                                                                  Subtotal: $6,440.00
+                                                                       GST: $644.00
+                                                                     Total: $7,084.00
+
+Payment terms: 14 days from invoice date
+Due date: 19 November 2026
+
+Bank details:
+Adelaide Business Consulting
+BSB: 065-123
+Account: 12345678
+Reference: ABC8821
+
+GST registered. Tax invoice provided for services rendered.

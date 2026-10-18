@@ -1,0 +1,7 @@
+bill_number,supplier,issue_date,due_date,amount,days_until_due,payment_status
+INV-ST-9667,Sydney Tech Suppliers,28/09/2026,28/10/2026,1845.50,-18,overdue
+INV-MO-88892,Melbourne Office Products,15/10/2026,14/11/2026,1124.80,0,due_now
+HPS-2026-4421,Hobart Printing Services,14/11/2026,14/12/2026,5170.00,30,not_due
+ABC-2026-8821,Adelaide Business Consulting,05/11/2026,19/11/2026,7084.00,5,due_soon
+INV-XYZ-5521,Network Services Co,08/11/2026,08/12/2026,890.00,24,not_due
+INV-ABC-3340,Commercial Cleaning,10/11/2026,10/12/2026,1250.00,26,not_due

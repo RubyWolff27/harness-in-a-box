@@ -1,0 +1,31 @@
+MELBOURNE OFFICE PRODUCTS
+789 Supply Road, Melbourne VIC 3001
+ABN: 98 765 432 109
+
+STATEMENT OF ACCOUNT
+
+Customer: Example Co Pty Ltd
+Customer No: CUST-4521
+Statement date: 31 October 2026
+Period: 1 October 2026 to 31 October 2026
+
+Date       Transaction           Ref            Debit      Credit     Balance
+01 Oct     Opening balance                                            $1,245.00
+05 Oct     Invoice               INV-88234      $892.50               $2,137.50
+08 Oct     Payment received      PMT-1123                  $1,245.00  $892.50
+12 Oct     Invoice               INV-88567      $445.00               $1,337.50
+15 Oct     Invoice               INV-88892      $1,124.80             $2,462.30
+22 Oct     Payment received      PMT-1156                  $892.50    $1,569.80
+28 Oct     Invoice               INV-89234      $675.20               $2,245.00
+
+Current balance: $2,245.00
+
+Aged analysis:
+Current (0-30 days):      $2,245.00
+31-60 days:               $0.00
+61-90 days:               $0.00
+Over 90 days:             $0.00
+
+Please contact us if you have any queries regarding this statement.
+Phone: (03) 9555 1234
+Email: accounts@melbourneoffice.example.com

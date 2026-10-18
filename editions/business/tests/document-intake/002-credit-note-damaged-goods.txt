@@ -1,0 +1,28 @@
+EXAMPLE CO PTY LTD
+123 Example Street, Melbourne VIC 3000
+ABN: 12 345 678 901
+
+CREDIT NOTE
+
+Date: 18 October 2026
+Credit Note No: CN-2026-0421
+Reference Invoice: INV-2026-1492
+
+Bill to:
+Example Client Pty Ltd
+456 Client Avenue
+Sydney NSW 2000
+
+Reason: Damaged goods returned
+
+Description                          Qty    Unit Price    Total
+Printer toner cartridges (damaged)   2      $89.00        $178.00
+                                                          -------
+                                                Subtotal: $178.00
+                                                     GST: $17.80
+                                                   Total: $195.80
+
+This amount will be credited to your account or refunded upon request.
+
+Goods received: 16 October 2026
+Quality control reference: QC-2026-234

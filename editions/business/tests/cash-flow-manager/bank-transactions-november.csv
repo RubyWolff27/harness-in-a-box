@@ -1,0 +1,22 @@
+date,description,debit,credit,balance,category,matched_invoice
+01/11/2026,Opening balance,,,45678.50,,
+01/11/2026,Customer payment - ABC Corp,,5250.00,50928.50,receipts,INV-2026-1234
+02/11/2026,Rent payment,4500.00,,46428.50,operating_expenses,
+03/11/2026,Customer payment - XYZ Ltd,,8920.00,55348.50,receipts,INV-2026-1256
+04/11/2026,Office supplies,742.50,,54606.00,operating_expenses,INV-2026-1543
+04/11/2026,Bank fees,15.00,,54591.00,bank_charges,
+05/11/2026,Wages payment,12450.00,,42141.00,payroll,
+05/11/2026,Superannuation,1182.75,,40958.25,payroll,
+06/11/2026,Customer payment - DEF Pty,,3240.00,44198.25,receipts,INV-2026-1267
+07/11/2026,Telephone and internet,385.00,,43813.25,operating_expenses,
+08/11/2026,IT services supplier,2500.00,,41313.25,operating_expenses,INV-ST-8834
+08/11/2026,Customer payment - GHI Ltd,,6780.00,48093.25,receipts,INV-2026-1289
+10/11/2026,Insurance premium,890.00,,47203.25,operating_expenses,
+11/11/2026,Stationery supplies,267.00,,46936.25,operating_expenses,
+12/11/2026,Customer payment - JKL Co,,4560.00,51496.25,receipts,INV-2026-1301
+12/11/2026,Wages payment,12450.00,,39046.25,payroll,
+12/11/2026,Superannuation,1182.75,,37863.50,payroll,
+13/11/2026,Equipment maintenance,1250.00,,36613.50,operating_expenses,
+14/11/2026,Customer payment - MNO Pty,,9870.00,46483.50,receipts,INV-2026-1312
+15/11/2026,GST payment to ATO,5680.00,,40803.50,tax,
+15/11/2026,Marketing expenses,1450.00,,39353.50,operating_expenses,

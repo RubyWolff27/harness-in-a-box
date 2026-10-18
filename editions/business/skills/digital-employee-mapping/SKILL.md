@@ -32,3 +32,25 @@ A ranked table (task, role, hours per week, fit, risk, next step) and the first 
 ## Done when
 - The top task has a baseline and a planned shadow start date.
 - Total estimated hours saved is stated with its assumptions.
+
+## Acceptance checklist
+
+Before promoting this skill from shadow to active, confirm:
+
+- [ ] Tested on synthetic data (`editions/business/tests/digital-employee-mapping/`) with top 3 tasks ranked correctly
+- [ ] Tested on your real task list (at least 20 repeatable tasks from observation, calendar, inbox)
+- [ ] Hours per week calculated correctly: frequency × minutes per task / 60
+- [ ] Fit scoring considers: repeatable (same steps most times), inputs are digital, checkable by rule or total
+- [ ] Risk assessment includes: financial impact if wrong, client relationships, compliance obligations
+- [ ] High-risk tasks deprioritised until shadow run proves them (for example bank reconciliation, tax returns)
+- [ ] Tasks ranked by hours saved × fit score, with risk adjustment applied
+- [ ] Top task has hours per week baseline measured for one week before automation starts
+- [ ] Tasks grouped into roles: office admin, bookkeeping assistant, customer desk, operations planner, compliance clerk
+- [ ] Each role has 3-5 related tasks grouped by area and workflow
+- [ ] First role selected is high hours, high fit, low risk (for example inbox sorting, document filing)
+- [ ] "Done when" checks written for the top task (what does good output look like?)
+- [ ] Assumptions documented: are frequency and minutes estimates observed or guessed?
+- [ ] Total hours saved stated with confidence level (for example "12-15 hours per week, medium confidence")
+- [ ] Shadow start date planned for top task within 2 weeks
+
+Run this skill after onboarding or an ecosystem audit. Use the output to decide which business skills to build or promote first. Re-run quarterly to track actual hours saved and adjust priorities.

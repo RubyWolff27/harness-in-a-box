@@ -1,0 +1,37 @@
+EXAMPLE CO PTY LTD
+123 Example Street, Melbourne VIC 3000
+ABN: 12 345 678 901
+
+PURCHASE ORDER
+
+PO Number: PO-2026-115
+Date: 25 October 2026
+Required by: 10 November 2026
+
+Supplier:
+Brisbane Furniture Supplies
+234 Warehouse Drive
+Brisbane QLD 4000
+
+Delivery address:
+Example Co Pty Ltd
+123 Example Street
+Melbourne VIC 3000
+
+Item                                 Qty    Unit Price    Total
+Ergonomic office chairs              15     $425.00       $6,375.00
+Height-adjustable desks              8      $850.00       $6,800.00
+Monitor arms (dual)                  16     $145.00       $2,320.00
+Cable management trays               15     $32.50        $487.50
+                                                          ---------
+                                                Subtotal: $15,982.50
+                                                     GST: $1,598.25
+                                                   Total: $17,580.75
+
+Payment terms: Net 30 days from delivery
+Delivery required: Single delivery to address above
+Contact: Sarah Mitchell, Office Manager
+Phone: (03) 9123 4567
+
+Authorised by: David Chen, Operations Manager
+Date: 25 October 2026

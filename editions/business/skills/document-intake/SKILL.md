@@ -9,7 +9,7 @@ metadata:
 
 ## Engine order (cheapest first)
 1. **Rules.** Known sender to supplier mapping, file names, subject patterns.
-2. **Cheap classifier.** A small model or typed-choice classifier labels the document with a confidence score. Labels: invoice, credit note, goods received note or delivery note, purchase order, statement, remittance, quote, tax document, other.
+2. **Cheap classifier.** A typed-choice classifier or small model labels the document with a confidence score. Labels: invoice, credit note, goods received note or delivery note, purchase order, statement, remittance, quote, tax document, other. See the document classifier pattern in `editions/business/reference/document-classifier-pattern.md` for detailed guidance on thresholds, stability checks and the pilot gate.
 3. **LLM.** Only for extraction and for anything labelled "other" or below the confidence threshold.
 
 ## Steps
@@ -33,3 +33,22 @@ metadata:
 
 ## Evals
 Keep 50+ de-identified sample documents across types, including awkward ones (part deliveries, paid reminders, credit notes without references). Run before promoting from shadow to active.
+
+## Acceptance checklist
+
+Before promoting this skill from shadow to active, confirm:
+
+- [ ] Tested on synthetic data (`editions/business/tests/document-intake/`) with 90% or higher classification accuracy
+- [ ] Tested on at least 50 de-identified real documents from your business with 85% or higher accuracy
+- [ ] All ambiguous cases (changed bank details, informal emails, payment confirmations) correctly flagged for review
+- [ ] File naming convention works with your accounting system's import format
+- [ ] Approval gate confirmed: no document is filed, entered or paid without your explicit OK
+- [ ] Changed bank details always flagged, never acted on automatically
+- [ ] Duplicate detection catches same invoice number from same supplier
+- [ ] Confidence threshold set (start at 0.85, adjust based on your "other" rate)
+- [ ] Log format agreed: date, filename, label, confidence, flags, your decision
+- [ ] One week of shadow runs logged with results compared against your manual classification
+- [ ] Import file or review sheet format matches your accounting system (Xero, QuickBooks, MYOB)
+- [ ] Skill never posts directly to the accounting system (produces review file only)
+
+Promote to active only when all items are ticked. Review quarterly: is the "other" rate rising? Are new document types appearing?

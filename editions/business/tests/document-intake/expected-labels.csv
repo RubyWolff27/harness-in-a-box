@@ -1,0 +1,13 @@
+filename,expected_label,confidence_threshold,flags,notes
+001-invoice-office-supplies.txt,invoice,0.90,none,Standard invoice with all required fields
+002-credit-note-damaged-goods.txt,credit_note,0.90,check_invoice_reference,Credit note references INV-2026-1492
+003-goods-received-note.txt,goods_received_note,0.85,check_po_match|quantity_discrepancy,Partial delivery: 2 desk lamps short
+004-supplier-statement.txt,statement,0.90,none,Standard monthly statement
+005-purchase-order.txt,purchase_order,0.90,none,PO for furniture order
+006-remittance-advice.txt,remittance,0.90,none,Payment advice covering multiple invoices
+007-quote-it-services.txt,quote,0.90,none,IT services quotation
+008-tax-invoice-consulting.txt,invoice,0.90,none,Professional services tax invoice
+009-delivery-note-partial.txt,delivery_note,0.85,check_po_match|back_order,Partial delivery with back order noted
+010-overdue-reminder.txt,other,0.70,overdue_notice,Payment reminder - not an invoice
+011-ambiguous-payment-confirmation.txt,other,0.60,payment_confirmation|needs_review,Informal payment confirmation email
+012-ambiguous-changed-bank-details.txt,invoice,0.90,flag_bank_change|needs_approval,CRITICAL: Changed bank details must be verified

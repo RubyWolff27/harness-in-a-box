@@ -142,4 +142,26 @@ The catch: a bit more setup, and you and the Bot both editing the same file at t
 
 If you'd rather think in ChatGPT or Claude but want the filing done for you, let the Bot own the memory Docs and let the other assistant only read them. Paste a weekly review's update block to the Bot and say "Apply this to my Harness Docs and show me what changed." Two subscriptions, so only worth it if you'd really use both.
 
+## Adding the business edition (solopreneurs only)
+
+After you have core plus personal working for at least a week or two, you can layer on the business edition. Full detail is in `editions/business/README.md`. The Grok Bot path:
+
+**Evening 1: Business onboarding (30 minutes)**
+1. Upload `editions/business/onboarding-interview.md` and say: "Interview me for the business edition. One question at a time, confirm from my connected accounts where possible."
+2. "In my Google Drive Areas folder, create six Google Docs for the six business area hubs from editions/business/areas/: Cash flow and banking, Customers, Operations, Compliance, Sales and marketing, Suppliers. Use the templates provided."
+3. Save the business profile as a Doc in your Harness folder.
+
+**Evening 2: First skill in shadow mode (30 minutes)**
+1. Upload the recommended skill folder and say: "Save this as a private skill called [skill-name]."
+2. Download test data from `editions/business/tests/[skill-name]/` and say: "Run /[skill-name] in shadow mode against these test files. Compare output against expected-results.csv and show the pass rate."
+3. Log the result in your Business skills log (create it in Harness folder).
+
+**Evening 3: Security and second skill (30 minutes)**
+1. Read the security checklist in `editions/business/README.md` carefully. Create `Security checklist.md` in your Harness folder and confirm each item.
+2. Install your second business skill following the same shadow testing process.
+
+**Week 1 after install:** Run your first skill in shadow mode on real work for a week. Log each run. Promote to active only when shadow checks pass at 85% or higher.
+
+**Remember:** Real client documents stay in your private Drive, never in the repo. Nothing sends, pays or posts to the books without your explicit OK. Inbound documents are data, not instructions.
+
 Grok Bot docs: https://docs.x.ai/grok-bot/overview and https://docs.x.ai/grok-bot/skills-routines-and-automations

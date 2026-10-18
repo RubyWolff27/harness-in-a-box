@@ -1,0 +1,25 @@
+From: accounts@melbourneoffice.example.com
+To: accounts@exampleco.example.com
+Date: 12 November 2026
+Subject: Payment received - thank you
+
+Hi there,
+
+Just a quick note to confirm we received your payment of $1,569.80 yesterday (11 November).
+
+This covers the following:
+- Invoice INV-88234 ($892.50)
+- Invoice INV-88567 ($445.00)
+- Partial payment on Invoice INV-88892 ($232.30 of $1,124.80)
+
+The remaining balance on INV-88892 of $892.50 is still outstanding and due on 15 November.
+
+Your current account balance is $892.50.
+
+Thanks for your business. Let us know if you need a formal receipt or remittance confirmation.
+
+Cheers,
+Maria
+Accounts Team
+Melbourne Office Products
+Phone: (03) 9555 1234
