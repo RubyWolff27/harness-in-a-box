@@ -8,22 +8,29 @@ Checked against Grok Bot's, Anthropic's and OpenAI's own pages as of October 202
 
 Paste the repo link and one prompt into your assistant, and it sets the harness up with you (it reads `AGENTS.md` and asks before it connects or creates anything). Pick your path:
 
+**For the most value, use Grok Bot or ChatGPT Dots.** Both are always on, with their own cloud computer, your connected apps and routines that run while your laptop is closed. Ruby's current preference is Grok Bot, and it's where he does most of his testing. Dots need ChatGPT Pro or Business Premium; on Plus, use the ChatGPT Project path below. Claude also works.
+
 **1. Grok Bot (recommended)**
 ```text
-Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Clone it, read AGENTS.md first and follow it: interview me, create my Google Docs memory home, save the skills and create my routines. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
+Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Clone it, read core/AGENTS.md first and follow it: interview me, create my memory home, save the skills and create my routines. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
 ```
 
-**2. Claude**
+**2. ChatGPT Dots (needs ChatGPT Pro or Business Premium)**
 ```text
-Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for Claude. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
+Set up my AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read core/AGENTS.md first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for ChatGPT Dots. Install core plus the [personal | personal and business] edition. Interview me one question at a time. Ask before connecting apps, writing documents or scheduling anything. I'm [name] in [city].
 ```
 
-**3. ChatGPT**
+**Also works: Claude**
 ```text
-Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for ChatGPT. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
+Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read core/AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for Claude. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
 ```
 
-**If it can't open the link:** on the repo page click **Code > Download ZIP**, upload the ZIP to the chat, and say "Read AGENTS.md in this ZIP and follow it." On Claude you can also add the repo to a project (project knowledge > + > GitHub). What each assistant can and can't do by itself is in `AGENTS.md`; the step-by-step guides are the fallback.
+**Also works: ChatGPT Plus (in a Project)**
+```text
+Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read core/AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for ChatGPT. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
+```
+
+**If it can't open the link:** on the repo page click **Code > Download ZIP**, upload the ZIP to the chat, and say "Read core/AGENTS.md in this ZIP and follow it." On Claude you can also add the repo to a project (project knowledge > + > GitHub). What each assistant can and can't do by itself is in `AGENTS.md`; the step-by-step guides are the fallback.
 
 Prefer to do it by hand? The guides below walk you through every step.
 

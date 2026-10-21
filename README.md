@@ -19,17 +19,24 @@ Frontier change starts at the top. The owner sets up their own harness first, us
 
 The install guide is `core/AGENTS.md`. Paste the repo link and this prompt into your assistant, swapping in your name, city and edition.
 
+**For the most value, use Grok Bot or ChatGPT Dots.** Both are always on, with their own cloud computer, your connected apps and routines that run while your laptop is closed. Ruby's current preference is Grok Bot, and it's where he does most of his testing. Dots need ChatGPT Pro or Business Premium; on Plus, use the ChatGPT Project path below. Claude also works.
+
 **1. Grok Bot (recommended)**
 ```text
 Set up my AI harness from https://github.com/RubyWolff27/harness-in-a-box. Clone it, read core/AGENTS.md first and follow it. Install core plus the [personal | personal and business] edition. Interview me, create my memory home, save the skills and create my routines. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
 ```
 
-**2. Claude**
+**2. ChatGPT Dots (needs ChatGPT Pro or Business Premium)**
+```text
+Set up my AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read core/AGENTS.md first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for ChatGPT Dots. Install core plus the [personal | personal and business] edition. Interview me one question at a time. Ask before connecting apps, writing documents or scheduling anything. I'm [name] in [city].
+```
+
+**Also works: Claude**
 ```text
 Set up my AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read core/AGENTS.md first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for Claude. Install core plus the [personal | personal and business] edition. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
 ```
 
-**3. ChatGPT**
+**Also works: ChatGPT Plus (in a Project)**
 ```text
 Set up my AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read core/AGENTS.md first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for ChatGPT. Install core plus the [personal | personal and business] edition. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
 ```

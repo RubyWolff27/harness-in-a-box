@@ -51,15 +51,15 @@ Start with the skill the interview recommended (usually document-intake or cash-
 
 **For Grok Bot:**
 1. Upload the skill folder from `editions/business/skills/[skill-name]/` and say: "Save this as a private skill called [skill-name]."
-2. Download the test data from `editions/business/tests/[skill-name]/` and say: "Run /[skill-name] in shadow mode against these test files. Compare the output against expected-results.csv and show me the pass rate."
+2. Download the test data from `editions/business/tests/[skill-name]/` and say: "Run /[skill-name] in shadow mode against these test files. Compare the output against the expected file in that folder (expected-labels.csv for document-intake, expected-weekly-position.csv for cash-flow-manager) and show me the pass rate."
 
 **For Claude:**
 1. ZIP the skill folder (folder at root) and upload via Customize > Skills.
-2. In your project, upload the test data and say: "Run the [skill-name] skill in shadow mode against these test files. Score against expected-results.csv."
+2. In your project, upload the test data and say: "Run the [skill-name] skill in shadow mode against these test files. Score against the expected file in that folder (expected-labels.csv or expected-weekly-position.csv)."
 
 **For ChatGPT:**
 1. Upload the skill file to your project as `skill-[name].md`.
-2. Upload the test data to the project and say: "Run the skill-[name] skill in shadow mode on these test files. Check results against expected-results.csv."
+2. Upload the test data to the project and say: "Run the skill-[name] skill in shadow mode on these test files. Check results against the expected file in that folder (expected-labels.csv or expected-weekly-position.csv)."
 
 **Step 3. Review and log (10 minutes).**
 
@@ -137,6 +137,12 @@ Run the quarterly skill review (part of periodic-review in core): which skills s
 | `skills/ecosystem-audit` | Maps the tools, data and handoffs in the business and finds the leaks |
 | `skills/board-of-digital-directors` | Advisers for the business with a think, plan, execute, loop-back protocol |
 | `skills/digital-employee-mapping` | Ranks repeatable work by hours saved to decide what to hand off first |
+
+## Integrations
+
+| System | Guide | Start with |
+|---|---|---|
+| Xero (accounting) | `integrations/xero.md` | Read-only connection, owner approves every write |
 
 ## Skill lifecycle
 

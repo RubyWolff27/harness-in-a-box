@@ -1,3 +1,5 @@
+> **Advanced and optional.** This is developer reference code (a Cloudflare Worker). You do not need it to use the business edition.
+
 # jev-gateway
 
 **Optional reference implementation** of a typed-choice classifier gateway for business document classification. This Worker provides authenticated access to TypeSafe's Jev model via Cloudflare Workers AI.
