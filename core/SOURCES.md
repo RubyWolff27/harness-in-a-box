@@ -92,16 +92,23 @@ The study, work, money, investment and daily-interest-brief skills are templates
 - Google Drive for desktop: https://support.google.com/drive/answer/10838124
 - Google 2-Step Verification: https://support.google.com/accounts/answer/185839
 
-## Grok Bot (path 1, as of October 2026)
+## Grok Bot (path 1, as of November 2026)
 
 - Overview: https://docs.x.ai/grok-bot/overview
+- Bots: https://docs.x.ai/grok-bot/bots
 - Skills and routines: https://docs.x.ai/grok-bot/skills-routines-and-automations
+- Settings and notifications: https://docs.x.ai/grok-bot/settings-and-notifications
+- Vault: https://docs.x.ai/grok-bot/vault
+- Computer and apps: https://docs.x.ai/grok-bot/computer-and-apps
+- Shared Bots: https://docs.x.ai/grok-bot/shared-bots
+- Agent email (email-triggered routines): https://cursor.com/help/grok-bot/agent-email
 
 ## Claude (path 2, Anthropic's own pages, as of October 2026)
 
 - Plans and pricing: https://claude.com/pricing
 - What is the Pro plan (usage limits): https://support.claude.com/en/articles/8325606-what-is-the-pro-plan
 - Where you can use Claude (supported countries): https://support.claude.com/en/articles/8461763-where-can-i-access-claude
+- Claude Duet announcement (21 October 2026): https://claude.com/resources/articles/claude-duet
 - Memory and chat search (project memory is separate): https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context
 - Use skills in Claude: https://support.claude.com/en/articles/12512180-use-skills-in-claude
 - How to create custom skills (SKILL.md, ZIP format): https://support.claude.com/en/articles/12512198-how-to-create-custom-skills
