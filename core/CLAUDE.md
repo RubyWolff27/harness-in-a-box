@@ -2,7 +2,7 @@
 
 Read `SETUP.md` first for the comparison and the shared core. This is the full Claude path: the same three evenings and three weeks, done the Claude way.
 
-Claude is second in my order because it's an excellent thinking and writing partner, it runs scheduled tasks in the cloud on Pro, and its Google connectors can create and edit Google Docs. It's behind Grok Bot only because it doesn't have its own always-on computer, and I haven't tested how hands-free its scheduled memory writes are.
+Claude is second in my order because it's an excellent thinking and writing partner, it runs scheduled tasks in the cloud on Pro, and its Google connectors can create and edit Google Docs. Anthropic launched Claude Duet on 21 October 2026, an always-on agent with its own cloud computer, but it is a US-only research preview for Pro, Max and Ultra with a waitlist, and I haven't tested it. So for most readers Claude is still the scheduled-tasks path, behind Grok Bot.
 
 Checked against Anthropic's own pages (claude.com and support.claude.com) as of October 2026. Anthropic is changing Claude quickly: in October 2026 "Chat" and "Cowork" were being merged into one Claude for Pro and Max. If a menu below looks different, ask Claude where the setting is now.
 
@@ -11,6 +11,8 @@ Checked against Anthropic's own pages (claude.com and support.claude.com) as of 
 - **Claude Pro.** US$20 a month, or US$200 a year (US$17 a month), on Anthropic's pricing page. Check Claude is available in your country (support page in `SOURCES.md`). Your card may add VAT or a forex fee. The Free plan has skills, memory and one custom connector, but not scheduled tasks, Claude in Chrome or unlimited projects.
 - **The Claude apps:** web, the **Claude Desktop** app (Mac or Windows) and the phone app.
 - **A Google account** with Google Drive.
+
+**Claude Duet (optional):** Anthropic's always-on agent with its own cloud computer is in a US-only research preview for Pro, Max and Ultra subscribers with a waitlist. This guide covers the scheduled-tasks path that works everywhere now.
 
 ## What Claude Pro gives the harness (verified)
 

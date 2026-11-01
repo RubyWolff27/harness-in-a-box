@@ -4,7 +4,7 @@ Read `SETUP.md` first for the comparison and the shared core. This is the full G
 
 I recommend it first for one reason: **a Bot has its own computer that never sleeps.** It can run your morning brief, daily interest brief and check-ins on a schedule, and keep your memory home up to date while your laptop is closed. On the other paths you do more of that yourself. I run my own harness on Grok Bot, so this is the path I know best.
 
-Checked against Grok Bot's docs (docs.x.ai/grok-bot) as of October 2026.
+Checked against Grok Bot's docs (docs.x.ai/grok-bot) as of November 2026.
 
 ## What Grok Bot is
 
@@ -29,7 +29,7 @@ Grok Bot gives you "Bots": AI teammates with a name, a job and memory that carri
 **Step 1. Lock the doors (10 minutes).**
 1. Turn on two-factor sign-in for the account you use for Grok Bot, and Google 2-Step Verification at myaccount.google.com > Security.
 2. Write down your red lines (see `SETUP.md`). Everything on the Bot's computer is available to every Bot you run, so the red lines matter here too.
-3. Never type a password into a chat. When a site needs you to sign in, the Bot hands that step to you through its secure sign-in flow.
+3. **Vault:** Store your logins, cards and contact info in the Vault (Settings > General > Vault). It fills them without the bot seeing the values. You can import from 1Password, Chrome, Safari, Bitwarden and other password managers (export as CSV, import to Vault, then delete the export file). Connect 1Password directly under Connect apps > Password Managers. When a site needs you to sign in and the Vault doesn't have it, the Bot hands that step to you through its secure sign-in flow.
 
 **Step 2. Create your Bot (15 minutes).** Install the app, create one Bot and send it this:
 
@@ -65,6 +65,7 @@ Then give it the eight core skills. Send it the `skills/` folder from this kit (
 1. Open `MASTER-PROMPT.md`, copy the interview prompt and send it to your Bot. Answer by voice if it's easier.
 2. Ask it for the full master prompt, then: "Save this as your role context, and keep a copy for my memory home."
 3. "Now draft my Telos: mission, three 12-month goals each with an ideal state and 'done when' checks, three 90-day priorities, and two or three habits. Draft About me too."
+4. **Optional shortcut:** Import Memory (Settings > General > Import) lets you bring in context from another assistant's memory or chat history, which can speed up the interview if you're switching from ChatGPT or Claude.
 
 **Done when:** a fresh conversation with the Bot can tell you your mission and top three priorities.
 
@@ -100,6 +101,7 @@ Routines are what make this the recommended path. Create each one by asking the 
 | Evening check-in | "Every weekday at 8:30 pm, ask me what got done of my three, what carries to tomorrow and which habits I did. When I answer, update Open loops and the habit scores in Telos." |
 | Inbox tidy | "Every Sunday at 4:00 pm, sort the Inbox Doc: move tasks to Open loops, ideas to the right PARA folder, and tell me what you moved. Delete nothing." |
 | Weekly review | "Every Sunday at 5:00 pm, start /weekly-review with me. Apply the memory update block after I've answered." |
+| Email-triggered (optional) | Claim an address at mail.grokbot.com (Settings > General > Email). Trigger a routine when email arrives from any sender, specific addresses, or a domain. Authenticated senders only by default. Replies wait as drafts for your approval. Example: "When email arrives at [your-address]@mail.grokbot.com from client-domain.com, summarise it and draft a reply." |
 
 The evening check-in, inbox tidy and weekly review are the **hands-free memory writes**: the Bot updates your Docs and reports what it changed. You stay in charge of anything that leaves your Drive (sending, sharing, buying, deleting).
 
@@ -121,6 +123,7 @@ Manage routines from the Bot's conversation details > Routines: pause, edit, tes
 
 - **It's an agent with a computer.** That's the power and the risk. Keep sending, buying, deleting and sharing behind approval, and read what each routine reports.
 - **Shared computer.** All your Bots share one cloud computer, its files and logins. Treat anything there as visible to every Bot.
+- **Shared Bots.** Bots can be shared with teammates (each person's usage pays), but a shared Bot can't be your primary Bot and doesn't have access to the Vault, so use Secrets for credentials instead. Useful for team routines or business workflows.
 - **Memory still isn't the record.** The docs say to check the current source for consequential decisions. Your memory home is the record.
 - **Some sites block automation** or need a human step. The Bot hands those back to you rather than working around them.
 - **Connector coverage varies.** Check Marketplace for Google Drive, Gmail and Calendar. Where there's no connector, the Bot uses the website in its browser, which is slower and can break when the site changes.

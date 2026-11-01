@@ -2,6 +2,14 @@
 
 Versions follow `MAJOR.MINOR.PATCH`. Minor versions add guides or skills without changing how existing ones work.
 
+## v1.2.1 (1 Nov 2026)
+
+- CHATGPT-FEATURES.md: fix Dots reference to point to SETUP.md instead of non-existent section in CHATGPT.md.
+- CLAUDE.md: add Claude Duet context (announced 21 October 2026, US-only research preview for Pro, Max and Ultra with waitlist); note under 'What you need'.
+- GROK-BOT.md: add Import Memory (optional shortcut in Evening 2), Vault and 1Password integration (Evening 1 Step 1), Shared Bots (Honest trade-offs), and email-triggered routines (Week 2 routines table).
+- SOURCES.md: add Claude Duet announcement and expanded Grok Bot sources (bots, settings, Vault, computer and apps, Shared Bots, agent email).
+- Update Grok Bot 'checked against' date to November 2026.
+
 ## v1.2.0 (22 Oct 2026)
 
 - Xero guide: add Option 4, Xero's hosted Remote MCP server (Core plan or above); confirm ChatGPT Xero plugin is live and read-only.
