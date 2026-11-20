@@ -31,10 +31,12 @@ Then show a summary in under 150 words and ask them to correct it.
 
 Create **one** document called `My Harness` with four headings, filled from the interview:
 
-- **About me** (name, place, time zone, work shape, people, style preferences)
+- **About me** (name, place, time zone, work shape, people, style preferences; include the interrupt rule below)
 - **Now** (the three 90-day priorities, each with one "done when" line)
 - **Open loops** (anything they mentioned that's unfinished, one per line, with a date if known)
 - **Decisions** (empty table: date, decision, why, review date)
+
+Also put this **interrupt rule** under About me (or as its own short heading): notify for information, ask when blocked, wait for review before anything leaves, come back for decisions the person should make.
 
 Where it goes depends on the platform. Use the **default in your path guide**. Ask before creating it. If you can't create files, give it to them as one paste-ready block and tell them exactly where to put it.
 
@@ -61,6 +63,8 @@ Run `daily-plan` once now with whatever you have.
 ## L5. Connect the calendar, read-only (3 minutes, optional but recommended)
 
 Ask: "May I connect your calendar, read-only, so the morning brief knows your day?" They sign in themselves. Tell them what to check on the permission screen. Set the connector to read-only or the strictest approval your platform offers. Email is optional in Lite; if they want it, read-only too.
+
+Say plainly: **red lines protect what you type into chat, not what connected email already holds.** Once email is connected, the assistant can see what that inbox already contains.
 
 Test: ask "What's on tomorrow?" and check it with them.
 

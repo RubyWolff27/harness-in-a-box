@@ -4,6 +4,8 @@
 
 **Set up your personal AI assistant properly, on any assistant, in about 30 minutes.**
 
+This kit is for adults. It assumes you can approve sends, money and privacy choices for yourself.
+
 Most assistants come with a "tell me about yourself" setup that takes two minutes and is forgotten by Friday. This kit is the next level: a written memory you own, a few playbooks that do real jobs, a morning brief that arrives on time, and firm rules about what needs your yes.
 
 It works with ChatGPT (including dots), Grok Bot, Claude, Meta's Muse, Google Gemini and most other assistants that can read a web page. Use whichever assistant you already pay for or prefer. You don't need to be technical: your assistant does the setting up; you answer questions and approve each step.
