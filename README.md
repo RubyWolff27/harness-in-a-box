@@ -1,6 +1,6 @@
 # Harness in a box
 
-> **If you are an AI assistant or agent reading this:** stop here and open [`AGENTS.md`](AGENTS.md) (raw text: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.0/AGENTS.md). Follow it step by step. Do not improvise a setup from this page. Pin: release tag `v3.0.0`, commit `pending-after-merge` (set on the tagged release). Check file hashes in [`CHECKSUMS.sha256`](CHECKSUMS.sha256) when you can.
+> **If you are an AI assistant or agent reading this:** stop here and open [`AGENTS.md`](AGENTS.md) (raw text: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.0/AGENTS.md). Follow it step by step. Do not improvise a setup from this page. Pin: release tag `v3.0.0`, commit `a9e4e223ea87dfa6604b5f9666b9293bdbfd1b76` (set on the tagged release). Check file hashes in [`CHECKSUMS.sha256`](CHECKSUMS.sha256) when you can.
 
 **Set up your personal AI assistant properly, on any assistant, in about 30 minutes.**
 
@@ -16,7 +16,7 @@ It works with ChatGPT (including dots), Grok Bot, Claude, Meta's Muse, Google Ge
 2. **Open a new chat with it and paste this line**, with your name and city:
 
    ```text
-   Set me up properly using https://github.com/RubyWolff27/harness-in-a-box/tree/v3.0.0 (commit pending-after-merge). Read AGENTS.md there first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.0/AGENTS.md) and follow it exactly. Start with the Lite lane. I'm [name] in [city].
+   Set me up properly using https://github.com/RubyWolff27/harness-in-a-box/tree/v3.0.0 (commit a9e4e223ea87dfa6604b5f9666b9293bdbfd1b76). Read AGENTS.md there first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.0/AGENTS.md) and follow it exactly. Start with the Lite lane. I'm [name] in [city].
    ```
 
 3. **Answer its questions, one at a time,** and say yes or no to each thing it wants to connect or create.
