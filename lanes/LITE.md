@@ -50,7 +50,9 @@ Tailor and save these three skills, in this order:
 2. `core/skills/capture/SKILL.md` (capture anything to Open loops)
 3. `core/skills/weekly-review/SKILL.md` (Sunday review and memory update)
 
-Tailoring means: replace "my memory home" with where `My Harness` actually lives on this platform, and set their time zone. Change nothing else. Save each one the way your path guide says. If this platform can't store skills, follow the path guide's fallback (usually: keep the three skill texts inside `My Harness` under a **Playbooks** heading and say "use my daily plan playbook").
+Each skill has a **Memory map** at the top. For Lite, use the Lite column only: sections are headings inside `My Harness` ([About me], [Now], [Open loops], [Decisions], [Inbox]). Do not create `telos.md`, `open-loops.md`, `about-me.md`, `decisions-log.md`, Obsidian vaults, Drive folders or PARA folders in Lite.
+
+Tailoring means: replace "my memory home" with where `My Harness` actually lives on this platform, set their time zone, and keep the Lite column of the memory map. Change nothing else. Save each one the way your path guide says. If this platform can't store skills, follow the path guide's fallback (usually: keep the three skill texts inside `My Harness` under a **Playbooks** heading and say "use my daily plan playbook").
 
 Run `daily-plan` once now with whatever you have.
 
