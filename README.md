@@ -73,7 +73,7 @@ That's it. If it can't open the link, see "If something goes wrong" below.
 | `STANDARD.md` | The "point and go" promise, status labels and the one-home-per-fact rule |
 | `lanes/` | Lite and Full lanes, step by step |
 | `plan/` | The setup sprint and your first seven days |
-| `archetypes/` | Capability archetypes A–D plus one-page product overlays (menu names and known gaps) |
+| `archetypes/` | Capability archetypes A-D plus one-page product overlays (menu names and known gaps) |
 | `paths/` | v2.x redirect stubs to archetype + overlay |
 | `checks/SELF-CHECK.md` | The test your assistant must pass before setup counts as finished |
 | `core/` | The shared memory templates, playbooks (skills), personal board and sources |
