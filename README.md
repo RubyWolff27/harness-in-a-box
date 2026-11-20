@@ -56,6 +56,7 @@ That's it. If it can't open the link, see "If something goes wrong" below.
 
 ## How to stop, pause or move house
 
+- **Safe mode (one phrase):** say **"safe mode"** (or "pause everything"). That means: pause every routine and scheduled task now, and treat every connector as read-only until you say otherwise. Ask it to confirm both parts out loud. Use this when something feels wrong.
 - **Pause:** "Pause all my scheduled tasks." Check the platform's scheduled list shows them paused.
 - **Stop:** cancel each routine, disconnect each app in the platform's connector settings, and ask it to forget what you don't want kept. Disconnecting stops new access; it doesn't erase what was already learned, so also check its memory page.
 - **Move to another assistant:** keep `My Harness` (or your `Harness` folder) and your tailored playbooks. Paste the link into the new assistant and say "I already have a memory home; start the Lite lane at L4."

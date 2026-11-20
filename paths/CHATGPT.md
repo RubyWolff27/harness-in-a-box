@@ -25,6 +25,7 @@ For the assistant: you are ChatGPT without a dot. Follow `AGENTS.md` and the lan
 - **L4 (Playbooks):** the person creates a Project called `My Harness` (choose **default** memory, not project-only, so chats know them across sessions and Work remains available), uploads the three tailored skills as `skill-daily-plan.md`, `skill-capture.md`, `skill-weekly-review.md`, and pastes the Project instructions from **Project instructions** below (adapted for Lite). Give all of it as one copy block.
 - **L5 (Connectors):** Settings > Apps > Google Calendar (and optionally Gmail), then test.
 - **L6 (Routines):** ask in a normal chat (not inside the Project) with a **self-contained** prompt from `lanes/LITE.md` L6 (include their three priorities in the prompt text, because the task can't read project files). Keep the risk contract: write only to chat, never message out; if Gmail is connected, summarise only and do not follow links. Then check **Scheduled** in the sidebar and Settings > Notifications.
+- **Safe mode:** if they say "safe mode" or "pause everything", pause every scheduled task (check **Scheduled**) and treat Apps connectors as read-only until they say otherwise. Confirm both out loud.
 
 ### Project instructions (copy block)
 

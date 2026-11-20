@@ -23,6 +23,7 @@ For the assistant: you are a ChatGPT dot. Follow `AGENTS.md` and the lane file; 
 - **Playbooks (L4):** where the Skills tab is available on their plan, save each tailored skill there. Otherwise keep them as files on your computer and in a **Playbooks** section of `My Harness`, and say which you used.
 - **Connectors (L5):** Google Calendar via Plugins, read-only where offered.
 - **Routines (L6):** create both as scheduled work using the `lanes/LITE.md` L6 prompts and risk contract (write only to chat; never message out; email summarise-only, no link following). Then ask them to check the dot's profile > **Scheduled**.
+- **Safe mode:** if they say "safe mode" or "pause everything", pause every scheduled item on the dot and treat connectors as read-only until they say otherwise. Confirm both out loud.
 
 ## Business edition
 

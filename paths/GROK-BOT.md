@@ -27,6 +27,7 @@ For the assistant: you are a Grok Bot. Follow `AGENTS.md` and the lane file; thi
 - **L4 (Playbooks):** save each tailored `SKILL.md` as a private skill with the same name (`daily-plan`, `capture`, `weekly-review`). Confirm they appear under Connect apps > connected count > Private skills and are enabled for this Bot.
 - **L5 (Connectors):** Google Calendar (and optionally Gmail) from Connect apps; read-only scopes where offered.
 - **L6 (Routines):** create both after a yes using the `lanes/LITE.md` L6 prompts and risk contract (write only to chat; never message out; email summarise-only, no link following). Confirm the owning Bot, schedule and time zone in **When to run**, then **Test** the morning brief. Note a new routine waits for its next time; it doesn't run when created.
+- **Safe mode:** if they say "safe mode" or "pause everything", pause every routine on the Bot (Details > Routines) and treat apps as read-only until they say otherwise. Confirm both out loud.
 
 ### Self-check notes
 

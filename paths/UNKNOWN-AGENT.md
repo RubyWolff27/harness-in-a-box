@@ -21,5 +21,6 @@ Tell the person in plain words, for example: "On this app I can remember you and
 ## Then
 
 - Run `lanes/LITE.md`. Wherever it says "the way your path guide says", use the column above.
+- **Safe mode:** if they say "safe mode" or "pause everything", pause every routine you can reach and treat every connector as read-only until they say otherwise. Confirm both out loud. If you cannot pause schedules on this app, tell them how to turn alarms off themselves.
 - Run `checks/SELF-CHECK.md`. Mark checks that this platform can't support as **N/A (platform)**, not as passes.
 - At hand-over, offer to draft a short "new platform" report for the repo (which app, version, probe answers), so a proper guide can be written. Draft it; the person decides whether to submit it.
