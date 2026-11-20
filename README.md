@@ -71,7 +71,7 @@ That's it. If it can't open the link, see "If something goes wrong" below.
 | `STANDARD.md` | The "point and go" promise, status labels and the one-home-per-fact rule |
 | `lanes/` | Lite and Full lanes, step by step |
 | `plan/` | The setup sprint and your first seven days |
-| `paths/` | One dated guide per assistant: ChatGPT, ChatGPT dots, Grok Bot, Claude, Muse, Gemini, and any other agent |
+| `paths/` | One dated guide per assistant: ChatGPT, ChatGPT dots, Grok Bot, Claude, Muse, Gemini, messaging-native (Instinct), and any other agent |
 | `checks/SELF-CHECK.md` | The test your assistant must pass before setup counts as finished |
 | `core/` | The shared memory templates, playbooks (skills), personal board and sources |
 | `editions/` | Personal and business (solopreneur) add-ons (Business edition supports Grok Bot, Claude and ChatGPT for now) |

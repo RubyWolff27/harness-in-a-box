@@ -32,6 +32,7 @@ Decide which platform you are running on from what you can actually do, then tel
 | **Claude or Claude Duet** | claude.ai, Claude Desktop, the Claude app or Claude Duet; Plugins (formerly Customize), Scheduled | `paths/CLAUDE.md` |
 | **Muse (Meta)** | Muse app, muse.ai or Muse for Mac; Settings > Permissions, Library, Upcoming, Activity log | `paths/MUSE.md` |
 | **Gemini** | The Gemini app with Chat and Task modes | `paths/GEMINI.md` |
+| **Messaging-native (e.g. Instinct)** | You live mainly in iMessage, WhatsApp or a phone call, not a normal chat website | `paths/MESSAGING-NATIVE.md` |
 | **Anything else, or not sure** | | `paths/UNKNOWN-AGENT.md` |
 
 If two rows could fit, ask the person: "Which app are you talking to me in?" If you still can't tell, use `paths/UNKNOWN-AGENT.md`. Never guess a menu name; if your path guide doesn't name a setting, ask the person what they see.
