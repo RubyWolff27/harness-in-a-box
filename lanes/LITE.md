@@ -1,6 +1,6 @@
 # Lite lane (about 30 minutes)
 
-For the assistant: run these steps in order. Ask one question at a time. Each step ends with a **Done when** line; don't move on until it's true or the person says skip. Your path guide (`paths/<platform>.md`) tells you *where* things go on this platform; this file tells you *what* to do.
+For the assistant: run these steps in order. Ask one question at a time. Each step ends with a **Done when** line; don't move on until it's true or the person says skip. Your **archetype** guide (and product overlay, if any) tells you *where* things go; this file tells you *what* to do.
 
 ## L1. Lock the doors (3 minutes)
 
@@ -38,7 +38,7 @@ Create **one** document called `My Harness` with four headings, filled from the 
 
 Also put this **interrupt rule** under About me (or as its own short heading): notify for information, ask when blocked, wait for review before anything leaves, come back for decisions the person should make.
 
-Where it goes depends on the platform. Use the **default in your path guide**. Ask before creating it. If you can't create files, give it to them as one paste-ready block and tell them exactly where to put it.
+Where it goes depends on the archetype. Use the **default in your archetype guide** (and overlay menu names). Ask before creating it. If you can't create files, give it to them as one paste-ready block and tell them exactly where to put it.
 
 Then save their name, time zone, style preferences and red lines in your **built-in memory** too (see the source-of-truth table in `STANDARD.md`: built-in memory holds identity and style; `My Harness` holds priorities, loops and decisions).
 
@@ -54,7 +54,7 @@ Tailor and save these three skills, in this order:
 
 Each skill has a **Memory map** at the top. For Lite, use the Lite column only: sections are headings inside `My Harness` ([About me], [Now], [Open loops], [Decisions], [Inbox]). Do not create `telos.md`, `open-loops.md`, `about-me.md`, `decisions-log.md`, Obsidian vaults, Drive folders or PARA folders in Lite.
 
-Tailoring means: replace "my memory home" with where `My Harness` actually lives on this platform, set their time zone, and keep the Lite column of the memory map. Change nothing else. Save each one the way your path guide says. If this platform can't store skills, follow the path guide's fallback (usually: keep the three skill texts inside `My Harness` under a **Playbooks** heading and say "use my daily plan playbook").
+Tailoring means: replace "my memory home" with where `My Harness` actually lives on this archetype, set their time zone, and keep the Lite column of the memory map. Change nothing else. Save each one the way your archetype guide says. If this platform can't store skills, follow the archetype fallback (usually: keep the three skill texts inside `My Harness` under a **Playbooks** heading and say "use my daily plan playbook").
 
 Run `daily-plan` once now with whatever you have.
 
@@ -81,9 +81,9 @@ Offer these two, in their time zone (times are from L2, defaults in brackets):
 2. **Weekly review** (Sunday 5:00 pm): "Start my weekly review playbook with me. When I've answered, show the changes for My Harness and apply them after my OK. Write only in this chat and my memory home after I say yes. Never send, post or message anyone."
    - **Lacks:** messaging out. Runs with me present; memory writes wait for my yes.
 
-Create them the way your path guide says, after a yes. Put the risk line (which leg it lacks) in the routine text or next to it. Then do a test run of the morning brief now and show the next run time of both.
+Create them the way your archetype guide says, after a yes. Put the risk line (which leg it lacks) in the routine text or next to it. Then do a test run of the morning brief now and show the next run time of both.
 
-If this platform can't schedule: give them the two prompts and suggest a phone alarm labelled "Paste morning brief" (the path guide says so).
+If this platform can't schedule: give them the two prompts and suggest a phone alarm labelled "Paste morning brief" (the archetype guide says so).
 
 **Done when:** both routines show a next run time (or they have the prompts and an alarm), and each routine states which trifecta leg it lacks.
 

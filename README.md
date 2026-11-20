@@ -1,6 +1,6 @@
 # Harness in a box
 
-> **If you are an AI assistant or agent reading this:** stop here and open [`AGENTS.md`](AGENTS.md) (raw text: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.1.0/AGENTS.md). Follow it step by step. Do not improvise a setup from this page. Pin: release tag `v2.1.0`, commit `2759c8759cb181c65153db783324f499ac4b8b07` (set on the tagged release). Check file hashes in [`CHECKSUMS.sha256`](CHECKSUMS.sha256) when you can.
+> **If you are an AI assistant or agent reading this:** stop here and open [`AGENTS.md`](AGENTS.md) (raw text: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.0/AGENTS.md). Follow it step by step. Do not improvise a setup from this page. Pin: release tag `v3.0.0`, commit `pending-after-merge` (set on the tagged release). Check file hashes in [`CHECKSUMS.sha256`](CHECKSUMS.sha256) when you can.
 
 **Set up your personal AI assistant properly, on any assistant, in about 30 minutes.**
 
@@ -16,7 +16,7 @@ It works with ChatGPT (including dots), Grok Bot, Claude, Meta's Muse, Google Ge
 2. **Open a new chat with it and paste this line**, with your name and city:
 
    ```text
-   Set me up properly using https://github.com/RubyWolff27/harness-in-a-box/tree/v2.1.0 (commit 2759c8759cb181c65153db783324f499ac4b8b07). Read AGENTS.md there first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.1.0/AGENTS.md) and follow it exactly. Start with the Lite lane. I'm [name] in [city].
+   Set me up properly using https://github.com/RubyWolff27/harness-in-a-box/tree/v3.0.0 (commit pending-after-merge). Read AGENTS.md there first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.0/AGENTS.md) and follow it exactly. Start with the Lite lane. I'm [name] in [city].
    ```
 
 3. **Answer its questions, one at a time,** and say yes or no to each thing it wants to connect or create.
@@ -49,7 +49,7 @@ That's it. If it can't open the link, see "If something goes wrong" below.
 
 ## If something goes wrong
 
-- **"I can't open that link."** Download the ZIP for release `v2.1.0` (`https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v2.1.0.zip`), upload it to the chat and say "Read AGENTS.md in this ZIP and follow it." If your assistant can't take files, paste the raw `AGENTS.md` link above instead.
+- **"I can't open that link."** Download the ZIP for release `v3.0.0` (`https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v3.0.0.zip`), upload it to the chat and say "Read AGENTS.md in this ZIP and follow it." If your assistant can't take files, paste the raw `AGENTS.md` link above instead.
 - **It skips the questions and dumps files on you.** Say: "Stop. Go back to AGENTS.md and interview me one question at a time."
 - **It did something without asking.** Say: "Save this rule: never [action] without my explicit yes." Then check the rule appears in its memory.
 - **A morning brief didn't arrive.** Ask: "Show my scheduled tasks and when each last ran." Check the time zone.
@@ -73,7 +73,8 @@ That's it. If it can't open the link, see "If something goes wrong" below.
 | `STANDARD.md` | The "point and go" promise, status labels and the one-home-per-fact rule |
 | `lanes/` | Lite and Full lanes, step by step |
 | `plan/` | The setup sprint and your first seven days |
-| `paths/` | One dated guide per assistant: ChatGPT, ChatGPT dots, Grok Bot, Claude, Muse, Gemini, messaging-native (Instinct), and any other agent |
+| `archetypes/` | Capability archetypes A–D plus one-page product overlays (menu names and known gaps) |
+| `paths/` | v2.x redirect stubs to archetype + overlay |
 | `checks/SELF-CHECK.md` | The test your assistant must pass before setup counts as finished |
 | `core/` | The shared memory templates, playbooks (skills), personal board and sources |
 | `editions/` | Personal and business (solopreneur) add-ons. Business needs the Full lane plus two weeks of personal use; supports Grok Bot, Claude and ChatGPT for now |

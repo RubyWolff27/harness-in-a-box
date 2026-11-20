@@ -24,6 +24,8 @@ Checked 21 Nov 2026 against each company's own help pages (links in `core/SOURCE
 | **Messaging-native (e.g. Instinct)** | Yes, inside iMessage / WhatsApp / calls | Invite-only at launch (Instinct); other products vary | Phone messaging apps | Instinct AU availability undocumented (unverified) | Watch (`paths/MESSAGING-NATIVE.md`) |
 | **Something else** | Depends | Depends | | | Use `paths/UNKNOWN-AGENT.md` |
 
+Kit v3 groups assistants by **archetype** (A chat-only, B memory+schedules, C always-on, D messaging-native). Product menu names live in `archetypes/overlays/`.
+
 **Ready** means volunteer-tested; **Beta** means written from current official docs and ready for or awaiting volunteer testing; **Draft** means press reports only; **Watch** means not widely available yet. See `STANDARD.md`.
 
 ## Honest trade-offs
