@@ -2,13 +2,13 @@
 
 Your harness needs one place where its memory lives: your Telos, about-me, open loops, decisions log and capture inbox. This page calls that place your **memory home**. The skills don't care which tool it is. They say "my memory home", and you pick one option below.
 
-Checked against Grok Bot's, Anthropic's and OpenAI's pages and the tools' own docs as of **October 2026**.
+Checked against Grok Bot's, Anthropic's and OpenAI's pages and the tools' own docs as of **November 2026**.
 
 ## The short answer
 
-**Use Option B: Google Docs in a `Harness` folder in your Google Drive, whichever path you choose.** It's the one memory home all three assistants can read and write.
+**Use Option B: Google Docs in a `Harness` folder in your Google Drive, whichever path you choose.** It's the one memory home any assistant with a Drive connector can read and write.
 
-- **All three paths can update it** (details per path below). If a write ever fails, the skill gives you paste-ready text instead.
+- **Supported paths can update it** (details per path below). If a write ever fails, the skill gives you paste-ready text instead.
 - **No weekly copy-paste or re-upload.**
 - **Nothing new to learn or pay for.** If you have a Google account you already have Drive, and the money tracker lives there as a Google Sheet.
 - **Works on your phone** through the Google Docs app, and from ChatGPT on web and mobile.

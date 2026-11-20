@@ -29,7 +29,7 @@ A skill is a written playbook for a job I repeat. Writing one takes 20 minutes a
 3. **Draft the SKILL.md** in the format below. Keep it under about 500 words. Write steps as instructions ("List...", "Ask...", "Draft..."). Describe the outcome you want more than every little step.
 4. **Test once.** Run the new skill on a real, low-stakes example in this chat. Check the result against its done-when list.
 5. **Fix** anything the test showed. Show me the final version.
-6. **Tell me where to save it:** a copy in my memory home (`Harness/Skills/` in Drive, or `05 Harness/Skills/[skill-name]/SKILL.md` if I use Obsidian), and upload a copy to the project's Sources as `skill-[skill-name].md`. Add a line to my decisions log: "[date] Added skill [name]. Review by [date]."
+6. **Tell me where to save it:** a copy in my memory home (`Harness/Skills/` in Drive, or `05 Harness/Skills/[skill-name]/SKILL.md` if I use Obsidian), and a copy in the platform's skill store or project files as `skill-[skill-name].md` (on ChatGPT, that is Project files / Sources). Add a line to my decisions log: "[date] Added skill [name]. Review by [date]."
 
 ## The house format
 ```text

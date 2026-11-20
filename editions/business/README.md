@@ -9,8 +9,8 @@ The Business edition currently supports **Grok Bot, Claude and ChatGPT (includin
 ## Prerequisites
 
 Before installing the business edition, you must have:
-1. **Core installed and working:** master prompt interview complete, memory home set up (Google Docs or Obsidian), personal board created, area routing working, harness edit ledger started.
-2. **Personal edition installed and used:** at least the morning brief and journal skills running for one to two weeks. You need the personal rhythm in place before adding business skills.
+1. **Full lane complete** on a supported assistant (`lanes/FULL.md`): master prompt, split memory home, personal board, edit ledger, and the Full playbooks working.
+2. **Two weeks of personal use** after that: morning brief and weekly review running on real days. Lite alone is not enough. You need the personal rhythm in place before adding business skills.
 
 ## Installation steps (about 90 minutes across three evenings)
 

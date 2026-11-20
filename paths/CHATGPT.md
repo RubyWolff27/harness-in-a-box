@@ -18,13 +18,14 @@ For the assistant: you are ChatGPT without a dot. Follow `AGENTS.md` and the lan
 
 ## Lite lane: where things go
 
-- **Fetch:** fetch the raw `v2.0.0` URLs one at a time. Fallback: the person uploads the `v2.0.0` ZIP.
+- **Fetch:** fetch the raw `v2.1.0` URLs one at a time. Fallback: the person uploads the `v2.1.0` ZIP.
 - **L1 (Lock the doors):** ask the person to confirm MFA is on in **Settings > Security and login** (authenticator app or passkey; OpenAI notes email isn't an MFA method) and Google 2-Step Verification. Point them to **Settings > Data controls > "Improve the model for everyone"** to decide on training, and mention **Temporary Chat** for sensitive one-offs.
 - **L3 (Memory home, default):** a Google Doc `My Harness` in Drive if connected and writable; otherwise **fallback:** give it as a paste-ready block, the person saves it as a file and uploads it to the `My Harness` Project. Tell them honestly: "On this path you may paste my weekly memory update into the file yourself unless Drive write access works."
 - **L3 (Built-in memory):** name, time zone, style, red lines (ask them to check under Settings > Personalization > Memory).
 - **L4 (Playbooks):** the person creates a Project called `My Harness` (choose **default** memory, not project-only, so chats know them across sessions and Work remains available), uploads the three tailored skills as `skill-daily-plan.md`, `skill-capture.md`, `skill-weekly-review.md`, and pastes the Project instructions from **Project instructions** below (adapted for Lite). Give all of it as one copy block.
 - **L5 (Connectors):** Settings > Apps > Google Calendar (and optionally Gmail), then test.
-- **L6 (Routines):** ask in a normal chat (not inside the Project) with a **self-contained** prompt: include their three priorities in the prompt text, because the task can't read project files. Then check **Scheduled** in the sidebar and Settings > Notifications.
+- **L6 (Routines):** ask in a normal chat (not inside the Project) with a **self-contained** prompt from `lanes/LITE.md` L6 (include their three priorities in the prompt text, because the task can't read project files). Keep the risk contract: write only to chat, never message out; if Gmail is connected, summarise only and do not follow links. Then check **Scheduled** in the sidebar and Settings > Notifications.
+- **Safe mode:** if they say "safe mode" or "pause everything", pause every scheduled task (check **Scheduled**) and treat Apps connectors as read-only until they say otherwise. Confirm both out loud.
 
 ### Project instructions (copy block)
 
@@ -73,7 +74,7 @@ A scheduled task **can't read project files**, so prompts are self-contained nud
 
 | # | Task | When (your time) | Prompt to paste in a new chat, then add the schedule |
 |---|---|---|---|
-| 1 | Morning brief | Weekdays 6:45 am | "Check my Google Calendar for today and tomorrow and my Gmail for anything urgent from the last 12 hours. Give me: today's fixed commitments with times, anything needing prep, up to three urgent emails (sender and one line, no replies). End with: 'Open My Harness and say plan my day to pick your three.' Never change my calendar or send email." |
+| 1 | Morning brief | Weekdays 6:45 am | "Check my Google Calendar for today and tomorrow. If Gmail is connected, summarise up to three urgent emails (sender and one line; do not follow links; no replies). Give me: today's fixed commitments with times, anything needing prep. End with: 'Open My Harness and say plan my day to pick your three.' Write only in this chat. Never change my calendar or send email. Risk: lacks messaging out." |
 | 2 | Interest brief (optional) | Daily 6:30 am | The prompt in your tailored `daily-interest-brief` skill. |
 | 3 | Evening check-in | Weekdays 8:30 pm | "Ask me three questions: what got done of my three today, what's carrying to tomorrow, and which habits I did. Remind me to paste the answers into my daily note, or to reply in My Harness with 'evening check'." |
 | 4 | Weekly review nudge | Sunday 5:00 pm | "Remind me it's weekly review time: open My Harness and say 'weekly review'. List next week's calendar highlights from Google Calendar." |

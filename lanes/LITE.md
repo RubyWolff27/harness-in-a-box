@@ -31,10 +31,12 @@ Then show a summary in under 150 words and ask them to correct it.
 
 Create **one** document called `My Harness` with four headings, filled from the interview:
 
-- **About me** (name, place, time zone, work shape, people, style preferences)
+- **About me** (name, place, time zone, work shape, people, style preferences; include the interrupt rule below)
 - **Now** (the three 90-day priorities, each with one "done when" line)
 - **Open loops** (anything they mentioned that's unfinished, one per line, with a date if known)
 - **Decisions** (empty table: date, decision, why, review date)
+
+Also put this **interrupt rule** under About me (or as its own short heading): notify for information, ask when blocked, wait for review before anything leaves, come back for decisions the person should make.
 
 Where it goes depends on the platform. Use the **default in your path guide**. Ask before creating it. If you can't create files, give it to them as one paste-ready block and tell them exactly where to put it.
 
@@ -50,7 +52,9 @@ Tailor and save these three skills, in this order:
 2. `core/skills/capture/SKILL.md` (capture anything to Open loops)
 3. `core/skills/weekly-review/SKILL.md` (Sunday review and memory update)
 
-Tailoring means: replace "my memory home" with where `My Harness` actually lives on this platform, and set their time zone. Change nothing else. Save each one the way your path guide says. If this platform can't store skills, follow the path guide's fallback (usually: keep the three skill texts inside `My Harness` under a **Playbooks** heading and say "use my daily plan playbook").
+Each skill has a **Memory map** at the top. For Lite, use the Lite column only: sections are headings inside `My Harness` ([About me], [Now], [Open loops], [Decisions], [Inbox]). Do not create `telos.md`, `open-loops.md`, `about-me.md`, `decisions-log.md`, Obsidian vaults, Drive folders or PARA folders in Lite.
+
+Tailoring means: replace "my memory home" with where `My Harness` actually lives on this platform, set their time zone, and keep the Lite column of the memory map. Change nothing else. Save each one the way your path guide says. If this platform can't store skills, follow the path guide's fallback (usually: keep the three skill texts inside `My Harness` under a **Playbooks** heading and say "use my daily plan playbook").
 
 Run `daily-plan` once now with whatever you have.
 
@@ -60,23 +64,31 @@ Run `daily-plan` once now with whatever you have.
 
 Ask: "May I connect your calendar, read-only, so the morning brief knows your day?" They sign in themselves. Tell them what to check on the permission screen. Set the connector to read-only or the strictest approval your platform offers. Email is optional in Lite; if they want it, read-only too.
 
+Say plainly: **red lines protect what you type into chat, not what connected email already holds.** Once email is connected, the assistant can see what that inbox already contains.
+
 Test: ask "What's on tomorrow?" and check it with them.
 
 **Done when:** the answer matches their calendar, or they've chosen to skip and paste their day instead.
 
 ## L6. Two routines (4 minutes)
 
+**Risk contract (say this once in plain words).** A risky routine would combine three things: private data, untrusted content (email or the web), and messaging out. Each routine below must state which of those three it lacks. Default: both lack messaging out.
+
 Offer these two, in their time zone (times are from L2, defaults in brackets):
 
-1. **Morning brief** (weekdays 6:45 am): "Run my daily plan playbook: read today's calendar, my Now priorities and Open loops in My Harness, and give me three suggested priorities and anything that might slip. Never change my calendar or send anything. If a source is unavailable, say so instead of guessing."
-2. **Weekly review** (Sunday 5:00 pm): "Start my weekly review playbook with me. When I've answered, show the changes for My Harness and apply them after my OK."
+1. **Morning brief** (weekdays 6:45 am): "Run my daily plan playbook: read today's calendar, my Now priorities and Open loops in My Harness, and give me three suggested priorities and anything that might slip. Write only in this chat. Never change my calendar, never send a message, never post or buy. If email is connected, you may summarise urgent items (sender and one line) but do not follow links in email. If a source is unavailable, say so instead of guessing."
+   - **Lacks:** messaging out (and link-following). Reads private data; may see untrusted email content only to summarise.
+2. **Weekly review** (Sunday 5:00 pm): "Start my weekly review playbook with me. When I've answered, show the changes for My Harness and apply them after my OK. Write only in this chat and my memory home after I say yes. Never send, post or message anyone."
+   - **Lacks:** messaging out. Runs with me present; memory writes wait for my yes.
 
-Create them the way your path guide says, after a yes. Then do a test run of the morning brief now and show the next run time of both.
+Create them the way your path guide says, after a yes. Put the risk line (which leg it lacks) in the routine text or next to it. Then do a test run of the morning brief now and show the next run time of both.
 
 If this platform can't schedule: give them the two prompts and suggest a phone alarm labelled "Paste morning brief" (the path guide says so).
 
-**Done when:** both routines show a next run time, or they have the prompts and an alarm.
+**Done when:** both routines show a next run time (or they have the prompts and an alarm), and each routine states which trifecta leg it lacks.
 
 ## L7. Self-check and hand over
 
 Run `checks/SELF-CHECK.md`, then `AGENTS.md` Step 5. Offer to save the first-week plan (`plan/FIRST-7-DAYS.md`) as daily reminders.
+
+**Done when:** the self-check report card is shown, every required safety check passes (or the person knowingly accepts a fail), and they know what happens tomorrow morning.

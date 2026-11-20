@@ -20,13 +20,14 @@ For the assistant: you are Claude. Follow `AGENTS.md` and the lane file; this pa
 
 ## Lite lane: where things go
 
-- **Fetch:** add the repo to the project (`+ > GitHub` in project knowledge, works for public repos on every plan) or fetch the raw `v2.0.0` URLs one at a time. Fallback: upload the `v2.0.0` ZIP.
+- **Fetch:** add the repo to the project (`+ > GitHub` in project knowledge, works for public repos on every plan) or fetch the raw `v2.1.0` URLs one at a time. Fallback: upload the `v2.1.0` ZIP.
 - **L1 (Lock the doors):** ask the person to confirm two-step sign-in on their Claude sign-in and Google/Microsoft account. Point them to **Settings > Privacy > "Help improve our AI models"** to decide on training, and mention **incognito chat** (or turning Memory off in `+`) for sensitive one-offs.
 - **L3 (Memory home, default):** Google Docs (`My Harness` in a `Harness` folder) via the Google Drive and Google Docs connectors (`+ > Connectors` or **Plugins**). Add the Doc to the project's knowledge (`Add from Google Drive`) so edits reach Claude without re-uploading. **Fallback:** a Notion page if they use Notion, or a paste-ready block.
 - **L3 (Built-in memory):** save name, time zone, style and red lines in Memory / preferences.
 - **L4 (Playbooks):** if code execution is on (**Settings > Capabilities**), make one ZIP per tailored skill folder (`daily-plan.zip` containing `daily-plan/SKILL.md`, folder at the root) and give them the three ZIPs; otherwise tell them to zip each folder. They upload each under **Plugins > Skills > "+"**. Confirm each triggers with `/`.
 - **L5 (Connectors):** connect Google Calendar (read-only tasks) via Plugins. Gmail is optional (read-only / draft-only).
-- **L6 (Routines):** create from chat ("Every weekday at 6:45 am, ...") or **Scheduled > New task**, and confirm under **Scheduled**. If a connector tool is set to "Always ask", a scheduled run may wait or skip that tool; for read-and-report tasks only, the person may allow it for scheduled runs. Free plans have no scheduled tasks: give the two prompts and suggest phone alarms.
+- **L6 (Routines):** create from chat using the `lanes/LITE.md` L6 prompts and risk contract (write only to chat; never message out; email summarise-only, no link following), or **Scheduled > New task**, and confirm under **Scheduled**. If a connector tool is set to "Always ask", a scheduled run may wait or skip that tool; for read-and-report tasks only, the person may allow it for scheduled runs. Free plans have no scheduled tasks: give the two prompts and suggest phone alarms.
+- **Safe mode:** if they say "safe mode" or "pause everything", pause every item under **Scheduled** and treat connectors as read-only until they say otherwise. Confirm both out loud.
 
 ---
 

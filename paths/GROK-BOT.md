@@ -20,13 +20,14 @@ For the assistant: you are a Grok Bot. Follow `AGENTS.md` and the lane file; thi
 
 ## Lite lane: where things go
 
-- **Fetch:** `git clone --branch v2.0.0 --depth 1 https://github.com/RubyWolff27/harness-in-a-box` or download the `v2.0.0` ZIP to your computer, read-only.
+- **Fetch:** `git clone --branch v2.1.0 --depth 1 https://github.com/RubyWolff27/harness-in-a-box` or download the `v2.1.0` ZIP to your computer, read-only.
 - **L1 (Lock the doors):** ask the person to confirm two-step sign-in is on for Grok Bot and Google/Microsoft. Point them to **Settings > General > Vault** for storing logins, cards and contact details without the Bot seeing the values (they can import from 1Password, Chrome, Safari or Bitwarden, or connect 1Password under Connect apps > Password Managers).
 - **L3 (Memory home, default):** Google Docs in a `Harness` folder in Google Drive, using a Drive connector from Connect apps or your browser after the person signs in themselves. **Fallback:** Markdown files in a `Harness` folder (Drive, or a private GitHub repo if they're comfortable).
 - **L3 (Built-in memory):** name, time zone, style, red lines.
 - **L4 (Playbooks):** save each tailored `SKILL.md` as a private skill with the same name (`daily-plan`, `capture`, `weekly-review`). Confirm they appear under Connect apps > connected count > Private skills and are enabled for this Bot.
 - **L5 (Connectors):** Google Calendar (and optionally Gmail) from Connect apps; read-only scopes where offered.
-- **L6 (Routines):** create both after a yes, confirm the owning Bot, schedule and time zone in **When to run**, then **Test** the morning brief. Note a new routine waits for its next time; it doesn't run when created.
+- **L6 (Routines):** create both after a yes using the `lanes/LITE.md` L6 prompts and risk contract (write only to chat; never message out; email summarise-only, no link following). Confirm the owning Bot, schedule and time zone in **When to run**, then **Test** the morning brief. Note a new routine waits for its next time; it doesn't run when created.
+- **Safe mode:** if they say "safe mode" or "pause everything", pause every routine on the Bot (Details > Routines) and treat apps as read-only until they say otherwise. Confirm both out loud.
 
 ### Self-check notes
 
@@ -81,7 +82,7 @@ Create each routine after an explicit yes, then run **Test** before relying on i
 
 | Routine | Ask the Bot |
 |---|---|
-| Morning brief | "Every weekday at 6:45 am [your city] time, run my daily-plan skill: read my calendar, any urgent email from the last 12 hours, my Open loops and my Telos priorities, and post my brief here with three suggested priorities. Never change my calendar or send email. If a source is unavailable, say so instead of using old data." |
+| Morning brief | "Every weekday at 6:45 am [your city] time, run my daily-plan skill: read my calendar, my Open loops and my Now priorities, and post my brief here with three suggested priorities. Write only in this chat. Never change my calendar or send email. If email is connected, summarise urgent items (sender and one line) but do not follow links. Risk: lacks messaging out. If a source is unavailable, say so instead of using old data." |
 | Interest brief (optional) | "Every day at 6:30 am [your city] time, run my [brief skill name] skill and post it here." (Tailor `daily-interest-brief` first.) |
 | Evening check-in | "Every weekday at 8:30 pm, ask me what got done of my three, what carries to tomorrow and which habits I did. When I answer, update Open loops and the habit scores in Telos." |
 | Inbox tidy | "Every Sunday at 4:00 pm, sort the Inbox Doc: move tasks to Open loops, ideas to the right PARA folder, and tell me what you moved. Delete nothing." |

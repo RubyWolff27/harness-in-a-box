@@ -1,6 +1,6 @@
 # Board persona cards
 
-Paste this file into your project's Sources with the personal-board skill. During setup, fill in the "About me" line on each card so the member knows what you want from them. Keep cards short; a sharp brief beats a long biography.
+Paste this file into your memory home (and into the platform's project files or skill store if it has one) with the personal-board skill. During setup, fill in the "About me" line on each card so the member knows what you want from them. Keep cards short; a sharp brief beats a long biography.
 
 **Your board is chosen during setup.** The Chair, the Contrarian and the Conscience always sit. The other seats below are a menu: keep the ones that fit your life, drop the rest, and rename or add seats (for example "The Creative", "The Founder", "The Parent", "The Athlete"). Six to ten seats is plenty.
 
