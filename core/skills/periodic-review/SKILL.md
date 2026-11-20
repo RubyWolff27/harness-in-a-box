@@ -12,8 +12,8 @@ Daily plans keep the day on track, weekly reviews keep the week on track. These 
 2. **Money.** Run the money-manager monthly check-in (budget, bills, goals, net worth row).
 3. **Habits.** From my daily notes, score each habit in `telos.md`: hit rate for the month. Which one to keep, adjust or drop?
 4. **Goals pulse.** One line per goal: on track, behind or stuck.
-5. **Memory clean-up.** Remind me to read my assistant's own memory (ChatGPT: Settings > Personalization > Memory; Claude: Settings > Memory; Grok Bot: ask it what it remembers) and delete anything wrong or sensitive. Suggest lines to archive from `open-loops.md`.
-6. **Archive.** Finished projects to `04 Archive` (memory home and Drive).
+5. **Drift check (5 minutes, every platform).** Do the compare from `STANDARD.md`: read your built-in memory, compare it with [About me] and [Now] in my memory home, and list every difference. I decide which side is right; you fix the other. Also delete anything wrong or sensitive from built-in memory (ChatGPT: Settings > Personalization > Memory; Claude: Settings > Memory; Grok Bot / Muse / others: ask what you remember, or open the platform memory page). Suggest lines to archive from [Open loops].
+6. **Archive.** Finished projects to `04 Archive` (memory home and Drive), if I use those folders.
 7. **Memory update block** (format below).
 
 ## Quarterly review (every 3 months, 60 to 90 minutes)
@@ -39,6 +39,7 @@ open-loops.md: [archived or added]
 - Money and investing: general information only, not financial advice.
 
 ## Done when
-- [ ] (Monthly) money, habits and memory clean-up all done.
+- [ ] (Monthly) money, habits, drift check and memory clean-up all done.
+- [ ] (Monthly) every built-in-memory vs memory-home difference was listed and resolved by me.
 - [ ] (Quarterly) every goal rescored with evidence; three new 90-day priorities with done-when checks.
 - [ ] A memory update block was produced.
