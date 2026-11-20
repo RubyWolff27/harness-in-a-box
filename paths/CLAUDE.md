@@ -20,7 +20,7 @@ For the assistant: you are Claude. Follow `AGENTS.md` and the lane file; this pa
 
 ## Lite lane: where things go
 
-- **Fetch:** add the repo to the project (`+ > GitHub` in project knowledge, works for public repos on every plan) or fetch the raw `v2.0.0` URLs one at a time. Fallback: upload the `v2.0.0` ZIP.
+- **Fetch:** add the repo to the project (`+ > GitHub` in project knowledge, works for public repos on every plan) or fetch the raw `v2.1.0` URLs one at a time. Fallback: upload the `v2.1.0` ZIP.
 - **L1 (Lock the doors):** ask the person to confirm two-step sign-in on their Claude sign-in and Google/Microsoft account. Point them to **Settings > Privacy > "Help improve our AI models"** to decide on training, and mention **incognito chat** (or turning Memory off in `+`) for sensitive one-offs.
 - **L3 (Memory home, default):** Google Docs (`My Harness` in a `Harness` folder) via the Google Drive and Google Docs connectors (`+ > Connectors` or **Plugins**). Add the Doc to the project's knowledge (`Add from Google Drive`) so edits reach Claude without re-uploading. **Fallback:** a Notion page if they use Notion, or a paste-ready block.
 - **L3 (Built-in memory):** save name, time zone, style and red lines in Memory / preferences.

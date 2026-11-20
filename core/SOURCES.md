@@ -15,7 +15,7 @@ Bonus: [Tiago Forte, Building a Second Brain, Talks at Google](https://www.youtu
 
 ## The thinking behind the kit
 
-- Ruby Wolff, *I Built My Own Agent Graveyard*, Gem Alpha GA-13 (9 October 2026): https://gemalpha.app/editions/agent-graveyard
+- *I Built My Own Agent Graveyard*, Gem Alpha GA-13 (9 October 2026): https://gemalpha.app/editions/agent-graveyard
 - Daniel Miessler, *The Entire Game for AI Is Articulation of Ideal State* (23 July 2026), the "brief is the bottleneck" point: https://danielmiessler.com/blog/ai-ideal-state-articulation
 - Daniel Miessler, *From Prompt Engineering to Intent Engineering* (11 July 2026), describe the outcome, not the steps: https://danielmiessler.com/blog/intent-engineering
 - Personal AI Infrastructure on GitHub (now named LifeOS; the old link redirects): https://github.com/danielmiessler/Personal_AI_Infrastructure
@@ -133,9 +133,9 @@ The study, work, money, investment and daily-interest-brief skills are templates
 - Whether ChatGPT's and Claude's apps reliably open a raw GitHub URL pasted in chat. Both usually can with web search on, but I couldn't test it, hence the ZIP fallback.
 - Claude: the list of scheduled-task approval modes, and whether a scheduled task can edit a Google Doc with nobody watching.
 - Grok Bot: which Google connectors Marketplace offers on your plan, and the price in your currency.
-- Prices in your local currency for any of the three (all three list US dollars or vary by country).
+- Prices in your local currency for ChatGPT, Claude and Grok Bot (each lists US dollars or varies by country).
 
-- The maximum number of files in a project's Sources on Plus (the ChatGPT path uses 9 files at first and up to 16 after Week 3). If you hit a limit, combine the optional module skills into one file (`CHATGPT.md` Step 2).
+- The maximum number of files in a ChatGPT project's files (Sources) on Plus (the ChatGPT path uses 9 files at first and up to 16 after Week 3). If you hit a limit, combine the optional module skills into one file (`paths/CHATGPT.md` Full lane).
 
 - Whether ChatGPT's Google Drive app reliably reads plain `.md` files (only matters if you keep Obsidian in Drive). Google Docs are supported.
 - Whether Notion writes and developer mode work on Plus (OpenAI's pages disagree).

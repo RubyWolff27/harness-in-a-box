@@ -12,7 +12,7 @@ Better decisions from many lenses, without letting the loudest one win.
 - One member for a quick second opinion; the full board for life-sized decisions.
 
 ## What you need
-- The board persona cards (`board/personas.md`, in Sources or as the Board personas doc in my memory home), with my "About me" lines filled in.
+- The board persona cards (`board/personas.md`, in my memory home or project files), with my "About me" lines filled in.
 - My master prompt and `about-me.md` (values and priorities).
 - The decision: what I'm deciding, options, deadline, what I already know.
 

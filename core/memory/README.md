@@ -13,7 +13,7 @@ The fourth kind of memory, *how to do things*, lives in your skills.
 
 ## Where memory lives
 
-Pick your **memory home** first: see `MEMORY-LAYERS.md`. The kit's default is Google Docs in a `Harness` folder in Google Drive (all three paths can read and update them). Obsidian is the optional alternative.
+Pick your **memory home** first: see `MEMORY-LAYERS.md`. The kit's default is Google Docs in a `Harness` folder in Google Drive (any path with a Drive connector can read and update them). Obsidian is the optional alternative.
 
 - **The record:** these files, in your memory home (default: Google Docs in `My Drive/Harness/`; or Obsidian at `05 Harness/Memory/`). You own them, and they export to plain text, so they'll work with any AI tool.
 - **How your assistant sees them:** live through Google Drive (Grok Bot's connector or browser, Claude's Drive connector, ChatGPT's Drive app), or as copies uploaded to the project (Obsidian on ChatGPT). Each assistant's own memory is only a helpful copy.
@@ -42,7 +42,7 @@ On ChatGPT:
 
 
 - **Google Docs (default):** ChatGPT finds and reads them live through the Google Drive app, or you @mention a Doc from Library. Ask "Open my Open loops doc" or "What did I decide about the car?". Scheduled tasks can use connected apps, but OpenAI's page names Gmail, Slack and GitHub as examples; test whether your morning brief can read the Open loops doc.
-- **Project Sources:** your master prompt, skills and board cards (they rarely change) live here. Always works.
+- **Project files (ChatGPT calls this Sources):** your master prompt, skills and board cards (they rarely change) live here. Always works.
 - **Obsidian:** ChatGPT on web and phone **can't open the Obsidian folder on your computer**. Upload changed files weekly, paste notes, or use Work or Codex in the desktop app with the vault folder ("read only").
 
 Search in Drive (or Obsidian) is still the fastest way to find a specific note. The AI is for thinking with what you find.

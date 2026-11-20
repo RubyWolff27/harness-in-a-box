@@ -10,17 +10,17 @@ Paste the repo link and one prompt into your assistant, and it sets the harness 
 
 **1. Grok Bot**
 ```text
-Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box/tree/v2.0.0. Clone it, read AGENTS.md first and follow it: interview me, create my Google Docs memory home, save the skills and create my routines. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
+Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box/tree/v2.1.0. Clone it, read AGENTS.md first and follow it: interview me, create my Google Docs memory home, save the skills and create my routines. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
 ```
 
 **2. Claude**
 ```text
-Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.0.0/AGENTS.md) and follow it for Claude. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
+Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.1.0/AGENTS.md) and follow it for Claude. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
 ```
 
 **3. ChatGPT**
 ```text
-Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.0.0/AGENTS.md) and follow it for ChatGPT. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
+Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.1.0/AGENTS.md) and follow it for ChatGPT. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
 ```
 
 **If it can't open the link:** on the repo page click **Code > Download ZIP**, upload the ZIP to the chat, and say "Read AGENTS.md in this ZIP and follow it." On Claude you can also add the repo to a project (project knowledge > + > GitHub). What each assistant can and can't do by itself is in `AGENTS.md`; the step-by-step guides are the fallback.
@@ -201,7 +201,7 @@ personal-harness-template/
 
 ## Where the ideas come from
 
-- Ruby Wolff, *I Built My Own Agent Graveyard* (Gem Alpha GA-13): one meta agent in a harness, calling a library of skills.
+- *I Built My Own Agent Graveyard* (Gem Alpha GA-13): one meta agent in a harness, calling a library of skills.
 - Daniel Miessler's Personal AI Infrastructure (now LifeOS): the think, plan, execute, verify, learn loop, and his point that the real bottleneck is describing the ideal state.
 - Tiago Forte, *Building a Second Brain*: PARA (Projects, Areas, Resources, Archive) and CODE (Capture, Organise, Distil, Express).
 - Nick Milo, Linking Your Thinking: Obsidian, home notes and maps of content.

@@ -31,7 +31,7 @@ Show them the drafts and fix what they correct.
 
 ## F3. Memory home: Google Docs in Drive (default)
 
-Explain in two lines why Google Docs is the default (all three assistants can read and update it; no re-uploading). Ask: "May I connect your Google Drive and create a Harness folder with your memory Docs?"
+Explain in two lines why Google Docs is the default (any assistant with a Drive connector can read and update it; no re-uploading). Ask: "May I connect your Google Drive and create a Harness folder with your memory Docs?"
 - **If yes and you can** (Drive connector, Google Docs connector, or your own browser on Grok Bot): create `My Drive/Harness/` with Google Docs **Telos, About me, Open loops, Decisions log, Inbox, Master Prompt** (Board personas comes in F6), filled from F2 and the templates. Also create `0 Inbox`, `1 Projects`, `2 Areas` (Home, Money, Health, Car), `3 Resources`, `4 Archive`. Ask the user to sign in themselves; never handle their password.
 - **If you can't create files:** give each Doc as a paste-ready block with its name, and tell them exactly where to make it.
 - If they'd rather use Obsidian or Notion, see `core/memory/MEMORY-LAYERS.md` (and "Prefer Obsidian?" in `paths/GROK-BOT.md`).

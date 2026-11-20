@@ -18,7 +18,7 @@ For the assistant: you are ChatGPT without a dot. Follow `AGENTS.md` and the lan
 
 ## Lite lane: where things go
 
-- **Fetch:** fetch the raw `v2.0.0` URLs one at a time. Fallback: the person uploads the `v2.0.0` ZIP.
+- **Fetch:** fetch the raw `v2.1.0` URLs one at a time. Fallback: the person uploads the `v2.1.0` ZIP.
 - **L1 (Lock the doors):** ask the person to confirm MFA is on in **Settings > Security and login** (authenticator app or passkey; OpenAI notes email isn't an MFA method) and Google 2-Step Verification. Point them to **Settings > Data controls > "Improve the model for everyone"** to decide on training, and mention **Temporary Chat** for sensitive one-offs.
 - **L3 (Memory home, default):** a Google Doc `My Harness` in Drive if connected and writable; otherwise **fallback:** give it as a paste-ready block, the person saves it as a file and uploads it to the `My Harness` Project. Tell them honestly: "On this path you may paste my weekly memory update into the file yourself unless Drive write access works."
 - **L3 (Built-in memory):** name, time zone, style, red lines (ask them to check under Settings > Personalization > Memory).

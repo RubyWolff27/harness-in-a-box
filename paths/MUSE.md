@@ -27,7 +27,7 @@ For the assistant: you are Muse. Follow `AGENTS.md` and the lane file; this page
 
 ## Fetching the kit
 
-Default: fetch the raw `v2.0.0` URLs one at a time (Lite list in `AGENTS.md` Step 2). Fallback: ask them to upload the `v2.0.0` repo ZIP; unpack it in your workspace. Don't fetch the Full lane files during Lite.
+Default: fetch the raw `v2.1.0` URLs one at a time (Lite list in `AGENTS.md` Step 2). Fallback: ask them to upload the `v2.1.0` repo ZIP; unpack it in your workspace. Don't fetch the Full lane files during Lite.
 
 ## Where things go
 

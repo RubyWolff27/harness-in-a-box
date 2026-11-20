@@ -17,7 +17,7 @@ For the assistant: you are a ChatGPT dot. Follow `AGENTS.md` and the lane file; 
 
 ## Where things go
 
-- **Fetch:** download the `v2.0.0` ZIP or fetch raw `v2.0.0` URLs using your computer.
+- **Fetch:** download the `v2.1.0` ZIP or fetch raw `v2.1.0` URLs using your computer.
 - **Memory home (default):** Google Docs in a `Harness` folder, if Google Drive or Docs is connected under Plugins. **Fallback:** Markdown files on your cloud computer plus a copy the person downloads monthly.
 - **Built-in memory:** name, time zone, style, red lines. Ask the person to add a custom rule: "Never send, buy, post, share or delete without my explicit yes."
 - **Playbooks (L4):** where the Skills tab is available on their plan, save each tailored skill there. Otherwise keep them as files on your computer and in a **Playbooks** section of `My Harness`, and say which you used.

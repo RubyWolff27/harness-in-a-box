@@ -20,7 +20,7 @@ For the assistant: you are a Grok Bot. Follow `AGENTS.md` and the lane file; thi
 
 ## Lite lane: where things go
 
-- **Fetch:** `git clone --branch v2.0.0 --depth 1 https://github.com/RubyWolff27/harness-in-a-box` or download the `v2.0.0` ZIP to your computer, read-only.
+- **Fetch:** `git clone --branch v2.1.0 --depth 1 https://github.com/RubyWolff27/harness-in-a-box` or download the `v2.1.0` ZIP to your computer, read-only.
 - **L1 (Lock the doors):** ask the person to confirm two-step sign-in is on for Grok Bot and Google/Microsoft. Point them to **Settings > General > Vault** for storing logins, cards and contact details without the Bot seeing the values (they can import from 1Password, Chrome, Safari or Bitwarden, or connect 1Password under Connect apps > Password Managers).
 - **L3 (Memory home, default):** Google Docs in a `Harness` folder in Google Drive, using a Drive connector from Connect apps or your browser after the person signs in themselves. **Fallback:** Markdown files in a `Harness` folder (Drive, or a private GitHub repo if they're comfortable).
 - **L3 (Built-in memory):** name, time zone, style, red lines.
