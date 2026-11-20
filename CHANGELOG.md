@@ -2,6 +2,23 @@
 
 Versions follow `MAJOR.MINOR.PATCH`. Minor versions add guides or skills without changing how existing ones work.
 
+## v2.1.0 (21 Nov 2026)
+
+Non-breaking hardening from the research board review. Reader prompts change by version number and commit pin only.
+
+- **Memory map (D1):** Lite playbooks use logical sections `[Now]`, `[Open loops]`, `[Decisions]`, `[Inbox]` with a Lite/Full lookup table. L4 forbids Full-only files, Obsidian and PARA.
+- **Pin + checksums (D2):** prompts cite tag `v2.1.0` and a commit pin; `CHECKSUMS.sha256` plus `scripts/generate-checksums.sh`; agents verify when they can. Self-limiting line in `AGENTS.md`.
+- **Behavioural safety (D3):** `checks/fixtures/` sample email and web note; self-check 8 runs capture on them.
+- **Rules only from the person (D4):** new rules quoted back word for word with a date; self-check 10; day 5 and harness-change updated.
+- **Routine risk contracts (D8):** each Lite routine states which trifecta leg it lacks; morning brief writes only to chat; email summarise-only, no link following.
+- **Safe mode:** one phrase pauses every routine and drops connectors to read-only (README and every path).
+- **Messaging-native path (D12):** `paths/MESSAGING-NATIVE.md` (Watch) with Instinct notes; wired into Step 0 and `CHOOSER.md`.
+- **Stale text sweep (D5, D14):** no "three assistants" leftovers; author name neutralised on the reader path.
+- **Business prerequisites (D6):** Full lane plus two weeks of personal use.
+- **Drift check (D7):** periodic-review step 5 is the STANDARD five-minute compare on every platform.
+- **Interrupt rule (D13):** master prompt section 10 and Lite memory; who's-the-boss self-check; kit is for adults; L5 notes red lines cover what you type, not connected email contents.
+- Audit: `docs/audits/AUDIT-v2.1.md`.
+
 ## v2.0.0 (21 Nov 2026)
 
 - **One entry point, pinned to `v2.0.0`.** `AGENTS.md` moves to the repo root and works for any assistant. `core/AGENTS.md` is a redirect stub so v1 prompts keep working. Reader prompts and raw links target release tag `v2.0.0`.

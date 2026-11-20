@@ -90,3 +90,5 @@ If this platform can't schedule: give them the two prompts and suggest a phone a
 ## L7. Self-check and hand over
 
 Run `checks/SELF-CHECK.md`, then `AGENTS.md` Step 5. Offer to save the first-week plan (`plan/FIRST-7-DAYS.md`) as daily reminders.
+
+**Done when:** the self-check report card is shown, every required safety check passes (or the person knowingly accepts a fail), and they know what happens tomorrow morning.
