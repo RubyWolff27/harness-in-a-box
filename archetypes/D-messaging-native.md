@@ -10,7 +10,7 @@ Example: Instinct (Watch). Overlay: `archetypes/overlays/instinct.md`.
 2. **Drafts you send.** Every outbound message is a draft they copy or approve. Re-send this rule in the weekly review.
 3. **Shorter seed.** Standing instructions must fit in one message (under about 1,500 characters). Use the seed in the Instinct overlay; do not paste whole skill texts into the thread.
 4. **After disconnect.** Ask what text is still kept and how to clear it; record the answer in `My Harness`.
-5. **Safe mode.** Pause every routine you can reach; connectors read-only until they say otherwise. Confirm both out loud.
+5. **Safe mode / storm.** Pause every routine you can reach; connectors read-only until they say otherwise. Confirm both out loud.
 6. **Messaging out** on this archetype means any iMessage, WhatsApp, email or payment action. Lite routines must lack it.
 
 ## Capability defaults (Lite)

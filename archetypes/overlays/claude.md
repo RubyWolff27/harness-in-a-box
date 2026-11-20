@@ -11,7 +11,7 @@ Status: **Beta**. Checked against: Claude Help Center (scheduled tasks, Plugins,
 | Skills | **Plugins** > Skills (upload ZIP per skill folder); needs cloud code execution |
 | Connectors | `+` > Connectors or Plugins |
 | Routines | **Scheduled** in the left sidebar (paid plans) |
-| Safe mode | Pause every Scheduled item; connectors read-only |
+| Safe mode / storm | Pause every Scheduled item; connectors read-only |
 | Duet | Separate phone app when available; keep weekly review |
 
 ## Known gaps

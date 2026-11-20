@@ -10,7 +10,7 @@ Status: **Draft** (press reports; Google help pages not checked line by line). C
 | Memory home | Google Doc `My Harness` in Drive (same Google account) |
 | Playbooks | Playbooks section in `My Harness`, or Gems if available (unverified for Task mode) |
 | Routines | Ask Gemini to schedule; if it cannot, phone alarms |
-| Safe mode | Pause scheduled tasks; connectors read-only |
+| Safe mode / storm | Pause scheduled tasks; connectors read-only |
 
 ## Known gaps
 

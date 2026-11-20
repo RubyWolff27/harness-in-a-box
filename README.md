@@ -4,7 +4,7 @@
 
 **Set up your personal AI assistant properly, on any assistant, in about 30 minutes.**
 
-This kit is for adults. It assumes you can approve sends, money and privacy choices for yourself.
+This kit is for adults. It assumes you can approve sends, money and privacy choices for yourself. It is not a child account product. If a household shares a device, keep red lines and approvals on the adult's account; do not set the kit up as a child-directed assistant.
 
 Most assistants come with a "tell me about yourself" setup that takes two minutes and is forgotten by Friday. This kit is the next level: a written memory you own, a few playbooks that do real jobs, a morning brief that arrives on time, and firm rules about what needs your yes.
 
@@ -58,7 +58,7 @@ That's it. If it can't open the link, see "If something goes wrong" below.
 
 ## How to stop, pause or move house
 
-- **Safe mode (one phrase):** say **"safe mode"** (or "pause everything"). That means: pause every routine and scheduled task now, and treat every connector as read-only until you say otherwise. Ask it to confirm both parts out loud. Use this when something feels wrong.
+- **Safe mode / storm (one phrase):** say **"safe mode"**, **"storm"**, or **"pause everything"**. That means: pause every routine and scheduled task now, and treat every connector as read-only until you say otherwise. Ask it to confirm both parts out loud. Use this when something feels wrong.
 - **Pause:** "Pause all my scheduled tasks." Check the platform's scheduled list shows them paused.
 - **Stop:** cancel each routine, disconnect each app in the platform's connector settings, and ask it to forget what you don't want kept. Disconnecting stops new access; it doesn't erase what was already learned, so also check its memory page.
 - **Move to another assistant:** keep `My Harness` (or your `Harness` folder) and your tailored playbooks. Paste the link into the new assistant and say "I already have a memory home; start the Lite lane at L4."

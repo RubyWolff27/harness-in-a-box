@@ -14,7 +14,7 @@ Examples: ChatGPT Plus Projects, Claude (paid), Gemini Tasks (when schedules wor
 | Playbooks | Platform skill store if available; else project files / Playbooks section in `My Harness` |
 | Routines | Create the two `lanes/LITE.md` L6 prompts with risk contracts; confirm next run times |
 | Calendar | Read-only connector after a yes |
-| Safe mode | Pause every scheduled task; connectors read-only until they say otherwise |
+| Safe mode / storm | Pause every scheduled task; connectors read-only until they say otherwise |
 
 ## Product overlay
 

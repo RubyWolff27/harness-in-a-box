@@ -12,7 +12,7 @@ Status: **Beta** (awaiting maintainer test on an AU account). Checked against: M
 | Connectors | Settings > Connectors |
 | Routines | Ask in chat; list under assistant icon > **Upcoming** |
 | Activity | Activity log (assistant icon) |
-| Safe mode | Cancel/pause every Upcoming task; permissions read-only |
+| Safe mode / storm | Cancel/pause every Upcoming task; permissions read-only |
 | Side chat (self-check) | Menu > pencil icon |
 
 ## Known gaps

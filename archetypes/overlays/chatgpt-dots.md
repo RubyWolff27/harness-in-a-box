@@ -11,7 +11,7 @@ Status: **Beta**. Checked against: OpenAI Help Center, "Getting started with you
 | Apps | Dot profile > Customize > Plugins |
 | Routines | Dot profile > **Scheduled** |
 | Approvals | Built-in safeguards plus custom rules |
-| Safe mode | Pause every Scheduled item on the dot; connectors read-only |
+| Safe mode / storm | Pause every Scheduled item on the dot; connectors read-only |
 
 ## Known gaps
 

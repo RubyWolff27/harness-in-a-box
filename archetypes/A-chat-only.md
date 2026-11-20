@@ -12,7 +12,7 @@
 | Playbooks | Keep under a **Playbooks** heading in `My Harness` |
 | Routines | Give the two `lanes/LITE.md` L6 prompts and suggest phone alarms |
 | Calendar | They paste tomorrow's day into the morning prompt |
-| Safe mode | Tell them how to turn alarms off; treat any connector as read-only |
+| Safe mode / storm | Tell them how to turn alarms off; treat any connector as read-only |
 
 ## Product overlay
 

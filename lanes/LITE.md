@@ -81,14 +81,18 @@ Offer these two, in their time zone (times are from L2, defaults in brackets):
 2. **Weekly review** (Sunday 5:00 pm): "Start my weekly review playbook with me. When I've answered, show the changes for My Harness and apply them after my OK. Write only in this chat and my memory home after I say yes. Never send, post or message anyone."
    - **Lacks:** messaging out. Runs with me present; memory writes wait for my yes.
 
-Create them the way your archetype guide says, after a yes. Put the risk line (which leg it lacks) in the routine text or next to it. Then do a test run of the morning brief now and show the next run time of both.
+Create them the way your archetype guide says, after a yes. Put the risk line (which leg it lacks) in the routine text or next to it. Each run should leave one **ship's-log** line in chat or in My Harness Inbox: `ship: [routine] | [date] | ok|skip | [one-line note]`.
+
+On archetype C, also offer a nightly **compile** routine from `core/skills/compile-loop/SKILL.md` (one proposed memory diff; apply only after yes). On A/B/D, fold compile into the weekly review.
+
+Then do a test run of the morning brief now and show the next run time of both.
 
 If this platform can't schedule: give them the two prompts and suggest a phone alarm labelled "Paste morning brief" (the archetype guide says so).
 
-**Done when:** both routines show a next run time (or they have the prompts and an alarm), and each routine states which trifecta leg it lacks.
+**Done when:** both routines show a next run time (or they have the prompts and an alarm), each routine states which trifecta leg it lacks, and they know about ship's-log lines and safe mode / storm.
 
 ## L7. Self-check and hand over
 
-Run `checks/SELF-CHECK.md`, then `AGENTS.md` Step 5. Offer to save the first-week plan (`plan/FIRST-7-DAYS.md`) as daily reminders.
+Run `checks/SELF-CHECK.md`, then `AGENTS.md` Step 5. Offer to save the first-week plan (`plan/FIRST-7-DAYS.md`) as daily reminders. Mention the **monthly five-minute drill**: once a month, export or download `My Harness`, say "safe mode" as a test, and re-run self-check items 1, 2 and 11.
 
-**Done when:** the self-check report card is shown, every required safety check passes (or the person knowingly accepts a fail), and they know what happens tomorrow morning.
+**Done when:** the self-check report card is shown, every required safety check passes (or the person knowingly accepts a fail), they know what happens tomorrow morning, and they have heard the monthly drill.

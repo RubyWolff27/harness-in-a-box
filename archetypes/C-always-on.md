@@ -13,7 +13,7 @@ Examples: Grok Bot, ChatGPT dot, Muse.
 | Playbooks | Private skills / Skills tab when available; always keep a Playbooks fallback in `My Harness` |
 | Routines | Create and **test** both Lite routines; confirm the schedule UI |
 | Approvals | Keep send, buy, post, delete behind ask / approval |
-| Safe mode | Pause every routine on this computer; connectors read-only |
+| Safe mode / storm | Pause every routine on this computer; connectors read-only |
 
 ## Product overlay
 

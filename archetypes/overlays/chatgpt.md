@@ -13,7 +13,7 @@ Status: **Beta**. Checked against: OpenAI Help Center ("Scheduled tasks in ChatG
 | Skills on eligible business plans | Skills tab under Plugins |
 | Connectors | Settings > Apps |
 | Routines | Create in a normal chat (not inside the Project); check **Scheduled** |
-| Safe mode | Pause every item under Scheduled; Apps read-only |
+| Safe mode / storm | Pause every item under Scheduled; Apps read-only |
 
 **L6 note:** a scheduled task cannot read project files, so prompts must be self-contained (include their three priorities in the text).
 
