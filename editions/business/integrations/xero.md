@@ -15,7 +15,7 @@ Start read-only. Your assistant reads and drafts; you approve anything that woul
 
 ## Choose your path
 
-Pick the path that matches the assistant you already use for your harness. Grok Bot and ChatGPT get the most out of the kit. Claude also works well here, and technical users can use Xero's own hosted MCP server (Option 4).
+Pick the path that matches the assistant you already use for your harness: Grok Bot, Claude, ChatGPT (including Dots), or any assistant that supports remote MCP (Option 4).
 
 ### Option 1: Grok Bot (Xero plugin)
 

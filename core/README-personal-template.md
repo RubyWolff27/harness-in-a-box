@@ -8,19 +8,19 @@ No coding. No servers. Three 30-minute evenings to get going, then a few minutes
 
 Paste the repo link and one prompt into your assistant, and it sets the harness up with you (it reads `AGENTS.md` and asks before it connects or creates anything). Swap in your own name and city, then pick your path:
 
-**1. Grok Bot (recommended)**
+**1. Grok Bot**
 ```text
-Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Clone it, read AGENTS.md first and follow it: interview me, create my Google Docs memory home, save the skills and create my routines. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
+Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box/tree/v2.0.0. Clone it, read AGENTS.md first and follow it: interview me, create my Google Docs memory home, save the skills and create my routines. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
 ```
 
 **2. Claude**
 ```text
-Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for Claude. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
+Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.0.0/AGENTS.md) and follow it for Claude. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
 ```
 
 **3. ChatGPT**
 ```text
-Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for ChatGPT. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
+Set up my personal AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.0.0/AGENTS.md) and follow it for ChatGPT. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
 ```
 
 **If it can't open the link:** on the repo page click **Code > Download ZIP**, upload the ZIP to the chat, and say "Read AGENTS.md in this ZIP and follow it." On Claude you can also add the repo to a project (project knowledge > + > GitHub). What each assistant can and can't do by itself is in `AGENTS.md`; the step-by-step guides are the fallback.
@@ -77,20 +77,20 @@ If the diagram doesn't show (it needs GitHub or a Mermaid-aware viewer), open `i
 
 ## Choose your path
 
-| | **1. Grok Bot (recommended)** | **2. Claude** | **3. ChatGPT** |
+| | **1. Grok Bot** | **2. Claude** | **3. ChatGPT** |
 |---|---|---|---|
 | Writes your memory home without you | Yes: its own always-on computer runs routines that update your Docs | Mostly: cloud scheduled tasks with connectors and an approval mode (not tested hands-free) | No: in a chat you're in, usually after you confirm |
 | Scheduling | Routines, up to 50 per Bot | Scheduled tasks, all paid plans | 5 scheduled tasks on Plus; can't read project files |
-| Connectors | Marketplace, plus any website through its browser | Drive, Gmail, Calendar, Google Docs (beta), Notion, custom MCP | Drive, Gmail, Calendar, Notion |
+| Connectors | Connect apps, plus any website through its browser | Drive, Gmail, Calendar, Google Docs (beta), Notion, custom MCP | Drive, Gmail, Calendar, Notion |
 | Cost | Included with a paid Cursor plan or a linked SuperGrok plan | Pro US$20 a month | Plus about US$20 a month |
 | Set-up effort | Low | Medium | Medium |
-| Guide | `GROK-BOT.md` | `CLAUDE.md` | `CHATGPT.md` |
+| Guide | `../paths/GROK-BOT.md` | `../paths/CLAUDE.md` | `../paths/CHATGPT.md` |
 
-The full comparison, the shared core and the red lines are in `SETUP.md`. You choose; the order is about how much runs without you having to remember. Details are as of October 2026 and these tools change fast, so check before you pay.
+The full comparison, the shared core and the red lines are in `../CHOOSER.md`. You choose; the order is about how much runs without you having to remember. Details are as of October 2026 and these tools change fast, so check before you pay.
 
 ## Where each layer lives in ChatGPT (as of October 2026)
 
-For the same table on the other paths, see `GROK-BOT.md` and `CLAUDE.md`.
+For the same table on the other paths, see `../paths/GROK-BOT.md` and `../paths/CLAUDE.md`.
 
 
 | Layer | In ChatGPT | Where it really lives |
@@ -99,7 +99,7 @@ For the same table on the other paths, see `GROK-BOT.md` and `CLAUDE.md`.
 | Memory | **Memory** (saved memories and chat history) and **Project memory** | Telos, About me, Open loops, Decisions log Docs in your memory home (`memory/MEMORY-LAYERS.md`) |
 | Skills | Skill files uploaded to the **Project's Sources** (works on any plan). ChatGPT's own **Skills** feature is optional, see `CHATGPT-FEATURES.md` | `skills/` in this kit (a copy in your memory home) |
 | Tools and connectors | **Apps** (Settings > Apps; the directory is now called Plugins): Google Drive, Gmail, Google Calendar | Your Google account |
-| Guardrails | Written into the master prompt, plus ChatGPT's own confirmations before actions, plus your security settings | `MASTER-PROMPT.md` and `CHATGPT.md` Step 1 |
+| Guardrails | Written into the master prompt, plus ChatGPT's own confirmations before actions, plus your security settings | `MASTER-PROMPT.md` and `../paths/CHATGPT.md` Step 1 |
 | Loop | Written into the master prompt and every skill. **Work** mode for longer jobs, **Scheduled** tasks for routines | Every skill's "Done when" checks |
 
 The honest limits are in `CHATGPT-FEATURES.md`. The biggest one: ChatGPT can only write memory to tools it can reach, and only in a chat you're in. Google Docs work on every path, which is why they're the default memory home.
@@ -114,7 +114,7 @@ The honest limits are in `CHATGPT-FEATURES.md`. The biggest one: ChatGPT can onl
 
 ## How to talk to it
 
-Talk to it like a sharp, friendly chief of staff. Short is fine. A few phrases do most of the work:
+Talk to it like a sharp, friendly assistant. Short is fine. A few phrases do most of the work:
 
 - "Plan my day." / "Evening check."
 - "Capture: call Sam about the quote next week." (voice works well)
@@ -144,8 +144,8 @@ Want something else? Ask for it: the skill-writer skill turns any job you repeat
 
 ## Quick start (about 30 minutes)
 
-1. Fastest: use a prompt from **Start in 2 minutes** above. By hand: read `SETUP.md` and pick your path.
-2. Open that path's guide (`GROK-BOT.md`, `CLAUDE.md` or `CHATGPT.md`) and do **Evening 1 only**: lock the doors, set up the assistant with the eight core skills, run your first daily plan.
+1. Fastest: use a prompt from **Start in 2 minutes** above. By hand: read `../CHOOSER.md` and pick your path.
+2. Open that path's guide (`../paths/GROK-BOT.md`, `../paths/CLAUDE.md`, `../paths/CHATGPT.md` or `../paths/MUSE.md`) and do **Evening 1 only**: lock the doors, set up the assistant with the eight core skills, run your first daily plan.
 3. Then Evening 2 (master prompt), Evening 3 (memory home in Google Drive), then Weeks 1 to 3.
 
 ## What's in this folder

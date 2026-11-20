@@ -2,6 +2,10 @@
 
 For solopreneurs and small business owners. **It layers on top of `core/` and `editions/personal/`.** A solopreneur runs their life and their business with the same head and the same calendar, so install core, then the personal edition, then this. The owner's own harness comes first; business skills plug into it.
 
+## Supported assistants
+
+The Business edition currently supports **Grok Bot, Claude and ChatGPT (including ChatGPT dots)**. **Muse and Gemini are skipped for now** until their personal paths are validated.
+
 ## Prerequisites
 
 Before installing the business edition, you must have:
@@ -54,7 +58,7 @@ Start with the skill the interview recommended (usually document-intake or cash-
 2. Download the test data from `editions/business/tests/[skill-name]/` and say: "Run /[skill-name] in shadow mode against these test files. Compare the output against the expected file in that folder (expected-labels.csv for document-intake, expected-weekly-position.csv for cash-flow-manager) and show me the pass rate."
 
 **For Claude:**
-1. ZIP the skill folder (folder at root) and upload via Customize > Skills.
+1. ZIP the skill folder (folder at root) and upload via Plugins (formerly Customize) > Skills.
 2. In your project, upload the test data and say: "Run the [skill-name] skill in shadow mode against these test files. Score against the expected file in that folder (expected-labels.csv or expected-weekly-position.csv)."
 
 **For ChatGPT:**

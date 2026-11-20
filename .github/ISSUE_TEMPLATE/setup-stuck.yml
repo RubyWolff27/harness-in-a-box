@@ -1,0 +1,71 @@
+name: My setup got stuck
+description: Tell us where setup stopped working. No technical knowledge needed.
+title: "Stuck: [assistant] at step [step]"
+labels: ["setup-stuck"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please **don't paste anything private**: no passwords, card numbers, email contents or other people's details. Screenshots are fine if you blur personal information.
+  - type: dropdown
+    id: assistant
+    attributes:
+      label: Which assistant were you using?
+      options:
+        - ChatGPT dot
+        - ChatGPT (chat or Project)
+        - Grok Bot
+        - Claude
+        - Claude Duet
+        - Muse (Meta)
+        - Gemini
+        - Something else
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: On what?
+      options:
+        - Phone app
+        - Desktop app
+        - Web browser
+        - Not sure
+  - type: input
+    id: country
+    attributes:
+      label: Which country is your account in?
+      placeholder: Australia
+  - type: dropdown
+    id: lane
+    attributes:
+      label: Which lane?
+      options:
+        - Lite
+        - Full
+        - Business edition
+        - Not sure
+  - type: input
+    id: step
+    attributes:
+      label: Which step got stuck?
+      description: For example L3, L6, F4, self-check 7. "Not sure" is fine.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you expected, and what the assistant did or said instead. Copy its words if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: card
+    attributes:
+      label: Self-check report card (if you got that far)
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: Kit version
+      description: The assistant can tell you. It's at the top of AGENTS.md.
