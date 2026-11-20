@@ -64,6 +64,15 @@ Might slip: ...
 Drop or defer: ...
 ```
 
+## Inputs
+- Calendar (connector or pasted) and timezone
+- Memory sections per the Memory map: [Now], [Open loops], and any pasted captures
+- Autonomy rung: draft (Lite default)
+
+## Output
+- The skill's output format block below
+- Optional ship's-log line: `ship: daily-plan | YYYY-MM-DD | ok|skip | note`
+
 ## Done when
 - [ ] Exactly three priorities, each with a one-line reason.
 - [ ] At least one links to a 90-day priority in [Now], or you've said why none does today.
