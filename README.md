@@ -74,6 +74,6 @@ That's it. If it can't open the link, see "If something goes wrong" below.
 | `paths/` | One dated guide per assistant: ChatGPT, ChatGPT dots, Grok Bot, Claude, Muse, Gemini, messaging-native (Instinct), and any other agent |
 | `checks/SELF-CHECK.md` | The test your assistant must pass before setup counts as finished |
 | `core/` | The shared memory templates, playbooks (skills), personal board and sources |
-| `editions/` | Personal and business (solopreneur) add-ons (Business edition supports Grok Bot, Claude and ChatGPT for now) |
+| `editions/` | Personal and business (solopreneur) add-ons. Business needs the Full lane plus two weeks of personal use; supports Grok Bot, Claude and ChatGPT for now |
 
 Free, MIT licence. Plain text files you own. If a better assistant arrives next year, you move house and take the furniture.
