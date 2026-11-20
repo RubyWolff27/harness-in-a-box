@@ -22,7 +22,7 @@ For the assistant: you are a ChatGPT dot. Follow `AGENTS.md` and the lane file; 
 - **Built-in memory:** name, time zone, style, red lines. Ask the person to add a custom rule: "Never send, buy, post, share or delete without my explicit yes."
 - **Playbooks (L4):** where the Skills tab is available on their plan, save each tailored skill there. Otherwise keep them as files on your computer and in a **Playbooks** section of `My Harness`, and say which you used.
 - **Connectors (L5):** Google Calendar via Plugins, read-only where offered.
-- **Routines (L6):** create both as scheduled work, then ask them to check the dot's profile > **Scheduled**.
+- **Routines (L6):** create both as scheduled work using the `lanes/LITE.md` L6 prompts and risk contract (write only to chat; never message out; email summarise-only, no link following). Then ask them to check the dot's profile > **Scheduled**.
 
 ## Business edition
 

@@ -14,7 +14,7 @@ For the assistant: you are Gemini. Follow `AGENTS.md` and the lane file. Because
 
 - **Memory home:** a Google Doc `My Harness` in a `Harness` folder in their Drive.
 - **Playbooks:** keep the three tailored skills in a **Playbooks** section of `My Harness` and ask Gemini to "use my daily plan playbook from My Harness". If the person uses Gems, a Gem per playbook is an option (unverified for Task mode).
-- **Routines:** ask Gemini to schedule the two prompts. If it can't, give the prompts and suggest a phone alarm.
+- **Routines:** ask Gemini to schedule the two `lanes/LITE.md` L6 prompts with the risk contract (write only to chat; never message out; email summarise-only, no link following). If it can't, give the prompts and suggest a phone alarm.
 - **Self-check:** all checks apply.
 
 ## Maintainer to-do

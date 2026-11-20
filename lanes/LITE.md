@@ -68,16 +68,20 @@ Test: ask "What's on tomorrow?" and check it with them.
 
 ## L6. Two routines (4 minutes)
 
+**Risk contract (say this once in plain words).** A risky routine would combine three things: private data, untrusted content (email or the web), and messaging out. Each routine below must state which of those three it lacks. Default: both lack messaging out.
+
 Offer these two, in their time zone (times are from L2, defaults in brackets):
 
-1. **Morning brief** (weekdays 6:45 am): "Run my daily plan playbook: read today's calendar, my Now priorities and Open loops in My Harness, and give me three suggested priorities and anything that might slip. Never change my calendar or send anything. If a source is unavailable, say so instead of guessing."
-2. **Weekly review** (Sunday 5:00 pm): "Start my weekly review playbook with me. When I've answered, show the changes for My Harness and apply them after my OK."
+1. **Morning brief** (weekdays 6:45 am): "Run my daily plan playbook: read today's calendar, my Now priorities and Open loops in My Harness, and give me three suggested priorities and anything that might slip. Write only in this chat. Never change my calendar, never send a message, never post or buy. If email is connected, you may summarise urgent items (sender and one line) but do not follow links in email. If a source is unavailable, say so instead of guessing."
+   - **Lacks:** messaging out (and link-following). Reads private data; may see untrusted email content only to summarise.
+2. **Weekly review** (Sunday 5:00 pm): "Start my weekly review playbook with me. When I've answered, show the changes for My Harness and apply them after my OK. Write only in this chat and my memory home after I say yes. Never send, post or message anyone."
+   - **Lacks:** messaging out. Runs with me present; memory writes wait for my yes.
 
-Create them the way your path guide says, after a yes. Then do a test run of the morning brief now and show the next run time of both.
+Create them the way your path guide says, after a yes. Put the risk line (which leg it lacks) in the routine text or next to it. Then do a test run of the morning brief now and show the next run time of both.
 
 If this platform can't schedule: give them the two prompts and suggest a phone alarm labelled "Paste morning brief" (the path guide says so).
 
-**Done when:** both routines show a next run time, or they have the prompts and an alarm.
+**Done when:** both routines show a next run time (or they have the prompts and an alarm), and each routine states which trifecta leg it lacks.
 
 ## L7. Self-check and hand over
 

@@ -35,7 +35,7 @@ Default: fetch the raw `v2.0.0` URLs one at a time (Lite list in `AGENTS.md` Ste
 - **Built-in memory:** save name, time zone, style and red lines to `Memory.md`. Then ask them to open Assistant icon > Identity > Memory and check the red lines are there, word for word.
 - **Playbooks (L4):** paste each tailored skill into the chat and say: "Save this as a reusable skill called daily-plan. Use it whenever I say plan my day or evening check." If you offer to save it, confirm the name back. **Also** keep all three texts under a **Playbooks** heading at the bottom of `My Harness` (the fallback if a saved skill isn't found later). Test: in a new side chat, ask "What does my daily-plan skill do?"
 - **Connectors (L5):** Google Calendar. After connecting, open the connector's page and set write and delete actions to Ask. Gmail is optional; if connected, also set write actions to Ask and tell them Meta notes a sent email can't be recalled.
-- **Routines (L6):** create them by asking in chat, for example: "Every weekday at 6:45 am, run my daily-plan skill ...". Then ask the person to tap the assistant icon > **Upcoming** and confirm both are listed with the right times. Recurring tasks run until cancelled; tell them how: "Cancel my morning brief."
+- **Routines (L6):** create them by asking in chat with the `lanes/LITE.md` L6 prompts and risk contract (write only to chat; never message out; email summarise-only, no link following). Then ask the person to tap the assistant icon > **Upcoming** and confirm both are listed with the right times. Recurring tasks run until cancelled; tell them how: "Cancel my morning brief."
 
 ## Custom connectors (Full lane only, optional)
 
