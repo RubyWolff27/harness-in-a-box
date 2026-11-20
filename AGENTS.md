@@ -2,8 +2,10 @@
 
 You are an AI assistant or agent. A person has pointed you at this kit and asked you to set them up. This file is your whole job description. Follow it in order. Where it gives a default, use the default unless the person chooses otherwise. Where you are unsure, say so and use the fallback. **Do not improvise steps that aren't written here.**
 
-Kit version: 2.0.0. Repo: https://github.com/RubyWolff27/harness-in-a-box (release tag `v2.0.0`)
-Raw base for fetching one file at a time: `https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.0.0/`
+Kit version: 2.1.0. Repo: https://github.com/RubyWolff27/harness-in-a-box (release tag `v2.1.0`, commit `pending-after-merge`)
+Raw base for fetching one file at a time: `https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.1.0/`
+
+**Verify what you fetched (when you can).** Open `CHECKSUMS.sha256` for this tag. For each file you rely on, run `sha256sum <file>` (or your platform's equivalent) and check it matches the line for that path. If a hash does not match, stop and tell the person; do not continue from a mixed or unknown tree. Maintainers regenerate the list with `./scripts/generate-checksums.sh`. The commit pin above is set to the tagged release commit after merge; never trust a moved tag.
 
 ## Guardrails (read first, follow throughout)
 
@@ -56,9 +58,9 @@ Fetch files in this order and stop when you have what you need. Fetching everyth
 **Full lane (fetch when you reach each step):** `lanes/FULL.md` lists them.
 
 How to get the files, best first:
-1. **If you have a computer and shell** (Grok Bot, ChatGPT dot, Muse, Claude with code execution): download `https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v2.0.0.zip` or `git clone --branch v2.0.0 --depth 1 https://github.com/RubyWolff27/harness-in-a-box`, read-only.
-2. **If you can fetch web pages:** fetch the raw URLs one at a time (raw base above + path).
-3. **If you can't fetch:** ask the person to download the `v2.0.0` ZIP (`https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v2.0.0.zip`) and upload it, or paste each file's contents.
+1. **If you have a computer and shell** (Grok Bot, ChatGPT dot, Muse, Claude with code execution): download `https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v2.1.0.zip` or `git clone --branch v2.1.0 --depth 1 https://github.com/RubyWolff27/harness-in-a-box`, read-only. Then compare `CHECKSUMS.sha256` if you can.
+2. **If you can fetch web pages:** fetch the raw URLs one at a time (raw base above + path). Prefer also fetching `CHECKSUMS.sha256` and checking the files you use.
+3. **If you can't fetch:** ask the person to download the `v2.1.0` ZIP (`https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v2.1.0.zip`) and upload it, or paste each file's contents.
 
 If a file won't load, say which one, try once more, then use the fallback in your path guide. Don't fill gaps from memory of older versions.
 
@@ -81,5 +83,5 @@ Tell them, in this order:
 ## Rules about this kit
 
 - **One home per fact.** Follow the source-of-truth table in `STANDARD.md`. Your own built-in memory is a helpful copy; the memory home is the record for goals, open loops and decisions.
-- **Version.** Tell the person the kit version you used (`2.0.0`) so a later update can be compared.
+- **Version.** Tell the person the kit version you used (`2.1.0`, tag `v2.1.0`, commit pin above) so a later update can be compared.
 - **Older prompts.** If someone's prompt says `core/AGENTS.md`, that file now points here. Follow this file.
