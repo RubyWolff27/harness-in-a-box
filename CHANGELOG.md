@@ -2,6 +2,19 @@
 
 Versions follow `MAJOR.MINOR.PATCH`. Minor versions add guides or skills without changing how existing ones work.
 
+## v3.0.0 (21 Nov 2026)
+
+Major: capability archetypes, memory schema v2, compile loop, playbook contracts, autonomy ladder, portable export. Lite stays about 30 minutes. v2.x `paths/*.md` prompts keep working via redirect stubs.
+
+- **Archetypes A–D** replace path-first setup: chat-only, chat+memory+schedules, always-on cloud computer, messaging-native. One-page dated product overlays hold menu names and known gaps. Capability probe in `AGENTS.md` Step 0. Archetype D keeps Instinct week-one rules.
+- **Memory schema v2:** always-loaded Index (~400 words), provenance tags on every line, Now expires after 90 days, section budgets and archive rule (`core/memory/SCHEMA-v2.md`).
+- **Compile loop:** weekly (nightly on C) proposes one memory diff; apply only after yes.
+- **Playbook contracts:** Inputs/Output on Lite skills; `evals/` with three samples each; weekly error log.
+- **Autonomy ladder:** shadow → draft → act-with-approval → act-and-report; promote after evals + yes; drop after failure; Rule-of-Two shape per rung.
+- **Export + seed:** single-file export; self-check import for checks 1, 4, 6; plain-text seed under ~1,500 words.
+- **Also:** storm alias for safe mode; ship's-log line per routine; monthly five-minute drill; household/children note.
+- Audit: `docs/audits/AUDIT-v3.0.md` (includes cold Lite runs on B, C, D).
+
 ## v2.1.0 (21 Nov 2026)
 
 Non-breaking hardening from the research board review. Reader prompts change by version number and commit pin only.

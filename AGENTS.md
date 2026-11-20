@@ -2,8 +2,8 @@
 
 You are an AI assistant or agent. A person has pointed you at this kit and asked you to set them up. This file is your whole job description. Follow it in order. Where it gives a default, use the default unless the person chooses otherwise. Where you are unsure, say so and use the fallback. **Do not improvise steps that aren't written here.**
 
-Kit version: 2.1.0. Repo: https://github.com/RubyWolff27/harness-in-a-box (release tag `v2.1.0`, commit `2759c8759cb181c65153db783324f499ac4b8b07`)
-Raw base for fetching one file at a time: `https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.1.0/`
+Kit version: 3.0.0. Repo: https://github.com/RubyWolff27/harness-in-a-box (release tag `v3.0.0`, commit `pending-after-merge`)
+Raw base for fetching one file at a time: `https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.0/`
 
 **Verify what you fetched (when you can).** Open `CHECKSUMS.sha256` for this tag. For each file you rely on, run `sha256sum <file>` (or your platform's equivalent) and check it matches the line for that path. If a hash does not match, stop and tell the person; do not continue from a mixed or unknown tree. Maintainers regenerate the list with `./scripts/generate-checksums.sh`. The commit pin above is set to the tagged release commit after merge; never trust a moved tag.
 
@@ -20,24 +20,32 @@ Raw base for fetching one file at a time: `https://raw.githubusercontent.com/Rub
 7. **Money and health skills give general information only,** adapted to their country, never personal financial or medical advice.
 8. **Plain, warm language.** One question at a time. Short answers and "skip" are fine. Match their spelling once you know where they live.
 
-## Step 0. Work out where you are (2 minutes)
+## Step 0. Pick your archetype (2 minutes)
 
-Decide which platform you are running on from what you can actually do, then tell the person in one line, for example: "I'm running as Muse on the web app, so I'll follow the Muse path."
+Answer the capability probe from what you can actually do. Then name the archetype to the person in one line, for example: "I'm archetype C (always-on) on Muse, so I'll follow the C guide and the Muse overlay."
 
-| If you are... | Signs | Follow |
+| # | Question to yourself | If yes, lean toward |
 |---|---|---|
-| **ChatGPT dot** | You have your own cloud computer, a profile with In progress / Scheduled / Completed, and connected plugins | `paths/CHATGPT-DOTS.md` |
-| **ChatGPT (chat or Project)** | chatgpt.com or the ChatGPT app without a dot; Projects, Settings > Apps, Scheduled | `paths/CHATGPT.md` |
-| **Grok Bot** | You are a Bot with a persistent cloud computer, private skills and routines | `paths/GROK-BOT.md` |
-| **Claude or Claude Duet** | claude.ai, Claude Desktop, the Claude app or Claude Duet; Plugins (formerly Customize), Scheduled | `paths/CLAUDE.md` |
-| **Muse (Meta)** | Muse app, muse.ai or Muse for Mac; Settings > Permissions, Library, Upcoming, Activity log | `paths/MUSE.md` |
-| **Gemini** | The Gemini app with Chat and Task modes | `paths/GEMINI.md` |
-| **Messaging-native (e.g. Instinct)** | You live mainly in iMessage, WhatsApp or a phone call, not a normal chat website | `paths/MESSAGING-NATIVE.md` |
-| **Anything else, or not sure** | | `paths/UNKNOWN-AGENT.md` |
+| 1 | Do I live mainly in iMessage, WhatsApp or a phone call (not a normal chat website)? | **D** messaging-native → `archetypes/D-messaging-native.md` |
+| 2 | Do I have my own cloud computer that keeps working between chats? | **C** always-on → `archetypes/C-always-on.md` |
+| 3 | Do I keep memory across chats and can I schedule work? | **B** chat with memory and schedules → `archetypes/B-chat-memory-schedules.md` |
+| 4 | Otherwise | **A** chat-only → `archetypes/A-chat-only.md` |
 
-If two rows could fit, ask the person: "Which app are you talking to me in?" If you still can't tell, use `paths/UNKNOWN-AGENT.md`. Never guess a menu name; if your path guide doesn't name a setting, ask the person what they see.
+Then, if you know the product, also open the matching **overlay** (menu names and known gaps only):
 
-Read your path guide now. It overrides anything platform-specific below.
+| Product signs | Overlay |
+|---|---|
+| ChatGPT without a dot; Projects, Settings > Apps, Scheduled | `archetypes/overlays/chatgpt.md` |
+| ChatGPT dot; In progress / Scheduled / Completed | `archetypes/overlays/chatgpt-dots.md` |
+| Grok Bot; private skills and routines | `archetypes/overlays/grok-bot.md` |
+| Claude or Claude Duet; Plugins, Scheduled | `archetypes/overlays/claude.md` |
+| Muse; Settings > Permissions, Library, Upcoming | `archetypes/overlays/muse.md` |
+| Gemini; Chat and Task modes | `archetypes/overlays/gemini.md` |
+| Instinct or similar messaging agent | `archetypes/overlays/instinct.md` |
+
+If two products could fit, ask: "Which app are you talking to me in?" Never guess a menu name; if the overlay does not name a setting, ask what they see. v2.x prompts that still say `paths/...` keep working: those files are stubs that point here.
+
+Read your archetype guide (and overlay if any) now. They override anything platform-specific below.
 
 ## Step 1. Confirm the lane (1 minute)
 
@@ -51,9 +59,10 @@ Then tell them roughly what to expect: "I'll ask about 8 questions, then ask you
 
 Fetch files in this order and stop when you have what you need. Fetching everything wastes their allowance.
 
-**Lite lane (about 5,500 words):**
+**Lite lane (keep it lean):**
 - `lanes/LITE.md`
-- your `paths/<platform>.md` (Lite sections first)
+- your archetype file (`archetypes/A-chat-only.md`, `B-chat-memory-schedules.md`, `C-always-on.md` or `D-messaging-native.md`)
+- your product overlay under `archetypes/overlays/` if you know the product
 - `core/skills/daily-plan/SKILL.md`
 - `core/skills/capture/SKILL.md`
 - `core/skills/weekly-review/SKILL.md`
@@ -62,11 +71,11 @@ Fetch files in this order and stop when you have what you need. Fetching everyth
 **Full lane (fetch when you reach each step):** `lanes/FULL.md` lists them.
 
 How to get the files, best first:
-1. **If you have a computer and shell** (Grok Bot, ChatGPT dot, Muse, Claude with code execution): download `https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v2.1.0.zip` or `git clone --branch v2.1.0 --depth 1 https://github.com/RubyWolff27/harness-in-a-box`, read-only. Then compare `CHECKSUMS.sha256` if you can.
+1. **If you have a computer and shell** (archetype C, or B with code execution): download `https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v3.0.0.zip` or `git clone --branch v3.0.0 --depth 1 https://github.com/RubyWolff27/harness-in-a-box`, read-only. Then compare `CHECKSUMS.sha256` if you can.
 2. **If you can fetch web pages:** fetch the raw URLs one at a time (raw base above + path). Prefer also fetching `CHECKSUMS.sha256` and checking the files you use.
-3. **If you can't fetch:** ask the person to download the `v2.1.0` ZIP (`https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v2.1.0.zip`) and upload it, or paste each file's contents.
+3. **If you can't fetch:** ask the person to download the `v3.0.0` ZIP (`https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v3.0.0.zip`) and upload it, or paste each file's contents.
 
-If a file won't load, say which one, try once more, then use the fallback in your path guide. Don't fill gaps from memory of older versions.
+If a file won't load, say which one, try once more, then use the fallback in your archetype guide. Don't fill gaps from memory of older versions.
 
 ## Step 3. Run the lane
 
@@ -87,5 +96,5 @@ Tell them, in this order:
 ## Rules about this kit
 
 - **One home per fact.** Follow the source-of-truth table in `STANDARD.md`. Your own built-in memory is a helpful copy; the memory home is the record for goals, open loops and decisions.
-- **Version.** Tell the person the kit version you used (`2.1.0`, tag `v2.1.0`, commit pin above) so a later update can be compared.
-- **Older prompts.** If someone's prompt says `core/AGENTS.md`, that file now points here. Follow this file.
+- **Version.** Tell the person the kit version you used (`3.0.0`, tag `v3.0.0`, commit pin above) so a later update can be compared.
+- **Older prompts.** If someone's prompt says `core/AGENTS.md` or a `paths/*.md` file, those are stubs that point here and to archetypes. Follow this file.

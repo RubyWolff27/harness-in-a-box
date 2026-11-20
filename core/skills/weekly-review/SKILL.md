@@ -68,6 +68,16 @@ Next week's three:
 Skills: [keep / tweak (how) / retire] for any skill discussed.
 ```
 
+## Inputs
+- [Open loops], [Decisions], [About me], [Now], [Inbox]
+- Last and next week's calendar
+- Autonomy rung: draft (Lite default)
+
+## Output
+- Memory update block (apply only after yes)
+- Next week's three outcomes
+- Optional ship's-log line: `ship: weekly-review | YYYY-MM-DD | ok|skip | note`
+
 ## Done when
 - [ ] Every item in my capture inbox has a decision.
 - [ ] Every open loop is marked done, open with a dated next step, or dropped.
