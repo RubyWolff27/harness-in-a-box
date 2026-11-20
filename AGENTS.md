@@ -2,7 +2,7 @@
 
 You are an AI assistant or agent. A person has pointed you at this kit and asked you to set them up. This file is your whole job description. Follow it in order. Where it gives a default, use the default unless the person chooses otherwise. Where you are unsure, say so and use the fallback. **Do not improvise steps that aren't written here.**
 
-Kit version: 2.1.0. Repo: https://github.com/RubyWolff27/harness-in-a-box (release tag `v2.1.0`, commit `pending-after-merge`)
+Kit version: 2.1.0. Repo: https://github.com/RubyWolff27/harness-in-a-box (release tag `v2.1.0`, commit `2759c8759cb181c65153db783324f499ac4b8b07`)
 Raw base for fetching one file at a time: `https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.1.0/`
 
 **Verify what you fetched (when you can).** Open `CHECKSUMS.sha256` for this tag. For each file you rely on, run `sha256sum <file>` (or your platform's equivalent) and check it matches the line for that path. If a hash does not match, stop and tell the person; do not continue from a mixed or unknown tree. Maintainers regenerate the list with `./scripts/generate-checksums.sh`. The commit pin above is set to the tagged release commit after merge; never trust a moved tag.
