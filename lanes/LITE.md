@@ -29,14 +29,14 @@ Then show a summary in under 150 words and ask them to correct it.
 
 ## L3. Create the memory home (5 minutes)
 
-Create **one** document called `My Harness` with four headings, filled from the interview:
+Create **one** document called `My Harness` using memory schema v2 (`core/memory/SCHEMA-v2.md`):
 
-- **About me** (name, place, time zone, work shape, people, style preferences; include the interrupt rule below)
-- **Now** (the three 90-day priorities, each with one "done when" line)
-- **Open loops** (anything they mentioned that's unfinished, one per line, with a date if known)
-- **Decisions** (empty table: date, decision, why, review date)
+1. **Index** at the top (under about 400 words): name, place, time zone, three Now one-liners, open-loop count, and pointers to the sections.
+2. Then headings: **About me**, **Now**, **Open loops**, **Decisions**, and an empty **Inbox**.
+3. Tag every fact with a source and date: `(said by me, YYYY-MM-DD)`, `(from a document, ...)`, or `(inferred, ...)`.
+4. Tell them Now expires after 90 days unless renewed in a weekly review.
 
-Also put this **interrupt rule** under About me (or as its own short heading): notify for information, ask when blocked, wait for review before anything leaves, come back for decisions the person should make.
+Also put this **interrupt rule** under About me: notify for information, ask when blocked, wait for review before anything leaves, come back for decisions the person should make.
 
 Where it goes depends on the archetype. Use the **default in your archetype guide** (and overlay menu names). Ask before creating it. If you can't create files, give it to them as one paste-ready block and tell them exactly where to put it.
 
