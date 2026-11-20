@@ -144,3 +144,42 @@ The study, work, money, investment and daily-interest-brief skills are templates
 - Google Calendar as a ChatGPT app is now named in OpenAI's release notes (28 August and 23 September 2026: multiple Gmail, Google Calendar and Google Contacts accounts). Connect it under Settings > Apps.
 - Any way to limit the Google Drive app to a single folder on a personal account. I found none.
 - A character limit for Project instructions. OpenAI's pages I read don't state one.
+
+---
+
+## v2 updates (checked 21 Nov 2026)
+
+"Official" means the vendor's own page.
+
+## Muse (Meta)
+- Official: Muse is now available in Australia, Meta Newsroom, 17 Nov 2026. https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/
+- Official: How Muse works with your guidance and approval (permissions, approval options, Activity log, Upcoming). https://www.meta.com/help/superintelligence/1385290430137537/
+- Official: How Muse works with Connectors (custom connectors, Meta doesn't review them). https://www.meta.com/help/superintelligence/1687253048996149/
+- Official: How to manage reminders and scheduled tasks with Muse. https://www.meta.com/help/superintelligence/1484325780075655/
+- Official: How to manage your Muse data (Memory.md, export). https://www.meta.com/help/superintelligence/2225571704857152/
+- Official: How to customize Muse's personality and memories (import memory). https://www.meta.com/help/superintelligence/995796179982326/
+- Official: How to get started with Muse (side chats, Library, usage). https://www.meta.com/help/superintelligence/1331373868832401/
+- Official: About Muse subscriptions (Power, Maximum, weekly tokens). https://www.meta.com/help/subscriptions/1021145227643680/
+- Press: EFTM hands-on, Nov 2026 (AU connector list at launch, Mac reads Messages and WhatsApp, 27% of free allowance in a week). https://eftm.com/2026/11/meta-muse-ai-agent-launches-today-in-australia-my-muse-lloyd-is-already-hard-at-work-283490/amp
+- Press: SmartCompany, 18 Nov 2026; Mediaweek, 18 Nov 2026.
+- Third-party tested: AI Agents Library, "Does Meta Muse have skills?" (saved skills observed 8 Oct 2026). https://www.aiagentslibrary.com/blog/meta-muse-skills/
+- Third-party tested: Hindsight, "I gave Meta's AI assistant my entire memory", 28 Sep 2026 (approval prompts, nightly task workaround). https://hindsight.vectorize.io/blog/2026/09/28/meta-muse-agent-memory
+- Third-party: Skill Harbor directory ("Code is never audited"). https://theskillharbor.com/
+- Third-party: Sprites connector list, checked 18 Nov 2026. https://www.sprites.ai/muse/connectors
+
+## ChatGPT
+- Official: Getting started with your dot (updated 20 Nov 2026; Plus rollout, regions). https://help.openai.com/en/articles/20001530-getting-started-with-your-dot
+- Official: Scheduled tasks in ChatGPT (limits by plan, project files, shared task links). https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt
+- Official: Skills in ChatGPT (eligible plans). https://help.openai.com/en/articles/20001066-skills-in-chatgpt
+
+## Claude
+- Official: Get started with Claude Duet (US-only research preview). https://support.claude.com/en/articles/17631495-get-started-with-claude-duet
+- Official: Schedule recurring tasks in Claude Cowork. https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork
+- Official: Manage plugins, skills, and connectors from one Plugins page. https://support.claude.com/en/articles/17740565-manage-plugins-skills-and-connectors-from-one-plugins-page
+
+## Grok Bot
+- Official: Grok Bot overview. https://docs.x.ai/grok-bot/overview
+- Official: Skills and routines. https://docs.x.ai/grok-bot/skills-routines-and-automations
+
+## Gemini
+- Press: 9to5Google, "You can now assign Gemini tasks for free in six countries", 17 Nov 2026. https://9to5google.com/2026/11/17/gemini-tasks-free/ (Google's own help pages not yet read.)

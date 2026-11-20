@@ -26,7 +26,7 @@ Labels used: **Verified** means OpenAI's own page says so. **Not verified** mean
 | **Finances** | Connect bank accounts (through Plaid) for a spending, bills and net worth dashboard. | Money manager (optional) | **US only** as of October 2026. Can't move money or give advice. | Verified. If you're outside the US, the kit uses a Google Sheet instead. |
 | **Health** | Connect health records and Apple Health. | Coach seat (optional) | **US only**, 18 and over | Verified. Outside the US, skip it. |
 | **Models (GPT-6)** | GPT-6 with "Intelligent UI" (interactive charts, calculators, tools in the answer) rolled out from 9 October 2026. Plus gets GPT-6 Sol; Free and Go get GPT-6 Luna. Work and Codex use their own models (GPT-6 Sol, GPT-6.1 Sol rolling out). | Engine | Varies by plan | Verified |
-| **Dots** | Always-on agents with their own cloud computer that keep working between chats. | Recommended path for ChatGPT users who have it (see the ChatGPT Dots path in SETUP.md) | Pro and Business Premium, rolling out since 29 Sep 2026; Enterprise beta | Verified (openai.com/index/introducing-dots, 29 Sep 2026). Plus users use the Project path. |
+| **Dots** | Always-on agents with their own cloud computer that keep working between chats. | Recommended path for ChatGPT users who have it (see `../paths/CHATGPT-DOTS.md`) | Pro, Business Premium, and rolling out to selected Plus accounts outside the EEA, UK and Switzerland; Enterprise, Edu and Healthcare | Verified (OpenAI Help Center, updated 20 Nov 2026). |
 | **Codex** | OpenAI's coding agent, in the desktop app and elsewhere. Can work in local folders and reads an `AGENTS.md` file for instructions. | Optional, for the curious | Included on all plans; Codex Cloud on paid plans | Verified |
 | **Data controls** | "Improve the model for everyone" on or off; export your data; Temporary Chat. | Guardrails | Self-service export on Free, Go, Plus and Pro | Verified |
 | **Multi-factor authentication** | Authenticator app, push, SMS or WhatsApp, or passkey. Settings > Security and login. | Guardrails | All accounts; options vary | Verified |
@@ -45,7 +45,7 @@ Labels used: **Verified** means OpenAI's own page says so. **Not verified** mean
 | **GPT-6 and Intelligent UI** | 9 October 2026 | Answers may come back as interactive tables or calculators. Nothing to change. |
 | **Finances and Health** | Expanding through October 2026 | US only. The money manager uses a Drive sheet so it works anywhere. |
 | **Pulse retired into scheduled tasks** | June 2026 | Daily briefs (like the daily interest brief) are scheduled tasks now. |
-| **Outside ChatGPT: Google's "Gemini agent"** | 8 October 2026 | A work agent for Google Workspace business customers, in private preview. Not for personal accounts yet. Google's consumer agent, Gemini Spark, is limited to US AI Pro and AI Ultra subscribers. Nothing to change; worth watching. |
+| **Outside ChatGPT: Google's "Gemini agent"** | 8 October 2026 | A work agent for Google Workspace business customers, in private preview. Not for personal accounts yet. Google's consumer agent, Gemini Tasks (formerly Spark), is reported free in six countries including Australia as of 17 Nov 2026. Nothing to change; worth watching. |
 
 ## Memory layer: which tools ChatGPT Plus can read and write (as of October 2026)
 

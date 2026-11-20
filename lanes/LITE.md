@@ -1,0 +1,82 @@
+# Lite lane (about 30 minutes)
+
+For the assistant: run these steps in order. Ask one question at a time. Each step ends with a **Done when** line; don't move on until it's true or the person says skip. Your path guide (`paths/<platform>.md`) tells you *where* things go on this platform; this file tells you *what* to do.
+
+## L1. Lock the doors (3 minutes)
+
+1. Ask: "Is two-step sign-in on for this assistant account and for your Google or Microsoft account?" You can't check this yourself. If no, give them the one-line where-to (Google: myaccount.google.com > Security > 2-Step Verification) and carry on; mark it as a fail in the self-check if they don't do it.
+2. Ask them to paste or say their red lines. If they have none written, offer the kit's minimum list (`README.md`) and ask what to add.
+3. Do the platform's permission step from your path guide (for example, on Muse: set approvals to Always ask before connecting anything).
+
+**Done when:** you can restate their red lines in one sentence, and the platform's approval setting is at its safest level.
+
+## L2. The short interview (10 minutes, 8 questions)
+
+Ask these one at a time. Accept "skip".
+
+1. What should I call you, and where do you live (city, so I get your time zone and spelling right)?
+2. In one line each: what's your work or study, and what's a normal weekday shape (start, finish, school run, training)?
+3. What are the three things that matter most to you over the next 90 days?
+4. Who are the people I'll hear about most? First names and relationship only.
+5. What jobs do you want off your plate first? (Examples: planning the day, remembering things, keeping on top of email.)
+6. Anything I should never do or never mention? (Add these to the red lines.)
+7. How do you like answers: short or detailed, bullet points or sentences, any words to avoid?
+8. When do you want your morning brief, and which day suits a 15-minute weekly review?
+
+Then show a summary in under 150 words and ask them to correct it.
+
+**Done when:** they've said the summary is right.
+
+## L3. Create the memory home (5 minutes)
+
+Create **one** document called `My Harness` with four headings, filled from the interview:
+
+- **About me** (name, place, time zone, work shape, people, style preferences)
+- **Now** (the three 90-day priorities, each with one "done when" line)
+- **Open loops** (anything they mentioned that's unfinished, one per line, with a date if known)
+- **Decisions** (empty table: date, decision, why, review date)
+
+Where it goes depends on the platform. Use the **default in your path guide**. Ask before creating it. If you can't create files, give it to them as one paste-ready block and tell them exactly where to put it.
+
+Then save their name, time zone, style preferences and red lines in your **built-in memory** too (see the source-of-truth table in `STANDARD.md`: built-in memory holds identity and style; `My Harness` holds priorities, loops and decisions).
+
+**Done when:** they've opened `My Harness` themselves and it's accurate.
+
+## L4. Save three playbooks (5 minutes)
+
+Tailor and save these three skills, in this order:
+
+1. `core/skills/daily-plan/SKILL.md` (plan my day, evening check)
+2. `core/skills/capture/SKILL.md` (capture anything to Open loops)
+3. `core/skills/weekly-review/SKILL.md` (Sunday review and memory update)
+
+Tailoring means: replace "my memory home" with where `My Harness` actually lives on this platform, and set their time zone. Change nothing else. Save each one the way your path guide says. If this platform can't store skills, follow the path guide's fallback (usually: keep the three skill texts inside `My Harness` under a **Playbooks** heading and say "use my daily plan playbook").
+
+Run `daily-plan` once now with whatever you have.
+
+**Done when:** the three playbooks are saved (or stored as the fallback), and they've seen one daily plan.
+
+## L5. Connect the calendar, read-only (3 minutes, optional but recommended)
+
+Ask: "May I connect your calendar, read-only, so the morning brief knows your day?" They sign in themselves. Tell them what to check on the permission screen. Set the connector to read-only or the strictest approval your platform offers. Email is optional in Lite; if they want it, read-only too.
+
+Test: ask "What's on tomorrow?" and check it with them.
+
+**Done when:** the answer matches their calendar, or they've chosen to skip and paste their day instead.
+
+## L6. Two routines (4 minutes)
+
+Offer these two, in their time zone (times are from L2, defaults in brackets):
+
+1. **Morning brief** (weekdays 6:45 am): "Run my daily plan playbook: read today's calendar, my Now priorities and Open loops in My Harness, and give me three suggested priorities and anything that might slip. Never change my calendar or send anything. If a source is unavailable, say so instead of guessing."
+2. **Weekly review** (Sunday 5:00 pm): "Start my weekly review playbook with me. When I've answered, show the changes for My Harness and apply them after my OK."
+
+Create them the way your path guide says, after a yes. Then do a test run of the morning brief now and show the next run time of both.
+
+If this platform can't schedule: give them the two prompts and suggest a phone alarm labelled "Paste morning brief" (the path guide says so).
+
+**Done when:** both routines show a next run time, or they have the prompts and an alarm.
+
+## L7. Self-check and hand over
+
+Run `checks/SELF-CHECK.md`, then `AGENTS.md` Step 5. Offer to save the first-week plan (`plan/FIRST-7-DAYS.md`) as daily reminders.

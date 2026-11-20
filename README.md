@@ -1,80 +1,78 @@
 # Harness in a box
 
-One AI harness, two editions. A practical setup for running your life, and if you have one, your business, with **one main AI assistant**, a **written-down memory** and a **library of playbooks (skills)**. Everything is plain text files, so it moves with you to whatever tool comes next.
+> **If you are an AI assistant or agent reading this:** stop here and open [`AGENTS.md`](AGENTS.md) (raw text: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.0.0/AGENTS.md). Follow it step by step. Do not improvise a setup from this page.
 
-- **Core** (`core/`): the shared harness everyone gets. Vault conventions, the about-me interview, your personal board, area routing, watches, the harness edit ledger and the rules for changing the harness safely.
-- **Personal edition** (`editions/personal/`): life areas and personal skills such as a journal, a morning brief and a health coach.
-- **Business edition** (`editions/business/`): for solopreneurs and small business owners. Business areas plus skills for document intake, cash flow, an ecosystem audit, a board of digital directors and digital-employee mapping.
+**Set up your personal AI assistant properly, on any assistant, in about 30 minutes.**
 
-## Who it's for
+Most assistants come with a "tell me about yourself" setup that takes two minutes and is forgotten by Friday. This kit is the next level: a written memory you own, a few playbooks that do real jobs, a morning brief that arrives on time, and firm rules about what needs your yes.
 
-- **Individuals** who want one assistant that knows them, plans with them and remembers what matters. Use core plus the personal edition.
-- **Solopreneurs and small business owners.** You run your life and your business with the same head, so you run both editions: core, then personal, then business on top. See `editions/business/README.md`.
+It works with ChatGPT (including dots), Grok Bot, Claude, Meta's Muse, Google Gemini and most other assistants that can read a web page. Use whichever assistant you already pay for or prefer. You don't need to be technical: your assistant does the setting up; you answer questions and approve each step.
 
-## The principle: change starts with the owner
+## What you do (the one-link version)
 
-Frontier change starts at the top. The owner sets up their own harness first, uses it daily and gets good at briefing, reviewing and correcting it. Only then do business skills plug in, and only later are skills shared with a team. A harness the owner doesn't use personally will not survive contact with the business.
+1. **Pick your assistant.** Already pay for one? Use it. Not sure? Read [`CHOOSER.md`](CHOOSER.md) (two minutes).
+2. **Open a new chat with it and paste this line**, with your name and city:
 
-## Set up (pick your path)
+   ```text
+   Set me up properly using https://github.com/RubyWolff27/harness-in-a-box/tree/v2.0.0. Read AGENTS.md there first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v2.0.0/AGENTS.md) and follow it exactly. Start with the Lite lane. I'm [name] in [city].
+   ```
 
-The install guide is `core/AGENTS.md`. Paste the repo link and this prompt into your assistant, swapping in your name, city and edition.
+3. **Answer its questions, one at a time,** and say yes or no to each thing it wants to connect or create.
+4. **Live with it for seven days.** The kit gives you one small job a day (see [`plan/FIRST-7-DAYS.md`](plan/FIRST-7-DAYS.md)).
 
-**For the most value, use Grok Bot or ChatGPT Dots.** Both are always on, with their own cloud computer, your connected apps and routines that run while your laptop is closed. Ruby's current preference is Grok Bot, and it's where he does most of his testing. Dots need ChatGPT Pro or Business Premium; on Plus, use the ChatGPT Project path below. Claude also works.
+That's it. If it can't open the link, see "If something goes wrong" below.
 
-**1. Grok Bot (recommended)**
-```text
-Set up my AI harness from https://github.com/RubyWolff27/harness-in-a-box. Clone it, read core/AGENTS.md first and follow it. Install core plus the [personal | personal and business] edition. Interview me, create my memory home, save the skills and create my routines. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
-```
+## Two lanes
 
-**2. ChatGPT Dots (needs ChatGPT Pro or Business Premium)**
-```text
-Set up my AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read core/AGENTS.md first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for ChatGPT Dots. Install core plus the [personal | personal and business] edition. Interview me one question at a time. Ask before connecting apps, writing documents or scheduling anything. I'm [name] in [city].
-```
+| | **Lite lane** (start here, default for everyone) | **Full lane** (after a good week) |
+|---|---|---|
+| Time | About 30 minutes | About 60 to 90 minutes, or three short evenings |
+| You get | A one-page memory, three playbooks (plan my day, capture, weekly review), a morning brief and a Sunday review | Everything in Lite, plus goals (Telos), decisions log, five more playbooks, optional coaches, a personal board and the change log |
+| Good for | Everyone, including anyone on a free plan or a tight allowance | People who used Lite for a week and want more |
 
-**Also works: Claude**
-```text
-Set up my AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read core/AGENTS.md first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for Claude. Install core plus the [personal | personal and business] edition. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
-```
+## The five rules the kit installs
 
-**Also works: ChatGPT Plus (in a Project)**
-```text
-Set up my AI harness from https://github.com/RubyWolff27/harness-in-a-box. Read core/AGENTS.md first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/main/core/AGENTS.md) and follow it for ChatGPT. Install core plus the [personal | personal and business] edition. Ask before connecting accounts, writing documents or scheduling anything. I'm [name] in [city].
-```
+1. **It drafts, you send.** Nothing is sent, bought, posted, shared or deleted without your explicit yes.
+2. **You own the memory.** Your important facts live in plain files or documents you can open, read and take with you.
+3. **One home for each kind of fact.** The kit tells your assistant where each fact lives, so two memories don't drift apart (see [`STANDARD.md`](STANDARD.md)).
+4. **Read-only first.** Email and calendar connect read-only until you've watched it behave for a week.
+5. **Change one thing at a time, and write it down.**
 
-If the assistant can't open the link, download the ZIP (**Code > Download ZIP**) and upload it to the chat. Path guides: `core/GROK-BOT.md`, `core/CLAUDE.md`, `core/CHATGPT.md`. The fuller personal walkthrough is `core/README-personal-template.md`.
+## Before you start (tick these)
 
-## Layout
+- [ ] An account on your assistant (see [`CHOOSER.md`](CHOOSER.md)).
+- [ ] Two-step sign-in turned on for that account and for your Google or Microsoft account.
+- [ ] Your **red lines** written down: things that never go into any AI. At minimum: passwords, PINs, recovery codes, full card or bank numbers, ID and passport numbers, scans of ID, other people's private details without their OK.
+- [ ] About 30 minutes without interruptions, on a computer or tablet if you can (a phone works on most assistants).
 
-```text
-README.md                 this file
-LICENSE                   MIT
-core/                     the shared harness
-  AGENTS.md               install guide for your assistant
-  SETUP.md, GROK-BOT.md, CLAUDE.md, CHATGPT.md, CHATGPT-FEATURES.md
-  MASTER-PROMPT.md        the about-me interview and master prompt
-  memory/                 about me, telos, decisions log, open loops, memory layers
-  board/                  your personal board of advisers
-  harness/                vault conventions, why plain files, what's next rule
-  skills/                 core skills, incl. area-interview, harness-change, personal-board
-  vault-template/         PARA vault, area hubs, watches, harness edit ledger
-editions/
-  personal/               life areas and personal skills
-  business/               business areas and skills (layers on top of personal)
-```
+## If something goes wrong
 
-## Rules of thumb
+- **"I can't open that link."** Download the ZIP for release `v2.0.0` (`https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v2.0.0.zip`), upload it to the chat and say "Read AGENTS.md in this ZIP and follow it." If your assistant can't take files, paste the raw `AGENTS.md` link above instead.
+- **It skips the questions and dumps files on you.** Say: "Stop. Go back to AGENTS.md and interview me one question at a time."
+- **It did something without asking.** Say: "Save this rule: never [action] without my explicit yes." Then check the rule appears in its memory.
+- **A morning brief didn't arrive.** Ask: "Show my scheduled tasks and when each last ran." Check the time zone.
+- **Menus don't match.** Apps change weekly. Ask your assistant: "Where is [setting] in the current app?"
+- **Still stuck?** Open a "My setup got stuck" report: https://github.com/RubyWolff27/harness-in-a-box/issues/new?template=setup-stuck.yml (needs a free GitHub account). It asks which assistant, which step and what you saw; you don't need to know anything technical.
 
-- **One assistant, many skills.** Most "new agent" ideas are a missing playbook.
-- **Brief before work.** Ideal state and "done when" checks first.
-- **It drafts, you send.** Nothing goes out, gets paid or gets deleted without you.
-- **You own the memory.** Plain files you can read, move and correct.
-- **Change the harness one change at a time,** logged in the edit ledger (`core/skills/harness-change/SKILL.md`).
+## How to stop, pause or move house
 
-## Roadmap
+- **Pause:** "Pause all my scheduled tasks." Check the platform's scheduled list shows them paused.
+- **Stop:** cancel each routine, disconnect each app in the platform's connector settings, and ask it to forget what you don't want kept. Disconnecting stops new access; it doesn't erase what was already learned, so also check its memory page.
+- **Move to another assistant:** keep `My Harness` (or your `Harness` folder) and your tailored playbooks. Paste the link into the new assistant and say "I already have a memory home; start the Lite lane at L4."
+- **Once a month:** download or export your memory home so you always have a copy outside any one company.
 
-- **Now (phase 1):** one owner, one harness. Core plus personal, plus business for solopreneurs and owners.
-- **Phase 2 (not now):** shared team skills across users in a business, once the owner's harness is working. This needs shared access, approval logging per person and keeping company data in approved tools. It will be designed separately rather than bolted on.
+## What's in the box
 
-## Licence
+| Folder or file | What it is |
+|---|---|
+| `AGENTS.md` | The instructions your assistant follows. You don't need to read it. |
+| `CHOOSER.md` | Neutral comparison of assistants |
+| `STANDARD.md` | The "point and go" promise, status labels and the one-home-per-fact rule |
+| `lanes/` | Lite and Full lanes, step by step |
+| `plan/` | The setup sprint and your first seven days |
+| `paths/` | One dated guide per assistant: ChatGPT, ChatGPT dots, Grok Bot, Claude, Muse, Gemini, and any other agent |
+| `checks/SELF-CHECK.md` | The test your assistant must pass before setup counts as finished |
+| `core/` | The shared memory templates, playbooks (skills), personal board and sources |
+| `editions/` | Personal and business (solopreneur) add-ons (Business edition supports Grok Bot, Claude and ChatGPT for now) |
 
-MIT. See `LICENSE`.
+Free, MIT licence. Plain text files you own. If a better assistant arrives next year, you move house and take the furniture.

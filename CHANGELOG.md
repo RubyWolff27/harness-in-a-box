@@ -2,6 +2,20 @@
 
 Versions follow `MAJOR.MINOR.PATCH`. Minor versions add guides or skills without changing how existing ones work.
 
+## v2.0.0 (21 Nov 2026)
+
+- **One entry point, pinned to `v2.0.0`.** `AGENTS.md` moves to the repo root and works for any assistant. `core/AGENTS.md` is a redirect stub so v1 prompts keep working. Reader prompts and raw links target release tag `v2.0.0`.
+- **Step 0 detects the platform** from what the assistant can do: ChatGPT dot, ChatGPT, Grok Bot, Claude (and Duet), Muse, Gemini, or an unknown agent (`paths/UNKNOWN-AGENT.md`).
+- **One guide per platform in `paths/`**, each with a status (`Ready`, `Beta`, `Draft`, `Watch`) and a "checked against" date. Merged the long guides from `core/` (`GROK-BOT.md`, `CLAUDE.md`, `CHATGPT.md`) into `paths/` and left redirect stubs at the old `core/` paths. Added `MUSE.md` (Beta, awaiting maintainer test), `CHATGPT-DOTS.md` (Beta), `GEMINI.md` (Draft) and `UNKNOWN-AGENT.md`.
+- **Lite is the default for everyone** (`lanes/LITE.md`): about 30 minutes, three playbooks, two routines, one memory document. `lanes/FULL.md` holds the full v1.2 install as F1 to F8.
+- **Neutral chooser** (`CHOOSER.md`) replaces `core/SETUP.md` and drops the author preference line. Removed "Built and tested by Ruby" from the repo.
+- **Neutral Grok Bot default name** (`Personal assistant`, replacing `Chief of staff`).
+- **Business edition** (`editions/business/README.md`) skips Muse and Gemini for now; supports Grok Bot, Claude and ChatGPT.
+- **Point-and-go standard and one-home-per-fact rule** (`STANDARD.md`), so built-in memory and the memory home don't drift.
+- **Required self-check** (`checks/SELF-CHECK.md`) with a trap test and a prompt-injection test.
+- **Setup sprint and first seven days** (`plan/`), plus a "My setup got stuck" GitHub issue template (`.github/ISSUE_TEMPLATE/setup-stuck.yml`).
+- Fix: `VERSION` (`2.0.0`) matches `CHANGELOG.md`; single default morning brief time (`6:45 am`).
+
 ## v1.2.1 (1 Nov 2026)
 
 - CHATGPT-FEATURES.md: fix Dots reference to point to SETUP.md instead of non-existent section in CHATGPT.md.
