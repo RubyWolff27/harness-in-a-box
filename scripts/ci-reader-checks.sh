@@ -111,6 +111,107 @@ link_rc=$?
 set -e
 if [[ $link_rc -ne 0 ]]; then fail=1; fi
 
+echo "== (a) no paths/<name>.md refs outside paths/ =="
+set +e
+python3 - <<'PY'
+import re, sys
+from pathlib import Path
+
+pat = re.compile(r'paths/[A-Za-z0-9_-]+\.md')
+skip_names = {'CHECKSUMS.sha256'}
+skip_dirs = {'.git', 'node_modules'}
+bad = []
+for p in Path('.').rglob('*'):
+  if not p.is_file():
+    continue
+  if any(part in skip_dirs for part in p.parts):
+    continue
+  if p.parts[0] == 'paths':
+    continue
+  if p.name in skip_names:
+    continue
+  try:
+    text = p.read_text(encoding='utf-8')
+  except (UnicodeDecodeError, OSError):
+    continue
+  for m in pat.finditer(text):
+    # line number
+    line = text.count('\n', 0, m.start()) + 1
+    bad.append(f'{p}:{line}: {m.group(0)}')
+
+if bad:
+  print('FAIL: paths/<name>.md referenced outside paths/:')
+  for b in bad:
+    print(' ', b)
+  sys.exit(1)
+print('OK: no paths/<name>.md refs outside paths/')
+PY
+paths_rc=$?
+set -e
+if [[ $paths_rc -ne 0 ]]; then fail=1; fi
+
+echo "== (b) tag pin matches VERSION; no stale commit SHA pin =="
+set +e
+python3 - <<'PY'
+import re, sys
+from pathlib import Path
+
+version = Path('VERSION').read_text(encoding='utf-8').strip()
+if not re.fullmatch(r'\d+\.\d+\.\d+', version):
+  print(f'FAIL: VERSION looks wrong: {version!r}')
+  sys.exit(1)
+tag = f'v{version}'
+
+files = [Path('README.md'), Path('AGENTS.md')]
+sha_pin = re.compile(r'commit\s+`?[0-9a-f]{7,40}`?', re.I)
+sha_bare = re.compile(r'\(commit\s+[0-9a-f]{7,40}\)', re.I)
+tag_re = re.compile(r'v\d+\.\d+\.\d+')
+
+bad = []
+for path in files:
+  text = path.read_text(encoding='utf-8')
+  if tag not in text:
+    bad.append(f'{path}: missing pin tag {tag}')
+  # Any other release tag that is not this version (ignore changelog-style history in AGENTS? AGENTS should only have current)
+  for m in tag_re.finditer(text):
+    if m.group(0) != tag:
+      # allow mentioning older tags only in CHANGELOG; README/AGENTS must be current-only
+      bad.append(f'{path}: stale or extra tag {m.group(0)} (want {tag} only)')
+  if sha_pin.search(text) or sha_bare.search(text):
+    bad.append(f'{path}: commit SHA pin still present; use tag-only pin')
+
+# Setup links must open this tag
+for path in files:
+  text = path.read_text(encoding='utf-8')
+  for needle in (
+    f'tree/{tag}',
+    f'raw.githubusercontent.com/RubyWolff27/harness-in-a-box/{tag}/',
+    f'tags/{tag}.zip',
+  ):
+    if needle not in text and path.name == 'README.md':
+      # README must have tree and raw; zip optional if "goes wrong" section has it
+      if 'tree/' in needle or 'raw.githubusercontent' in needle:
+        if needle not in text:
+          bad.append(f'{path}: missing setup link fragment {needle}')
+    if path.name == 'AGENTS.md' and 'raw.githubusercontent' in needle and needle not in text:
+      bad.append(f'{path}: missing raw base {needle}')
+
+if bad:
+  # de-dupe
+  seen = []
+  for b in bad:
+    if b not in seen:
+      seen.append(b)
+  print('FAIL:')
+  for b in seen:
+    print(' ', b)
+  sys.exit(1)
+print(f'OK: pin is tag-only {tag} matching VERSION={version}')
+PY
+pin_rc=$?
+set -e
+if [[ $pin_rc -ne 0 ]]; then fail=1; fi
+
 if [[ $fail -ne 0 ]]; then
   echo "CI reader checks FAILED"
   exit 1

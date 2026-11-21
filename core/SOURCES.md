@@ -135,7 +135,7 @@ The study, work, money, investment and daily-interest-brief skills are templates
 - Grok Bot: which Google connectors Marketplace offers on your plan, and the price in your currency.
 - Prices in your local currency for ChatGPT, Claude and Grok Bot (each lists US dollars or varies by country).
 
-- The maximum number of files in a ChatGPT project's files (Sources) on Plus (the ChatGPT path uses 9 files at first and up to 16 after Week 3). If you hit a limit, combine the optional module skills into one file (`paths/CHATGPT.md` Full lane).
+- The maximum number of files in a ChatGPT project's files (Sources) on Plus (the ChatGPT path uses 9 files at first and up to 16 after Week 3). If you hit a limit, combine the optional module skills into one file (see Full lane notes in `archetypes/overlays/chatgpt.md`).
 
 - Whether ChatGPT's Google Drive app reliably reads plain `.md` files (only matters if you keep Obsidian in Drive). Google Docs are supported.
 - Whether Notion writes and developer mode work on Plus (OpenAI's pages disagree).

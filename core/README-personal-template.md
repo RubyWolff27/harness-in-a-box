@@ -84,13 +84,13 @@ If the diagram doesn't show (it needs GitHub or a Mermaid-aware viewer), open `i
 | Connectors | Connect apps, plus any website through its browser | Drive, Gmail, Calendar, Google Docs (beta), Notion, custom MCP | Drive, Gmail, Calendar, Notion |
 | Cost | Included with a paid Cursor plan or a linked SuperGrok plan | Pro US$20 a month | Plus about US$20 a month |
 | Set-up effort | Low | Medium | Medium |
-| Guide | `../paths/GROK-BOT.md` | `../paths/CLAUDE.md` | `../paths/CHATGPT.md` |
+| Guide | `../archetypes/overlays/grok-bot.md` | `../archetypes/overlays/claude.md` | `../archetypes/overlays/chatgpt.md` |
 
 The full comparison, the shared core and the red lines are in `../CHOOSER.md`. You choose; the order is about how much runs without you having to remember. Details are as of October 2026 and these tools change fast, so check before you pay.
 
 ## Where each layer lives in ChatGPT (as of October 2026)
 
-For the same table on the other paths, see `../paths/GROK-BOT.md` and `../paths/CLAUDE.md`.
+For the same table on the other paths, see `../archetypes/overlays/grok-bot.md` and `../archetypes/overlays/claude.md`.
 
 
 | Layer | In ChatGPT | Where it really lives |
@@ -99,7 +99,7 @@ For the same table on the other paths, see `../paths/GROK-BOT.md` and `../paths/
 | Memory | **Memory** (saved memories and chat history) and **Project memory** | Telos, About me, Open loops, Decisions log Docs in your memory home (`memory/MEMORY-LAYERS.md`) |
 | Skills | Skill files uploaded to the **Project's Sources** (works on any plan). ChatGPT's own **Skills** feature is optional, see `CHATGPT-FEATURES.md` | `skills/` in this kit (a copy in your memory home) |
 | Tools and connectors | **Apps** (Settings > Apps; the directory is now called Plugins): Google Drive, Gmail, Google Calendar | Your Google account |
-| Guardrails | Written into the master prompt, plus ChatGPT's own confirmations before actions, plus your security settings | `MASTER-PROMPT.md` and `../paths/CHATGPT.md` Step 1 |
+| Guardrails | Written into the master prompt, plus ChatGPT's own confirmations before actions, plus your security settings | `MASTER-PROMPT.md` and `../archetypes/overlays/chatgpt.md` Step 1 |
 | Loop | Written into the master prompt and every skill. **Work** mode for longer jobs, **Scheduled** tasks for routines | Every skill's "Done when" checks |
 
 The honest limits are in `CHATGPT-FEATURES.md`. The biggest one: ChatGPT can only write memory to tools it can reach, and only in a chat you're in. Google Docs work on every path, which is why they're the default memory home.
@@ -142,10 +142,10 @@ On top of those, the kit has six **optional module templates**. During setup you
 
 Want something else? Ask for it: the skill-writer skill turns any job you repeat into a new playbook.
 
-## Quick start (about 30 minutes)
+## Quick start (about 30 minutes, untested)
 
 1. Fastest: use a prompt from **Start in 2 minutes** above. By hand: read `../CHOOSER.md` and pick your path.
-2. Open that path's guide (`../paths/GROK-BOT.md`, `../paths/CLAUDE.md`, `../paths/CHATGPT.md` or `../paths/MUSE.md`) and do **Evening 1 only**: lock the doors, set up the assistant with the eight core skills, run your first daily plan.
+2. Open that path's guide (`../archetypes/overlays/grok-bot.md`, `../archetypes/overlays/claude.md`, `../archetypes/overlays/chatgpt.md` or `../archetypes/overlays/muse.md`) and do **Evening 1 only**: lock the doors, set up the assistant with the eight core skills, run your first daily plan.
 3. Then Evening 2 (master prompt), Evening 3 (memory home in Google Drive), then Weeks 1 to 3.
 
 ## What's in this folder

@@ -1,5 +1,10 @@
 # Moved
 
-The ChatGPT guide has moved to [`paths/CHATGPT.md`](../paths/CHATGPT.md) (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.0/paths/CHATGPT.md).
+The ChatGPT guide is now archetype **B** plus a product overlay.
 
-For ChatGPT dots, see [`paths/CHATGPT-DOTS.md`](../paths/CHATGPT-DOTS.md).
+1. Read [`archetypes/B-chat-memory-schedules.md`](../archetypes/B-chat-memory-schedules.md)
+2. Read [`archetypes/overlays/chatgpt.md`](../archetypes/overlays/chatgpt.md)
+
+For ChatGPT dots, see [`archetypes/overlays/chatgpt-dots.md`](../archetypes/overlays/chatgpt-dots.md).
+
+If you are following an older prompt that pointed here, open those files and continue.

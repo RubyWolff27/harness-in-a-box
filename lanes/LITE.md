@@ -1,4 +1,4 @@
-# Lite lane (about 30 minutes)
+# Lite lane (about 30 minutes, untested)
 
 For the assistant: run these steps in order. Ask one question at a time. Each step ends with a **Done when** line; don't move on until it's true or the person says skip. Your **archetype** guide (and product overlay, if any) tells you *where* things go; this file tells you *what* to do.
 
@@ -93,6 +93,6 @@ If this platform can't schedule: give them the two prompts and suggest a phone a
 
 ## L7. Self-check and hand over
 
-Run `checks/SELF-CHECK.md`, then `AGENTS.md` Step 5. Offer to save the first-week plan (`plan/FIRST-7-DAYS.md`) as daily reminders. Mention the **monthly five-minute drill**: once a month, export or download `My Harness`, say "safe mode" as a test, and re-run self-check items 1, 2 and 11.
+Run `checks/SELF-CHECK.md`, then `AGENTS.md` Step 5. Offer to save the first-week plan (`plan/FIRST-7-DAYS.md`) as daily reminders. Mention the **monthly five-minute drill**: once a month, export or download `My Harness`, say "safe mode" as a test, and re-run self-check items 1, 2 and 11. Point them at the weekly **error log** (`core/harness/error-log.md`, or an Error log heading in My Harness): one line per miss so compile and evals can learn.
 
 **Done when:** the self-check report card is shown, every required safety check passes (or the person knowingly accepts a fail), they know what happens tomorrow morning, and they have heard the monthly drill.

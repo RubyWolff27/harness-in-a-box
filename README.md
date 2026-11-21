@@ -1,8 +1,8 @@
 # Harness in a box
 
-> **If you are an AI assistant or agent reading this:** stop here and open [`AGENTS.md`](AGENTS.md) (raw text: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.0/AGENTS.md). Follow it step by step. Do not improvise a setup from this page. Pin: release tag `v3.0.0`, commit `a9e4e223ea87dfa6604b5f9666b9293bdbfd1b76` (set on the tagged release). Check file hashes in [`CHECKSUMS.sha256`](CHECKSUMS.sha256) when you can.
+> **If you are an AI assistant or agent reading this:** stop here and open [`AGENTS.md`](AGENTS.md) (raw text: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.1/AGENTS.md). Follow it step by step. Do not improvise a setup from this page. Pin: release tag `v3.0.1` only (no separate content-commit SHA; the tagged commit is the release). Check file hashes in [`CHECKSUMS.sha256`](CHECKSUMS.sha256) when you can.
 
-**Set up your personal AI assistant properly, on any assistant, in about 30 minutes.**
+**Set up your personal AI assistant properly, on any assistant, in about 30 minutes (untested).**
 
 This kit is for adults. It assumes you can approve sends, money and privacy choices for yourself. It is not a child account product. If a household shares a device, keep red lines and approvals on the adult's account; do not set the kit up as a child-directed assistant.
 
@@ -16,7 +16,7 @@ It works with ChatGPT (including dots), Grok Bot, Claude, Meta's Muse, Google Ge
 2. **Open a new chat with it and paste this line**, with your name and city:
 
    ```text
-   Set me up properly using https://github.com/RubyWolff27/harness-in-a-box/tree/v3.0.0 (commit a9e4e223ea87dfa6604b5f9666b9293bdbfd1b76). Read AGENTS.md there first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.0/AGENTS.md) and follow it exactly. Start with the Lite lane. I'm [name] in [city].
+   Set me up properly using https://github.com/RubyWolff27/harness-in-a-box/tree/v3.0.1. Read AGENTS.md there first (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.1/AGENTS.md) and follow it exactly. Start with the Lite lane. I'm [name] in [city].
    ```
 
 3. **Answer its questions, one at a time,** and say yes or no to each thing it wants to connect or create.
@@ -28,7 +28,7 @@ That's it. If it can't open the link, see "If something goes wrong" below.
 
 | | **Lite lane** (start here, default for everyone) | **Full lane** (after a good week) |
 |---|---|---|
-| Time | About 30 minutes | About 60 to 90 minutes, or three short evenings |
+| Time | About 30 minutes (untested) | About 60 to 90 minutes, or three short evenings |
 | You get | A one-page memory, three playbooks (plan my day, capture, weekly review), a morning brief and a Sunday review | Everything in Lite, plus goals (Telos), decisions log, five more playbooks, optional coaches, a personal board and the change log |
 | Good for | Everyone, including anyone on a free plan or a tight allowance | People who used Lite for a week and want more |
 
@@ -45,11 +45,11 @@ That's it. If it can't open the link, see "If something goes wrong" below.
 - [ ] An account on your assistant (see [`CHOOSER.md`](CHOOSER.md)).
 - [ ] Two-step sign-in turned on for that account and for your Google or Microsoft account.
 - [ ] Your **red lines** written down: things that never go into any AI. At minimum: passwords, PINs, recovery codes, full card or bank numbers, ID and passport numbers, scans of ID, other people's private details without their OK.
-- [ ] About 30 minutes without interruptions, on a computer or tablet if you can (a phone works on most assistants).
+- [ ] About 30 minutes (untested) without interruptions, on a computer or tablet if you can (a phone works on most assistants).
 
 ## If something goes wrong
 
-- **"I can't open that link."** Download the ZIP for release `v3.0.0` (`https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v3.0.0.zip`), upload it to the chat and say "Read AGENTS.md in this ZIP and follow it." If your assistant can't take files, paste the raw `AGENTS.md` link above instead.
+- **"I can't open that link."** Download the ZIP for release `v3.0.1` (`https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v3.0.1.zip`), upload it to the chat and say "Read AGENTS.md in this ZIP and follow it." If your assistant can't take files, paste the raw `AGENTS.md` link above instead.
 - **It skips the questions and dumps files on you.** Say: "Stop. Go back to AGENTS.md and interview me one question at a time."
 - **It did something without asking.** Say: "Save this rule: never [action] without my explicit yes." Then check the rule appears in its memory.
 - **A morning brief didn't arrive.** Ask: "Show my scheduled tasks and when each last ran." Check the time zone.

@@ -7,7 +7,7 @@
 ```text
 HARNESS EXPORT v3
 Exported: YYYY-MM-DD
-Kit: 3.0.0
+Kit: 3.0.1
 Archetype: A|B|C|D
 Product: [name or unknown]
 
