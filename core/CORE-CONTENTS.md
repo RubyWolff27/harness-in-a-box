@@ -1,6 +1,6 @@
 # What's in core
 
-The universal entry point, chooser, standards, lanes and per-assistant path guides now sit at the top of the repo (`../AGENTS.md`, `../CHOOSER.md`, `../STANDARD.md`, `../lanes/`, `../paths/`, `../plan/`, `../checks/`). Redirect stubs remain in `core/` for old links (`AGENTS.md`, `SETUP.md`, `GROK-BOT.md`, `CLAUDE.md`, `CHATGPT.md`).
+The universal entry point, chooser, standards, lanes and per-assistant path guides now sit at the top of the repo (`../AGENTS.md`, `../CHOOSER.md`, `../STANDARD.md`, `../lanes/`, `../paths/`, `../plan/`, `../checks/`). Redirect stubs remain in `core/` for old links (AGENTS, SETUP, and the old platform guide stubs that now redirect to overlays).
 
 | Need | File |
 |---|---|

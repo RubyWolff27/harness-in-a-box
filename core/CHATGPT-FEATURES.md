@@ -38,7 +38,7 @@ Labels used: **Verified** means OpenAI's own page says so. **Not verified** mean
 | **ChatGPT Work replaced agent mode** | 13 July 2026 | Use Work for long jobs. "Agent mode" is gone. Already reflected. |
 | **App Directory became the Plugin Directory** | 13 July 2026 | Browse **Plugins**; connect accounts under **Settings > Apps**. Existing connections unaffected. |
 | **Custom GPTs retiring** | Announced 11 September 2026 | New GPT creation ends 26 October 2026 (planned); retirement 11 December 2026. This kit never used GPTs: skills in a Project do the job. |
-| **Project memory can be changed later** | 20 August 2026 | CHATGPT.md Step 2 updated. Work doesn't run in project-only projects. |
+| **Project memory can be changed later** | 20 August 2026 | ChatGPT overlay Step 2 updated. Work doesn't run in project-only projects. |
 | **Flashcards, quizzes, study mode** | August and September 2026 | Built into the study partner template. Study mode isn't available inside Projects. |
 | **Scheduled tasks: sharing and app triggers** | 27 August 2026 | Shareable tasks; Gmail, Slack and GitHub triggers on Plus and above. Project tasks can't read project files. |
 | **Voice in Projects, with plugins and in Work** | August and September 2026 | Talk through a case or a board question hands-free. |

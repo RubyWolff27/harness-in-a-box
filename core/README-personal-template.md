@@ -155,9 +155,9 @@ personal-harness-template/
   README.md              this page
   AGENTS.md              instructions your assistant follows to install the harness for you
   SETUP.md               start here: choose your path, shared core, red lines
-  GROK-BOT.md            path 1 (recommended): Grok Bot, step by step
-  CLAUDE.md              path 2: Claude, step by step
-  CHATGPT.md             path 3: ChatGPT, step by step
+  archetypes/overlays/grok-bot.md   Grok Bot overlay
+  archetypes/overlays/claude.md      Claude overlay
+  archetypes/overlays/chatgpt.md    ChatGPT overlay
   MASTER-PROMPT.md       the master prompt template and interview
   CHATGPT-FEATURES.md    what ChatGPT can and can't do, as of October 2026
   SOURCES.md             every link, checked October 2026
