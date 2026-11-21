@@ -21,8 +21,8 @@ Checked 21 Nov 2026 against each company's own help pages (links in `core/SOURCE
 | **Gemini (Tasks mode)** | Reported to work in its own isolated cloud machine | Reported free for eligible users from 17 Nov 2026 | Gemini apps and web | Reported yes | Draft |
 | **Grok Bot** | Yes: its own cloud computer, routines run while your laptop is closed | Included with a paid Cursor plan, or link a SuperGrok subscription | Desktop, phone, Slack, X | Yes | Beta |
 | **Muse (Meta)** | Yes: its own cloud computer (Muse Secure VM), reminders and recurring tasks | Free with a weekly usage limit; Power $20 and Maximum $100 a month on Meta's help page (currency not stated; Australian prices not published) | iPhone, Android, muse.ai, Mac app; WhatsApp chat reported | Yes, since 17 Nov 2026 | Beta |
-| **Messaging-native (e.g. Instinct)** | Yes, inside iMessage / WhatsApp / calls | Invite-only at launch (Instinct); other products vary | Phone messaging apps | Instinct AU availability undocumented (unverified) | Watch (`paths/MESSAGING-NATIVE.md`) |
-| **Something else** | Depends | Depends | | | Use `paths/UNKNOWN-AGENT.md` |
+| **Messaging-native (e.g. Instinct)** | Yes, inside iMessage / WhatsApp / calls | Invite-only at launch (Instinct); other products vary | Phone messaging apps | Instinct AU availability undocumented (unverified) | Watch (`archetypes/D-messaging-native.md`) |
+| **Something else** | Depends | Depends | | | Use `archetypes/A-chat-only.md` (unknown-agent stub still redirects) |
 
 Kit v3 groups assistants by **archetype** (A chat-only, B memory+schedules, C always-on, D messaging-native). Product menu names live in `archetypes/overlays/`.
 
@@ -31,7 +31,7 @@ Kit v3 groups assistants by **archetype** (A chat-only, B memory+schedules, C al
 ## Honest trade-offs
 
 - **Always-on agents can do more, so they can do more wrong.** The kit keeps every send, buy, post and delete behind your yes on every path.
-- **Messaging-native assistants (Instinct and similar) can act inside your texts.** Week one: no email, no payments; drafts only; ask what is kept after you disconnect. See `paths/MESSAGING-NATIVE.md`.
+- **Messaging-native assistants (Instinct and similar) can act inside your texts.** Week one: no email, no payments; drafts only; ask what is kept after you disconnect. See `archetypes/D-messaging-native.md` and `archetypes/overlays/instinct.md`.
 - **Free tiers run out.** Muse, Gemini and ChatGPT Free have usage limits. A full setup reads a lot of text; Lite is designed to fit.
 - **Your data goes where the assistant runs.** All of these run in their company's cloud. Read the privacy settings in your path guide's first step. Muse on a Mac can read your Messages and WhatsApp if you allow it: only allow what you'd be comfortable with it reading.
 - **Don't run two at once while you're setting up.** Less surface is the point. You can move later; the memory home moves with you.

@@ -2,9 +2,21 @@
 
 Versions follow `MAJOR.MINOR.PATCH`. Minor versions add guides or skills without changing how existing ones work.
 
+## v3.0.1 (21 Nov 2026)
+
+Patch: Full lane overlay pointers, restored Muse / Allow-for-this-task detail, tag-only pin, honest "untested" timing, CI path-ref and pin checks, weekly error-log wiring.
+
+- **Full lane:** every former `paths/` guide reference now points at the matching archetype or product overlay (ChatGPT / Claude / Grok Bot Full content lives in overlays).
+- **Muse overlay:** restores operational L1 approvals including **Allow for this task**, memory-home / Playbooks fallback, Full notes, self-check notes (kept concise).
+- **Pin:** drop the separate content-commit SHA. Reader prompts pin to tag `v3.0.1` only; the release step must cut the tag on the merge commit so tag == what the setup link opens.
+- **Timing:** reader text says **about 30 minutes (untested)** until volunteer runs are logged.
+- **CI:** fail on any `paths/<name>.md` reference outside `paths/`; fail if README/AGENTS keep a stale commit-SHA pin or a tag that disagrees with `VERSION`.
+- **Error log:** weekly review step and Lite hand-over point at `core/harness/error-log.md`.
+- Lite stays about 30 minutes (untested).
+
 ## v3.0.0 (21 Nov 2026)
 
-Major: capability archetypes, memory schema v2, compile loop, playbook contracts, autonomy ladder, portable export. Lite stays about 30 minutes. v2.x `paths/*.md` prompts keep working via redirect stubs.
+Major: capability archetypes, memory schema v2, compile loop, playbook contracts, autonomy ladder, portable export. Lite claimed about 30 minutes (no volunteer timing yet). Older paths-folder prompts keep working via redirect stubs.
 
 - **Archetypes A-D** replace path-first setup: chat-only, chat+memory+schedules, always-on cloud computer, messaging-native. One-page dated product overlays hold menu names and known gaps. Capability probe in `AGENTS.md` Step 0. Archetype D keeps Instinct week-one rules.
 - **Memory schema v2:** always-loaded Index (~400 words), provenance tags on every line, Now expires after 90 days, section budgets and archive rule (`core/memory/SCHEMA-v2.md`).
@@ -25,7 +37,7 @@ Non-breaking hardening from the research board review. Reader prompts change by 
 - **Rules only from the person (D4):** new rules quoted back word for word with a date; self-check 10; day 5 and harness-change updated.
 - **Routine risk contracts (D8):** each Lite routine states which trifecta leg it lacks; morning brief writes only to chat; email summarise-only, no link following.
 - **Safe mode:** one phrase pauses every routine and drops connectors to read-only (README and every path).
-- **Messaging-native path (D12):** `paths/MESSAGING-NATIVE.md` (Watch) with Instinct notes; wired into Step 0 and `CHOOSER.md`.
+- **Messaging-native path (D12):** messaging-native archetype D (Watch) with Instinct notes; wired into Step 0 and `CHOOSER.md`.
 - **Stale text sweep (D5, D14):** no "three assistants" leftovers; author name neutralised on the reader path.
 - **Business prerequisites (D6):** Full lane plus two weeks of personal use.
 - **Drift check (D7):** periodic-review step 5 is the STANDARD five-minute compare on every platform.
@@ -35,7 +47,7 @@ Non-breaking hardening from the research board review. Reader prompts change by 
 ## v2.0.0 (21 Nov 2026)
 
 - **One entry point, pinned to `v2.0.0`.** `AGENTS.md` moves to the repo root and works for any assistant. `core/AGENTS.md` is a redirect stub so v1 prompts keep working. Reader prompts and raw links target release tag `v2.0.0`.
-- **Step 0 detects the platform** from what the assistant can do: ChatGPT dot, ChatGPT, Grok Bot, Claude (and Duet), Muse, Gemini, or an unknown agent (`paths/UNKNOWN-AGENT.md`).
+- **Step 0 detects the platform** from what the assistant can do: ChatGPT dot, ChatGPT, Grok Bot, Claude (and Duet), Muse, Gemini, or an unknown agent (unknown-agent stub under the paths folder).
 - **One guide per platform in `paths/`**, each with a status (`Ready`, `Beta`, `Draft`, `Watch`) and a "checked against" date. Merged the long guides from `core/` (`GROK-BOT.md`, `CLAUDE.md`, `CHATGPT.md`) into `paths/` and left redirect stubs at the old `core/` paths. Added `MUSE.md` (Beta, awaiting maintainer test), `CHATGPT-DOTS.md` (Beta), `GEMINI.md` (Draft) and `UNKNOWN-AGENT.md`.
 - **Lite is the default for everyone** (`lanes/LITE.md`): about 30 minutes, three playbooks, two routines, one memory document. `lanes/FULL.md` holds the full v1.2 install as F1 to F8.
 - **Neutral chooser** (`CHOOSER.md`) replaces `core/SETUP.md` and drops the author preference line. Removed "Built and tested by Ruby" from the repo.

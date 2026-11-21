@@ -1,8 +1,8 @@
 # Full lane (60 to 90 minutes, or three short evenings)
 
-For the assistant: run this after the Lite lane has worked for about a week, or straight away if the person insists. It **builds on** Lite: `My Harness` becomes a folder of separate documents, and more playbooks are added. Your path guide (`paths/<platform>.md`) still decides where things go and overrides anything platform-specific written below.
+For the assistant: run this after the Lite lane has worked for about a week, or straight away if the person insists. It **builds on** Lite: `My Harness` becomes a folder of separate documents, and more playbooks are added. Your **archetype** plus **product overlay** under `archetypes/overlays/` still decide where things go and override anything platform-specific written below.
 
-**Fetch as you go** (raw base in `AGENTS.md`): `core/MASTER-PROMPT.md`, `core/memory/MEMORY-LAYERS.md`, `core/memory/telos.md`, `core/memory/about-me.md`, `core/memory/open-loops.md`, `core/memory/decisions-log.md`, `core/board/README.md`, `core/board/personas.md`, the five remaining core skills (`periodic-review`, `inbox-triage`, `meeting-prep`, `research-brief`, `skill-writer`), `core/skills/harness-change/SKILL.md`, and only the optional modules they choose from `editions/personal/skills/`. Follow your guide in `paths/` for where files, skills and routines go on this platform.
+**Fetch as you go** (raw base in `AGENTS.md`): `core/MASTER-PROMPT.md`, `core/memory/MEMORY-LAYERS.md`, `core/memory/telos.md`, `core/memory/about-me.md`, `core/memory/open-loops.md`, `core/memory/decisions-log.md`, `core/board/README.md`, `core/board/personas.md`, the five remaining core skills (`periodic-review`, `inbox-triage`, `meeting-prep`, `research-brief`, `skill-writer`), `core/skills/harness-change/SKILL.md`, and only the optional modules they choose from `editions/personal/skills/`. Follow your archetype and overlay for where files, skills and routines go on this platform.
 
 ## F1. Split the memory home
 
@@ -34,7 +34,7 @@ Show them the drafts and fix what they correct.
 Explain in two lines why Google Docs is the default (any assistant with a Drive connector can read and update it; no re-uploading). Ask: "May I connect your Google Drive and create a Harness folder with your memory Docs?"
 - **If yes and you can** (Drive connector, Google Docs connector, or your own browser on Grok Bot): create `My Drive/Harness/` with Google Docs **Telos, About me, Open loops, Decisions log, Inbox, Master Prompt** (Board personas comes in F6), filled from F2 and the templates. Also create `0 Inbox`, `1 Projects`, `2 Areas` (Home, Money, Health, Car), `3 Resources`, `4 Archive`. Ask the user to sign in themselves; never handle their password.
 - **If you can't create files:** give each Doc as a paste-ready block with its name, and tell them exactly where to make it.
-- If they'd rather use Obsidian or Notion, see `core/memory/MEMORY-LAYERS.md` (and "Prefer Obsidian?" in `paths/GROK-BOT.md`).
+- If they'd rather use Obsidian or Notion, see `core/memory/MEMORY-LAYERS.md` (and "Prefer Obsidian?" in `archetypes/overlays/grok-bot.md`).
 
 ## F4. Tailor the optional modules, then load the skills
 
@@ -52,13 +52,13 @@ Explain in two lines why Google Docs is the default (any assistant with a Drive 
 For each module they want: fill in every [BRACKET], research the country- or industry-specific facts from official sources (cite them with the date), delete the setup note, give it a clear name (for example `nursing-partner` or `football-brief`), and show them the result before saving. Skip the rest; they can add them later with skill-writer.
 
 
-> **Platform note.** The per-platform lines below (Grok Bot, Claude, ChatGPT) are kept from v1.2 for reference. For ChatGPT dots, Muse, Gemini or any other agent, use the "Full lane" section of your path guide instead.
+> **Platform note.** The per-platform lines below (Grok Bot, Claude, ChatGPT) are kept for reference. For ChatGPT dots, Muse, Gemini or any other agent, use the Full lane notes in your product overlay under `archetypes/overlays/`.
 
 **Then load:**
 
 - **Grok Bot:** save each `skills/*/SKILL.md` as a private skill with the same name. Start with the eight core skills (daily-plan, capture, weekly-review, periodic-review, inbox-triage, meeting-prep, research-brief, skill-writer); then add the tailored modules from above. Confirm they are enabled under Connect apps > Private skills.
-- **Claude:** you can't install skills yourself. If code execution is on, make one ZIP per skill folder (folder at the root of the ZIP) and give them the files; otherwise tell them to zip each folder. Then tell them: Settings > Capabilities > turn on code execution; Plugins (formerly Customize) > Skills > "+" > Upload a skill, once per ZIP. List the eight core skills and their tailored modules by name. Also create (or tell them to create) a project called `My Harness` with the project instructions from `paths/CHATGPT.md`, adapted ("my skills" instead of "files named skill-*.md").
-- **ChatGPT:** you can't create projects or upload files yourself. Tell them: create a project `My Harness`; upload `core/MASTER-PROMPT.md` (or their filled-in version) and the eight core `SKILL.md` files plus their tailored modules (renamed `skill-daily-plan.md` and so on); paste the project instructions from `paths/CHATGPT.md`. Give them the instructions as one copy block.
+- **Claude:** you can't install skills yourself. If code execution is on, make one ZIP per skill folder (folder at the root of the ZIP) and give them the files; otherwise tell them to zip each folder. Then tell them: Settings > Capabilities > turn on code execution; Plugins (formerly Customize) > Skills > "+" > Upload a skill, once per ZIP. List the eight core skills and their tailored modules by name. Also create (or tell them to create) a project called `My Harness` with the project instructions from `archetypes/overlays/chatgpt.md`, adapted ("my skills" instead of "files named skill-*.md"). See also `archetypes/overlays/claude.md`.
+- **ChatGPT:** you can't create projects or upload files yourself. Tell them: create a project `My Harness`; upload `core/MASTER-PROMPT.md` (or their filled-in version) and the eight core `SKILL.md` files plus their tailored modules (renamed `skill-daily-plan.md` and so on); paste the project instructions from `archetypes/overlays/chatgpt.md`. Give them the instructions as one copy block.
 
 ## F5. Routines and schedules (in their time zone)
 
@@ -70,9 +70,9 @@ Offer this set and ask which they want (all times are suggestions):
 - Weekly review: Sunday 5:00 pm
 
 Per platform:
-- **Grok Bot:** create the routines yourself after their yes, using the prompts in the routines table in `paths/GROK-BOT.md`. Run **Test run** on each and show the result. You may also offer the Sunday inbox tidy.
-- **Claude:** create scheduled tasks yourself if this Claude can (ask in chat; the "Scheduled" page). Otherwise give the exact prompts and steps from `paths/CLAUDE.md`. Suggest a hands-off approval mode only for read-and-report tasks.
-- **ChatGPT:** you may be able to create a scheduled task from the chat; if not, give the exact prompts from `paths/CHATGPT.md`. Remind them Plus has 5 tasks and a scheduled task can't read project files, so prompts must be self-contained.
+- **Grok Bot:** create the routines yourself after their yes, using the Full routines table in `archetypes/overlays/grok-bot.md`. Run **Test** on each and show the result. You may also offer the Sunday inbox tidy.
+- **Claude:** create scheduled tasks yourself if this Claude can (ask in chat; the "Scheduled" page). Otherwise use the Full lane notes in `archetypes/overlays/claude.md` (routines from the Grok overlay table). Suggest a hands-off approval mode only for read-and-report tasks.
+- **ChatGPT:** you may be able to create a scheduled task from the chat; if not, use the Full lane scheduled tasks table in `archetypes/overlays/chatgpt.md`. Remind them Plus has 5 tasks and a scheduled task can't read project files, so prompts must be self-contained.
 
 ## F6. The personal board
 
@@ -94,7 +94,7 @@ Run the daily plan skill with them now. Then show this checklist with ticks and 
 
 **Still manual for them** (list only what applies to this platform), for example: turning on two-factor; signing in to Google; Claude skill uploads; ChatGPT project creation and uploads; any schedule you couldn't create; importing `editions/personal/drive-templates/money-tracker.csv` into Google Sheets in Week 3.
 
-Close with what happens next: daily plan every morning for a week, first weekly review on Sunday, any optional modules they skipped can be added in Week 3 (see their path guide).
+Close with what happens next: daily plan every morning for a week, first weekly review on Sunday, any optional modules they skipped can be added in Week 3 (see their archetype and overlay).
 
 ## Editions
 

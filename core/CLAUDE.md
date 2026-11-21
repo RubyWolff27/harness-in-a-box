@@ -1,3 +1,8 @@
 # Moved
 
-The Claude guide has moved to [`paths/CLAUDE.md`](../paths/CLAUDE.md) (raw: https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.0/paths/CLAUDE.md).
+The Claude guide is now archetype **B** plus a product overlay.
+
+1. Read [`archetypes/B-chat-memory-schedules.md`](../archetypes/B-chat-memory-schedules.md)
+2. Read [`archetypes/overlays/claude.md`](../archetypes/overlays/claude.md)
+
+If you are following an older prompt that pointed here, open those files and continue.

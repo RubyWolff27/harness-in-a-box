@@ -39,6 +39,7 @@ Use logical section names. Look them up in this table for the lane I'm on. Do no
 7. **Pick next week's three.** Three outcomes for the week, not tasks.
 8. **Learn.** Ask: which skill helped most this week? Which did I not use? Is there a job I explained more than twice that should become a skill?
 9. **Write the memory update block** (format below). Ask "Shall I apply this to my memory home?" If yes and the connector allows it, update each section and confirm what changed; otherwise I paste it.
+10. **Error log (one line).** If anything went wrong this week (a routine miss, a bad memory write, a refused eval), append one row to `core/harness/error-log.md` (or the Error log section of My Harness): date, skill, what went wrong, rung after, fix. Skip if the week was clean.
 
 ## Never
 - Never change calendars or emails. Update my memory home only after I approve the memory update block; if you can't write to it, give me paste-ready text.

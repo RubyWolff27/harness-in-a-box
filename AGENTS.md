@@ -2,10 +2,10 @@
 
 You are an AI assistant or agent. A person has pointed you at this kit and asked you to set them up. This file is your whole job description. Follow it in order. Where it gives a default, use the default unless the person chooses otherwise. Where you are unsure, say so and use the fallback. **Do not improvise steps that aren't written here.**
 
-Kit version: 3.0.0. Repo: https://github.com/RubyWolff27/harness-in-a-box (release tag `v3.0.0`, commit `a9e4e223ea87dfa6604b5f9666b9293bdbfd1b76`)
-Raw base for fetching one file at a time: `https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.0/`
+Kit version: 3.0.1. Repo: https://github.com/RubyWolff27/harness-in-a-box (release tag `v3.0.1`)
+Raw base for fetching one file at a time: `https://raw.githubusercontent.com/RubyWolff27/harness-in-a-box/v3.0.1/`
 
-**Verify what you fetched (when you can).** Open `CHECKSUMS.sha256` for this tag. For each file you rely on, run `sha256sum <file>` (or your platform's equivalent) and check it matches the line for that path. If a hash does not match, stop and tell the person; do not continue from a mixed or unknown tree. Maintainers regenerate the list with `./scripts/generate-checksums.sh`. The commit pin above is set to the tagged release commit after merge; never trust a moved tag.
+**Verify what you fetched (when you can).** Open `CHECKSUMS.sha256` for this tag. For each file you rely on, run `sha256sum <file>` (or your platform's equivalent) and check it matches the line for that path. If a hash does not match, stop and tell the person; do not continue from a mixed or unknown tree. Maintainers regenerate the list with `./scripts/generate-checksums.sh`. This kit pins to the **release tag only** (no separate content-commit SHA). When the tag is cut, the tagged commit is the release; never trust a moved tag.
 
 ## Guardrails (read first, follow throughout)
 
@@ -43,13 +43,13 @@ Then, if you know the product, also open the matching **overlay** (menu names an
 | Gemini; Chat and Task modes | `archetypes/overlays/gemini.md` |
 | Instinct or similar messaging agent | `archetypes/overlays/instinct.md` |
 
-If two products could fit, ask: "Which app are you talking to me in?" Never guess a menu name; if the overlay does not name a setting, ask what they see. v2.x prompts that still say `paths/...` keep working: those files are stubs that point here.
+If two products could fit, ask: "Which app are you talking to me in?" Never guess a menu name; if the overlay does not name a setting, ask what they see. Older v2.x prompts that still name a paths-folder stub keep working: those files redirect here.
 
 Read your archetype guide (and overlay if any) now. They override anything platform-specific below.
 
 ## Step 1. Confirm the lane (1 minute)
 
-**Lite is the default for everyone.** Say: "We'll start with the Lite lane. It takes about 30 minutes and gives you a one-page memory, three playbooks, a morning brief and a Sunday review. After a good week you can add the Full lane (goals, a decisions log, more playbooks and a personal board). Ready to start?"
+**Lite is the default for everyone.** Say: "We'll start with the Lite lane. It takes about 30 minutes (untested) and gives you a one-page memory, three playbooks, a morning brief and a Sunday review. After a good week you can add the Full lane (goals, a decisions log, more playbooks and a personal board). Ready to start?"
 
 Only switch to Full now if the person explicitly insists after hearing that Lite is the default. Free plans and tight allowances: always Lite.
 
@@ -71,9 +71,9 @@ Fetch files in this order and stop when you have what you need. Fetching everyth
 **Full lane (fetch when you reach each step):** `lanes/FULL.md` lists them.
 
 How to get the files, best first:
-1. **If you have a computer and shell** (archetype C, or B with code execution): download `https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v3.0.0.zip` or `git clone --branch v3.0.0 --depth 1 https://github.com/RubyWolff27/harness-in-a-box`, read-only. Then compare `CHECKSUMS.sha256` if you can.
+1. **If you have a computer and shell** (archetype C, or B with code execution): download `https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v3.0.1.zip` or `git clone --branch v3.0.1 --depth 1 https://github.com/RubyWolff27/harness-in-a-box`, read-only. Then compare `CHECKSUMS.sha256` if you can.
 2. **If you can fetch web pages:** fetch the raw URLs one at a time (raw base above + path). Prefer also fetching `CHECKSUMS.sha256` and checking the files you use.
-3. **If you can't fetch:** ask the person to download the `v3.0.0` ZIP (`https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v3.0.0.zip`) and upload it, or paste each file's contents.
+3. **If you can't fetch:** ask the person to download the `v3.0.1` ZIP (`https://github.com/RubyWolff27/harness-in-a-box/archive/refs/tags/v3.0.1.zip`) and upload it, or paste each file's contents.
 
 If a file won't load, say which one, try once more, then use the fallback in your archetype guide. Don't fill gaps from memory of older versions.
 
@@ -96,5 +96,5 @@ Tell them, in this order:
 ## Rules about this kit
 
 - **One home per fact.** Follow the source-of-truth table in `STANDARD.md`. Your own built-in memory is a helpful copy; the memory home is the record for goals, open loops and decisions.
-- **Version.** Tell the person the kit version you used (`3.0.0`, tag `v3.0.0`, commit pin above) so a later update can be compared.
-- **Older prompts.** If someone's prompt says `core/AGENTS.md` or a `paths/*.md` file, those are stubs that point here and to archetypes. Follow this file.
+- **Version.** Tell the person the kit version you used (`3.0.1`, tag `v3.0.1`) so a later update can be compared.
+- **Older prompts.** If someone's prompt says `core/AGENTS.md` or still points at a paths-folder stub, those stubs redirect here and to archetypes. Follow this file.

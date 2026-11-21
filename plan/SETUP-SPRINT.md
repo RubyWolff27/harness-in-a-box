@@ -2,7 +2,7 @@
 
 The old kit asked for three evenings, then three weeks. Most people who stall do it between evening 1 and evening 2. So v2 front-loads one short sprint that ends with something working tomorrow morning, and moves the deeper work to after the first good week.
 
-## Sprint (one sitting, about 30 minutes)
+## Sprint (one sitting, about 30 minutes, untested)
 
 | Block | Minutes | Lite step | What you have at the end |
 |---|---|---|---|
