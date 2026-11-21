@@ -1,0 +1,15 @@
+name: Reader checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  reader-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run reader-path checks
+        run: ./scripts/ci-reader-checks.sh
