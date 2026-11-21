@@ -6,7 +6,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Minor versions add guides or skills without
 
 Major: capability archetypes, memory schema v2, compile loop, playbook contracts, autonomy ladder, portable export. Lite stays about 30 minutes. v2.x `paths/*.md` prompts keep working via redirect stubs.
 
-- **Archetypes A–D** replace path-first setup: chat-only, chat+memory+schedules, always-on cloud computer, messaging-native. One-page dated product overlays hold menu names and known gaps. Capability probe in `AGENTS.md` Step 0. Archetype D keeps Instinct week-one rules.
+- **Archetypes A-D** replace path-first setup: chat-only, chat+memory+schedules, always-on cloud computer, messaging-native. One-page dated product overlays hold menu names and known gaps. Capability probe in `AGENTS.md` Step 0. Archetype D keeps Instinct week-one rules.
 - **Memory schema v2:** always-loaded Index (~400 words), provenance tags on every line, Now expires after 90 days, section budgets and archive rule (`core/memory/SCHEMA-v2.md`).
 - **Compile loop:** weekly (nightly on C) proposes one memory diff; apply only after yes.
 - **Playbook contracts:** Inputs/Output on Lite skills; `evals/` with three samples each; weekly error log.

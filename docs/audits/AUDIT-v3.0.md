@@ -11,15 +11,15 @@ Date: 21 Nov 2026. Branch: `release/v3.0`. Base: v2.1.0 tip on main. Auditor: cl
 
 | Check | Result |
 |---|---|
-| No em/en dashes in `.md` | Pass (fixed A–D en dash in README during audit) |
+| No em/en dashes in `.md` | Pass (fixed A-D en dash in README during audit) |
 | `paths/*.md` are stubs pointing to archetype + overlay | Pass |
-| Archetypes A–D exist; D has week-one strict rules | Pass |
+| Archetypes A-D exist; D has week-one strict rules | Pass |
 | Memory schema v2 referenced from L3 | Pass |
 | Compile-loop skill present | Pass |
 | Lite three have Inputs/Output and `evals/` | Pass |
 | Autonomy ladder + export + seed present | Pass |
 | Storm / ship's-log / monthly drill / household note | Pass |
-| Every L1–L7 has Done when | Pass |
+| Every L1-L7 has Done when | Pass |
 
 ## Cold Lite simulation
 
@@ -63,7 +63,7 @@ Finding: none. AU availability left undocumented as specified.
 
 | # | Finding | Fix |
 |---|---|---|
-| A1 | README used Unicode en dash in "A–D" | Replaced with ASCII `A-D` |
+| A1 | README used Unicode en dash in "A-D" | Replaced with ASCII `A-D` |
 | A2 | CHECKSUMS stale across v3 commits | Regenerated in audit commit |
 
 ## Re-run
