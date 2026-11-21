@@ -1,6 +1,6 @@
 # Harness
 
-The source of truth for your harness. Copy these in on Evening 3 (see the Obsidian section at the end of CHATGPT.md, or your path's guide):
+The source of truth for your harness. Copy these in on Evening 3 (see Prefer Obsidian in `archetypes/overlays/grok-bot.md`, or your product overlay):
 
 ```text
 05 Harness/

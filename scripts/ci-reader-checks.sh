@@ -150,6 +150,86 @@ paths_rc=$?
 set -e
 if [[ $paths_rc -ne 0 ]]; then fail=1; fi
 
+echo "== (a2) no bare guide filenames that do not resolve =="
+set +e
+python3 - <<'PY'
+import re, sys
+from pathlib import Path
+
+# Uppercase guide basenames from the old paths-folder era. A bare guide
+# filename (for example GROK plus BOT dot md) does not resolve from most
+# directories; require a path prefix that exists.
+NAMES = (
+  'GROK-BOT', 'CHATGPT-DOTS', 'CHATGPT', 'CLAUDE', 'MUSE', 'GEMINI',
+  'MESSAGING-NATIVE', 'UNKNOWN-AGENT',
+)
+# Match basename.md not immediately preceded by /
+pat = re.compile(r'(?<![/])\b(' + '|'.join(NAMES) + r')\.md\b')
+skip_names = {'CHECKSUMS.sha256', 'ci-reader-checks.sh'}
+skip_dirs = {'.git', 'node_modules'}
+bad = []
+for p in Path('.').rglob('*'):
+  if not p.is_file():
+    continue
+  if any(part in skip_dirs for part in p.parts):
+    continue
+  if p.name in skip_names:
+    continue
+  if p.suffix.lower() not in {'.md', '.txt', '.yml', '.yaml', '.sh'}:
+    continue
+  try:
+    text = p.read_text(encoding='utf-8')
+  except (UnicodeDecodeError, OSError):
+    continue
+  for i, line in enumerate(text.splitlines(), 1):
+    for m in pat.finditer(line):
+      name = m.group(0)
+      # If the match sits inside a longer path token ending at name, check resolve
+      # Look left for the start of the path token
+      left = line[:m.start()]
+      # token may be in backticks or markdown link
+      token_start = max(left.rfind('`'), left.rfind('('), left.rfind(' '), left.rfind('['))
+      token_prefix = left[token_start + 1:] if token_start >= 0 else left
+      # If prefix contains a path separator, try resolving relative to this file
+      if '/' in token_prefix or token_prefix.endswith('.'):
+        # rebuild candidate path: from last whitespace-ish
+        cand = (token_prefix + name).strip('`"\'()[]')
+        target = (p.parent / cand).resolve()
+        try:
+          target.relative_to(Path('.').resolve())
+        except ValueError:
+          bad.append(f'{p}:{i}: {name} (escapes repo via {cand})')
+          continue
+        if target.exists():
+          continue
+        bad.append(f'{p}:{i}: {name} (path {cand} does not resolve)')
+        continue
+      # Bare name: resolves only if file exists next to this file
+      if (p.parent / name).exists():
+        continue
+      bad.append(f'{p}:{i}: bare {name} does not resolve from {p.parent}/')
+
+# Regression: the pre-v3.0.2 MEMORY-LAYERS bare pointer must keep failing the pattern
+old = 'see "Prefer Obsidian?" in `GROK-BOT.md`.'
+if not pat.search(old):
+  print('FAIL: regression pattern no longer catches bare GROK-BOT.md')
+  sys.exit(1)
+fixed = 'see "Prefer Obsidian?" in `archetypes/overlays/grok-bot.md`.'
+if pat.search(fixed):
+  print('FAIL: regression pattern falsely flags overlay path')
+  sys.exit(1)
+
+if bad:
+  print('FAIL: bare guide filenames that do not resolve:')
+  for b in bad:
+    print(' ', b)
+  sys.exit(1)
+print('OK: no unresolved bare guide filenames (regression on old bare line holds)')
+PY
+bare_rc=$?
+set -e
+if [[ $bare_rc -ne 0 ]]; then fail=1; fi
+
 echo "== (b) tag pin matches VERSION; no stale commit SHA pin =="
 set +e
 python3 - <<'PY'

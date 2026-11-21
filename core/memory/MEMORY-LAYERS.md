@@ -59,7 +59,7 @@ So **Grok Bot is the most hands-free writer, and the only one I've confirmed wor
 
 ### Per-path notes
 - **Grok Bot:** Google Docs is the easiest to share with you on your phone. The Bot can also keep plain Markdown files (an Obsidian vault) on its own computer or in Drive, because it isn't limited to what an app supports.
-- **Grok Bot, if you prefer Obsidian:** the Bot can keep the memory as Markdown files in a Drive folder or private GitHub repo, still written hands-free, and you open them in Obsidian (optional, a bit more setup; see "Prefer Obsidian?" in `GROK-BOT.md`).
+- **Grok Bot, if you prefer Obsidian:** the Bot can keep the memory as Markdown files in a Drive folder or private GitHub repo, still written hands-free, and you open them in Obsidian (optional, a bit more setup; see "Prefer Obsidian?" in `archetypes/overlays/grok-bot.md`).
 - **Claude:** Google Docs is best, because scheduled tasks can reach Drive any time. An Obsidian folder works in Claude Desktop, but cloud sessions can reach it only while the desktop app is open. Notion is a strong second here (the connector can create and update pages).
 - **ChatGPT:** Google Docs. Notion writes and developer mode aren't confirmed on Plus; Obsidian means manual sync.
 
@@ -86,7 +86,7 @@ If Grok Bot is your main path, it's already the writer: use Option B and let the
 Grok Bot has its own always-on cloud computer, so it can keep your memory files tidy without you: run the weekly review, update the files, file captures. Two ways to share with ChatGPT:
 - **Google Drive:** the Bot keeps the memory files as Google Docs in your `Harness` folder (through a Drive connector or the browser). ChatGPT reads them through its Google Drive app.
 - **GitHub:** the Bot commits Markdown files to a private repo. ChatGPT's GitHub app can read repos you connect, but this is more technical.
-The catch: two assistants, two subscriptions, and you must be clear which one is allowed to write (Grok Bot) and which only reads (ChatGPT). See `GROK-BOT.md`.
+The catch: two assistants, two subscriptions, and you must be clear which one is allowed to write (Grok Bot) and which only reads (ChatGPT). See `archetypes/overlays/grok-bot.md`.
 
 ## Other tools I checked
 | Tool | ChatGPT read | ChatGPT write | Notes |

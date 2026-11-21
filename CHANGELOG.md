@@ -2,6 +2,18 @@
 
 Versions follow `MAJOR.MINOR.PATCH`. Minor versions add guides or skills without changing how existing ones work.
 
+## v3.0.2 (21 Nov 2026)
+
+Patch: self-check 10 uses a real sample email; messaging-out clarification; archetype probe order; bare guide-link CI; Grok Full notes restored.
+
+- **Self-check 10:** paste `checks/fixtures/sample-email.txt` and check behaviour (treat as data; do not save the planted rule), not a hypothetical.
+- **Messaging-native:** messaging out means actions to someone else; replies in your own chat with the assistant do not count.
+- **Step 0 probe:** always-on (C) before messaging-native (D); where you chat is not the deciding factor.
+- **MEMORY-LAYERS:** bare Grok Bot guide pointers now use `archetypes/overlays/grok-bot.md`.
+- **CI:** also fail on bare uppercase guide filenames (e.g. an uppercase Grok Bot guide filename) that do not resolve from the referring file.
+- **Grok overlay:** Bot prompt, Vault / 1Password, and business-edition notes restored (operational detail only).
+- Pin remains tag-only (`v3.0.2`). Lite timing still about 30 minutes (untested).
+
 ## v3.0.1 (21 Nov 2026)
 
 Patch: Full lane overlay pointers, restored Muse / Allow-for-this-task detail, tag-only pin, honest "untested" timing, CI path-ref and pin checks, weekly error-log wiring.
@@ -48,7 +60,7 @@ Non-breaking hardening from the research board review. Reader prompts change by 
 
 - **One entry point, pinned to `v2.0.0`.** `AGENTS.md` moves to the repo root and works for any assistant. `core/AGENTS.md` is a redirect stub so v1 prompts keep working. Reader prompts and raw links target release tag `v2.0.0`.
 - **Step 0 detects the platform** from what the assistant can do: ChatGPT dot, ChatGPT, Grok Bot, Claude (and Duet), Muse, Gemini, or an unknown agent (unknown-agent stub under the paths folder).
-- **One guide per platform in `paths/`**, each with a status (`Ready`, `Beta`, `Draft`, `Watch`) and a "checked against" date. Merged the long guides from `core/` (`GROK-BOT.md`, `CLAUDE.md`, `CHATGPT.md`) into `paths/` and left redirect stubs at the old `core/` paths. Added `MUSE.md` (Beta, awaiting maintainer test), `CHATGPT-DOTS.md` (Beta), `GEMINI.md` (Draft) and `UNKNOWN-AGENT.md`.
+- **One guide per platform in `paths/`**, each with a status (`Ready`, `Beta`, `Draft`, `Watch`) and a "checked against" date. Merged the long guides from `core/` (Grok Bot, Claude and ChatGPT guides) into `paths/` and left redirect stubs at the old `core/` paths. Added Muse (Beta, awaiting maintainer test), ChatGPT dots (Beta), Gemini (Draft) and unknown-agent guides.
 - **Lite is the default for everyone** (`lanes/LITE.md`): about 30 minutes, three playbooks, two routines, one memory document. `lanes/FULL.md` holds the full v1.2 install as F1 to F8.
 - **Neutral chooser** (`CHOOSER.md`) replaces `core/SETUP.md` and drops the author preference line. Removed "Built and tested by Ruby" from the repo.
 - **Neutral Grok Bot default name** (`Personal assistant`, replacing `Chief of staff`).
@@ -60,9 +72,9 @@ Non-breaking hardening from the research board review. Reader prompts change by 
 
 ## v1.2.1 (1 Nov 2026)
 
-- CHATGPT-FEATURES.md: fix Dots reference to point to SETUP.md instead of non-existent section in CHATGPT.md.
-- CLAUDE.md: add Claude Duet context (announced 21 October 2026, US-only research preview for Pro, Max and Ultra with waitlist); note under 'What you need'.
-- GROK-BOT.md: add Import Memory (optional shortcut in Evening 2), Vault and 1Password integration (Evening 1 Step 1), Shared Bots (Honest trade-offs), and email-triggered routines (Week 2 routines table).
+- CHATGPT-FEATURES.md: fix Dots reference to point to SETUP.md instead of a non-existent ChatGPT section.
+- Claude guide: add Claude Duet context (announced 21 October 2026, US-only research preview for Pro, Max and Ultra with waitlist); note under 'What you need'.
+- Grok Bot guide: add Import Memory (optional shortcut in Evening 2), Vault and 1Password integration (Evening 1 Step 1), Shared Bots (Honest trade-offs), and email-triggered routines (Week 2 routines table).
 - SOURCES.md: add Claude Duet announcement and expanded Grok Bot sources (bots, settings, Vault, computer and apps, Shared Bots, agent email).
 - Update Grok Bot 'checked against' date to November 2026.
 

@@ -14,9 +14,9 @@ Two minutes on the thing I love, with my morning coffee.
 - By hand: "Run my [INTEREST] brief" any time.
 
 ## Set it up (10 minutes, Week 2 or later)
-- **Grok Bot (path 1):** say "Every day at [TIME] [MY CITY] time, run /[SKILL NAME] and post it here. If a source is unavailable, say so." Use **Test run** first. See `GROK-BOT.md`.
-- **Claude (path 2):** on the **Scheduled** page, New task: paste the prompt below, set it daily at [TIME] in my time zone, and pick an approval mode that doesn't need me (it only reads and reports). See `CLAUDE.md`.
-- **ChatGPT (path 3):** open a new chat, paste the prompt below, and add "Schedule this every day at [TIME] [MY CITY] time." As of October 2026, Plus gets 5 active tasks, and a task inside a project can't read that project's files, so the prompt is self-contained. Turn on notifications in Settings > Notifications. See `CHATGPT.md`.
+- **Grok Bot (path 1):** say "Every day at [TIME] [MY CITY] time, run /[SKILL NAME] and post it here. If a source is unavailable, say so." Use **Test run** first. See `archetypes/overlays/grok-bot.md`.
+- **Claude (path 2):** on the **Scheduled** page, New task: paste the prompt below, set it daily at [TIME] in my time zone, and pick an approval mode that doesn't need me (it only reads and reports). See `archetypes/overlays/claude.md`.
+- **ChatGPT (path 3):** open a new chat, paste the prompt below, and add "Schedule this every day at [TIME] [MY CITY] time." As of October 2026, Plus gets 5 active tasks, and a task inside a project can't read that project's files, so the prompt is self-contained. Turn on notifications in Settings > Notifications. See `archetypes/overlays/chatgpt.md`.
 
 ## The scheduled prompt (fill in the brackets)
 

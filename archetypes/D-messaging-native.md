@@ -1,6 +1,6 @@
 # Archetype D: messaging-native
 
-**One sentence:** You live mainly in iMessage, WhatsApp or a phone call, not a normal chat website.
+**One sentence:** You are a messaging-native product (primary home is iMessage, WhatsApp or a phone call), not a normal chat or always-on assistant that also has a messaging channel.
 
 Example: Instinct (Watch). Overlay: `archetypes/overlays/instinct.md`.
 
@@ -11,7 +11,7 @@ Example: Instinct (Watch). Overlay: `archetypes/overlays/instinct.md`.
 3. **Shorter seed.** Standing instructions must fit in one message (under about 1,500 characters). Use the seed in the Instinct overlay; do not paste whole skill texts into the thread.
 4. **After disconnect.** Ask what text is still kept and how to clear it; record the answer in `My Harness`.
 5. **Safe mode / storm.** Pause every routine you can reach; connectors read-only until they say otherwise. Confirm both out loud.
-6. **Messaging out** on this archetype means any iMessage, WhatsApp, email or payment action. Lite routines must lack it.
+6. **Messaging out** on this archetype means any iMessage, WhatsApp, email or payment action to someone else. Lite routines must lack it. Replies in your own chat with the assistant do not count as messaging out.
 
 ## Capability defaults (Lite)
 
